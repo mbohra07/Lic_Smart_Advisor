@@ -1,0 +1,974 @@
+2025-05-31 18:16:40,360 - LIC_Scraper - ERROR - Error extracting policy links: Message: invalid argument: 'url' must be a string
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+0   chromedriver                        0x00000001028283e0 cxxbridge1$str$ptr + 2829900
+1   chromedriver                        0x00000001028206a8 cxxbridge1$str$ptr + 2797844
+2   chromedriver                        0x000000010235dfbc cxxbridge1$string$len + 90140
+3   chromedriver                        0x00000001023e6b5c cxxbridge1$string$len + 650172
+4   chromedriver                        0x00000001023e6044 cxxbridge1$string$len + 647332
+5   chromedriver                        0x00000001023993f8 cxxbridge1$string$len + 332888
+6   chromedriver                        0x00000001027ec804 cxxbridge1$str$ptr + 2585200
+7   chromedriver                        0x00000001027efad4 cxxbridge1$str$ptr + 2598208
+8   chromedriver                        0x00000001027cddd8 cxxbridge1$str$ptr + 2459716
+9   chromedriver                        0x00000001027f034c cxxbridge1$str$ptr + 2600376
+10  chromedriver                        0x00000001027bf664 cxxbridge1$str$ptr + 2400464
+11  chromedriver                        0x00000001028102b0 cxxbridge1$str$ptr + 2731292
+12  chromedriver                        0x000000010281043c cxxbridge1$str$ptr + 2731688
+13  chromedriver                        0x00000001028202f4 cxxbridge1$str$ptr + 2796896
+14  libsystem_pthread.dylib             0x0000000181472034 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018146ce3c thread_start + 8
+
+2025-05-31 18:16:40,363 - LIC_Scraper - ERROR - Error extracting policy links: Message: invalid argument: 'url' must be a string
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+0   chromedriver                        0x00000001028283e0 cxxbridge1$str$ptr + 2829900
+1   chromedriver                        0x00000001028206a8 cxxbridge1$str$ptr + 2797844
+2   chromedriver                        0x000000010235dfbc cxxbridge1$string$len + 90140
+3   chromedriver                        0x00000001023e6b5c cxxbridge1$string$len + 650172
+4   chromedriver                        0x00000001023e6044 cxxbridge1$string$len + 647332
+5   chromedriver                        0x00000001023993f8 cxxbridge1$string$len + 332888
+6   chromedriver                        0x00000001027ec804 cxxbridge1$str$ptr + 2585200
+7   chromedriver                        0x00000001027efad4 cxxbridge1$str$ptr + 2598208
+8   chromedriver                        0x00000001027cddd8 cxxbridge1$str$ptr + 2459716
+9   chromedriver                        0x00000001027f034c cxxbridge1$str$ptr + 2600376
+10  chromedriver                        0x00000001027bf664 cxxbridge1$str$ptr + 2400464
+11  chromedriver                        0x00000001028102b0 cxxbridge1$str$ptr + 2731292
+12  chromedriver                        0x000000010281043c cxxbridge1$str$ptr + 2731688
+13  chromedriver                        0x00000001028202f4 cxxbridge1$str$ptr + 2796896
+14  libsystem_pthread.dylib             0x0000000181472034 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018146ce3c thread_start + 8
+
+2025-05-31 18:16:40,364 - LIC_Scraper - ERROR - Error extracting policy links: Message: invalid argument: 'url' must be a string
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+0   chromedriver                        0x00000001028283e0 cxxbridge1$str$ptr + 2829900
+1   chromedriver                        0x00000001028206a8 cxxbridge1$str$ptr + 2797844
+2   chromedriver                        0x000000010235dfbc cxxbridge1$string$len + 90140
+3   chromedriver                        0x00000001023e6b5c cxxbridge1$string$len + 650172
+4   chromedriver                        0x00000001023e6044 cxxbridge1$string$len + 647332
+5   chromedriver                        0x00000001023993f8 cxxbridge1$string$len + 332888
+6   chromedriver                        0x00000001027ec804 cxxbridge1$str$ptr + 2585200
+7   chromedriver                        0x00000001027efad4 cxxbridge1$str$ptr + 2598208
+8   chromedriver                        0x00000001027cddd8 cxxbridge1$str$ptr + 2459716
+9   chromedriver                        0x00000001027f034c cxxbridge1$str$ptr + 2600376
+10  chromedriver                        0x00000001027bf664 cxxbridge1$str$ptr + 2400464
+11  chromedriver                        0x00000001028102b0 cxxbridge1$str$ptr + 2731292
+12  chromedriver                        0x000000010281043c cxxbridge1$str$ptr + 2731688
+13  chromedriver                        0x00000001028202f4 cxxbridge1$str$ptr + 2796896
+14  libsystem_pthread.dylib             0x0000000181472034 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018146ce3c thread_start + 8
+
+2025-05-31 18:16:40,365 - LIC_Scraper - ERROR - Error extracting policy links: Message: invalid argument: 'url' must be a string
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+0   chromedriver                        0x00000001028283e0 cxxbridge1$str$ptr + 2829900
+1   chromedriver                        0x00000001028206a8 cxxbridge1$str$ptr + 2797844
+2   chromedriver                        0x000000010235dfbc cxxbridge1$string$len + 90140
+3   chromedriver                        0x00000001023e6b5c cxxbridge1$string$len + 650172
+4   chromedriver                        0x00000001023e6044 cxxbridge1$string$len + 647332
+5   chromedriver                        0x00000001023993f8 cxxbridge1$string$len + 332888
+6   chromedriver                        0x00000001027ec804 cxxbridge1$str$ptr + 2585200
+7   chromedriver                        0x00000001027efad4 cxxbridge1$str$ptr + 2598208
+8   chromedriver                        0x00000001027cddd8 cxxbridge1$str$ptr + 2459716
+9   chromedriver                        0x00000001027f034c cxxbridge1$str$ptr + 2600376
+10  chromedriver                        0x00000001027bf664 cxxbridge1$str$ptr + 2400464
+11  chromedriver                        0x00000001028102b0 cxxbridge1$str$ptr + 2731292
+12  chromedriver                        0x000000010281043c cxxbridge1$str$ptr + 2731688
+13  chromedriver                        0x00000001028202f4 cxxbridge1$str$ptr + 2796896
+14  libsystem_pthread.dylib             0x0000000181472034 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000018146ce3c thread_start + 8
+
+2025-05-31 18:16:40,365 - LIC_Scraper - INFO - Enhanced results saved to: output/LIC_Policies_Enhanced_Comprehensive_20250531_181638
+2025-05-31 18:19:33,329 - LIC_Scraper - INFO - Found 27 policies in category
+2025-05-31 18:19:33,330 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Single Premium Endowment Plan
+2025-05-31 18:19:39,182 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:19:39,183 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Single+Premium+Endowment+plan_Sales+Brochure_4+inch+x+9+inch_Eng+..pdf/ec715d24-d6e7-7c8f-a08c-ab1311d8ab38?t=1747389560175
+2025-05-31 18:19:39,712 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:19:39,712 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+SP+Endowment_V03_website.pdf/5509acb8-c60c-c287-d8d1-592ecf56f6b2?t=1728040243149
+2025-05-31 18:19:40,467 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Single Premium Endowment Plan (Content is in English)
+2025-05-31 18:19:40,467 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Single+Premium+Endowment+Plan_717.pdf/0e3e3680-1be6-c355-8f18-9f23d58bdc35?t=1728034054867
+2025-05-31 18:19:41,052 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Single+Premium+Endowment+plan_Sales+Brochure_4+inch+x+9+inch_Eng+..pdf/ec715d24-d6e7-7c8f-a08c-ab1311d8ab38?t=1747389560175
+2025-05-31 18:19:41,355 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+SP+Endowment_V03_website.pdf/5509acb8-c60c-c287-d8d1-592ecf56f6b2?t=1728040243149
+2025-05-31 18:19:42,479 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Single+Premium+Endowment+Plan_717.pdf/0e3e3680-1be6-c355-8f18-9f23d58bdc35?t=1728034054867
+2025-05-31 18:19:42,757 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Single+Premium+Endowment+plan_Sales+Brochure_4+inch+x+9+inch_Eng+..pdf/ec715d24-d6e7-7c8f-a08c-ab1311d8ab38?t=1747389560175
+2025-05-31 18:19:43,009 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+SP+Endowment_V03_website.pdf/5509acb8-c60c-c287-d8d1-592ecf56f6b2?t=1728040243149
+2025-05-31 18:19:43,900 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Single+Premium+Endowment+Plan_717.pdf/0e3e3680-1be6-c355-8f18-9f23d58bdc35?t=1728034054867
+2025-05-31 18:19:44,657 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Single+Premium+Endowment+plan_Sales+Brochure_4+inch+x+9+inch_Eng+..pdf/ec715d24-d6e7-7c8f-a08c-ab1311d8ab38?t=1747389560175
+2025-05-31 18:19:44,883 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+SP+Endowment_V03_website.pdf/5509acb8-c60c-c287-d8d1-592ecf56f6b2?t=1728040243149
+2025-05-31 18:19:45,857 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Single+Premium+Endowment+Plan_717.pdf/0e3e3680-1be6-c355-8f18-9f23d58bdc35?t=1728034054867
+2025-05-31 18:19:46,271 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Single+Premium+Endowment+plan_Sales+Brochure_4+inch+x+9+inch_Eng+..pdf/ec715d24-d6e7-7c8f-a08c-ab1311d8ab38?t=1747389560175
+2025-05-31 18:19:46,462 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+SP+Endowment_V03_website.pdf/5509acb8-c60c-c287-d8d1-592ecf56f6b2?t=1728040243149
+2025-05-31 18:19:47,057 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Single+Premium+Endowment+Plan_717.pdf/0e3e3680-1be6-c355-8f18-9f23d58bdc35?t=1728034054867
+2025-05-31 18:19:47,287 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Single+Premium+Endowment+plan_Sales+Brochure_4+inch+x+9+inch_Eng+..pdf/ec715d24-d6e7-7c8f-a08c-ab1311d8ab38?t=1747389560175
+2025-05-31 18:19:47,342 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+SP+Endowment_V03_website.pdf/5509acb8-c60c-c287-d8d1-592ecf56f6b2?t=1728040243149
+2025-05-31 18:19:47,571 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Single+Premium+Endowment+Plan_717.pdf/0e3e3680-1be6-c355-8f18-9f23d58bdc35?t=1728034054867
+2025-05-31 18:19:48,067 - LIC_Scraper - INFO - Completed scraping LICs Single Premium Endowment Plan - Completeness: 100.00%
+2025-05-31 18:19:48,067 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs New Endowment Plan
+2025-05-31 18:19:53,450 - LIC_Scraper - INFO - Extracting features from PDF: Sales brochure (Content is in English)
+2025-05-31 18:19:53,451 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+ENDOWMENT+PLAN+2024++4x9+inches+wxh+single+pages.pdf+-8th+cut+Final+-+24.10.24.pdf/8bfc1204-31c9-4dbd-95c0-0991a1c7a392?t=1729776062988
+2025-05-31 18:19:54,008 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:19:54,008 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+Endowment_V03_website.pdf/46cf5516-ccb5-70ba-b28d-c7480959af13?t=1728039920686
+2025-05-31 18:19:54,860 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs New Endowment Plan (Content is in English)
+2025-05-31 18:19:54,860 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_New+Endowment+Plan_714.pdf/82c23105-3766-95b5-9097-42cd40bc0692?t=1728033951924
+2025-05-31 18:19:55,087 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+ENDOWMENT+PLAN+2024++4x9+inches+wxh+single+pages.pdf+-8th+cut+Final+-+24.10.24.pdf/8bfc1204-31c9-4dbd-95c0-0991a1c7a392?t=1729776062988
+2025-05-31 18:19:55,503 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+Endowment_V03_website.pdf/46cf5516-ccb5-70ba-b28d-c7480959af13?t=1728039920686
+2025-05-31 18:19:56,441 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_New+Endowment+Plan_714.pdf/82c23105-3766-95b5-9097-42cd40bc0692?t=1728033951924
+2025-05-31 18:19:56,760 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+ENDOWMENT+PLAN+2024++4x9+inches+wxh+single+pages.pdf+-8th+cut+Final+-+24.10.24.pdf/8bfc1204-31c9-4dbd-95c0-0991a1c7a392?t=1729776062988
+2025-05-31 18:19:57,194 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+Endowment_V03_website.pdf/46cf5516-ccb5-70ba-b28d-c7480959af13?t=1728039920686
+2025-05-31 18:19:58,031 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_New+Endowment+Plan_714.pdf/82c23105-3766-95b5-9097-42cd40bc0692?t=1728033951924
+2025-05-31 18:19:58,375 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+ENDOWMENT+PLAN+2024++4x9+inches+wxh+single+pages.pdf+-8th+cut+Final+-+24.10.24.pdf/8bfc1204-31c9-4dbd-95c0-0991a1c7a392?t=1729776062988
+2025-05-31 18:19:58,801 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+Endowment_V03_website.pdf/46cf5516-ccb5-70ba-b28d-c7480959af13?t=1728039920686
+2025-05-31 18:19:59,647 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_New+Endowment+Plan_714.pdf/82c23105-3766-95b5-9097-42cd40bc0692?t=1728033951924
+2025-05-31 18:19:59,939 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+ENDOWMENT+PLAN+2024++4x9+inches+wxh+single+pages.pdf+-8th+cut+Final+-+24.10.24.pdf/8bfc1204-31c9-4dbd-95c0-0991a1c7a392?t=1729776062988
+2025-05-31 18:20:00,439 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+Endowment_V03_website.pdf/46cf5516-ccb5-70ba-b28d-c7480959af13?t=1728039920686
+2025-05-31 18:20:01,294 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_New+Endowment+Plan_714.pdf/82c23105-3766-95b5-9097-42cd40bc0692?t=1728033951924
+2025-05-31 18:20:01,517 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+ENDOWMENT+PLAN+2024++4x9+inches+wxh+single+pages.pdf+-8th+cut+Final+-+24.10.24.pdf/8bfc1204-31c9-4dbd-95c0-0991a1c7a392?t=1729776062988
+2025-05-31 18:20:01,766 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+Endowment_V03_website.pdf/46cf5516-ccb5-70ba-b28d-c7480959af13?t=1728039920686
+2025-05-31 18:20:02,557 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_New+Endowment+Plan_714.pdf/82c23105-3766-95b5-9097-42cd40bc0692?t=1728033951924
+2025-05-31 18:20:02,755 - LIC_Scraper - INFO - Completed scraping LICs New Endowment Plan - Completeness: 100.00%
+2025-05-31 18:20:02,755 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs New Jeevan Anand
+2025-05-31 18:20:08,104 - LIC_Scraper - INFO - Extracting features from PDF: Sales brochure (Content is in English)
+2025-05-31 18:20:08,106 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+Jeevan+Anand+2024++4x9+inches+wxh+single+page+-+FINAL+-+24.10.24.pdf/d054b8f4-9cc5-2878-e794-801952ba36a9?t=1729775710554
+2025-05-31 18:20:08,545 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:20:08,545 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Doc_LIC%27s+New+Jeevan+Anand_V03_website.pdf/c89a7a9a-a4f7-c353-a6e8-a7946e311468?t=1728040140682
+2025-05-31 18:20:09,444 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs New Jeevan Anand (Content is in English)
+2025-05-31 18:20:09,444 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Anand_715.pdf/d81944d8-e1a6-20f9-fa50-96ee23a2a2c3?t=1728033756364
+2025-05-31 18:20:09,905 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+Jeevan+Anand+2024++4x9+inches+wxh+single+page+-+FINAL+-+24.10.24.pdf/d054b8f4-9cc5-2878-e794-801952ba36a9?t=1729775710554
+2025-05-31 18:20:10,451 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Doc_LIC%27s+New+Jeevan+Anand_V03_website.pdf/c89a7a9a-a4f7-c353-a6e8-a7946e311468?t=1728040140682
+2025-05-31 18:20:11,517 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Anand_715.pdf/d81944d8-e1a6-20f9-fa50-96ee23a2a2c3?t=1728033756364
+2025-05-31 18:20:12,328 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+Jeevan+Anand+2024++4x9+inches+wxh+single+page+-+FINAL+-+24.10.24.pdf/d054b8f4-9cc5-2878-e794-801952ba36a9?t=1729775710554
+2025-05-31 18:20:12,782 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Doc_LIC%27s+New+Jeevan+Anand_V03_website.pdf/c89a7a9a-a4f7-c353-a6e8-a7946e311468?t=1728040140682
+2025-05-31 18:20:14,293 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Anand_715.pdf/d81944d8-e1a6-20f9-fa50-96ee23a2a2c3?t=1728033756364
+2025-05-31 18:20:14,695 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+Jeevan+Anand+2024++4x9+inches+wxh+single+page+-+FINAL+-+24.10.24.pdf/d054b8f4-9cc5-2878-e794-801952ba36a9?t=1729775710554
+2025-05-31 18:20:15,217 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Doc_LIC%27s+New+Jeevan+Anand_V03_website.pdf/c89a7a9a-a4f7-c353-a6e8-a7946e311468?t=1728040140682
+2025-05-31 18:20:16,576 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Anand_715.pdf/d81944d8-e1a6-20f9-fa50-96ee23a2a2c3?t=1728033756364
+2025-05-31 18:20:16,928 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+Jeevan+Anand+2024++4x9+inches+wxh+single+page+-+FINAL+-+24.10.24.pdf/d054b8f4-9cc5-2878-e794-801952ba36a9?t=1729775710554
+2025-05-31 18:20:17,505 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Doc_LIC%27s+New+Jeevan+Anand_V03_website.pdf/c89a7a9a-a4f7-c353-a6e8-a7946e311468?t=1728040140682
+2025-05-31 18:20:18,705 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Anand_715.pdf/d81944d8-e1a6-20f9-fa50-96ee23a2a2c3?t=1728033756364
+2025-05-31 18:20:19,067 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+Jeevan+Anand+2024++4x9+inches+wxh+single+page+-+FINAL+-+24.10.24.pdf/d054b8f4-9cc5-2878-e794-801952ba36a9?t=1729775710554
+2025-05-31 18:20:19,239 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Doc_LIC%27s+New+Jeevan+Anand_V03_website.pdf/c89a7a9a-a4f7-c353-a6e8-a7946e311468?t=1728040140682
+2025-05-31 18:20:20,009 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Anand_715.pdf/d81944d8-e1a6-20f9-fa50-96ee23a2a2c3?t=1728033756364
+2025-05-31 18:20:20,144 - LIC_Scraper - INFO - Completed scraping LICs New Jeevan Anand - Completeness: 100.00%
+2025-05-31 18:20:20,144 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Jeevan Lakshya
+2025-05-31 18:22:47,433 - LIC_Scraper - INFO - Found 27 policies in category
+2025-05-31 18:22:47,434 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Single Premium Endowment Plan
+2025-05-31 18:22:53,068 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:22:53,069 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Single+Premium+Endowment+plan_Sales+Brochure_4+inch+x+9+inch_Eng+..pdf/ec715d24-d6e7-7c8f-a08c-ab1311d8ab38?t=1747389560175
+2025-05-31 18:22:53,309 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:22:53,309 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+SP+Endowment_V03_website.pdf/5509acb8-c60c-c287-d8d1-592ecf56f6b2?t=1728040243149
+2025-05-31 18:22:54,079 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Single Premium Endowment Plan (Content is in English)
+2025-05-31 18:22:54,080 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Single+Premium+Endowment+Plan_717.pdf/0e3e3680-1be6-c355-8f18-9f23d58bdc35?t=1728034054867
+2025-05-31 18:22:54,316 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Single+Premium+Endowment+plan_Sales+Brochure_4+inch+x+9+inch_Eng+..pdf/ec715d24-d6e7-7c8f-a08c-ab1311d8ab38?t=1747389560175
+2025-05-31 18:22:54,509 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+SP+Endowment_V03_website.pdf/5509acb8-c60c-c287-d8d1-592ecf56f6b2?t=1728040243149
+2025-05-31 18:22:55,225 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Single+Premium+Endowment+Plan_717.pdf/0e3e3680-1be6-c355-8f18-9f23d58bdc35?t=1728034054867
+2025-05-31 18:22:55,454 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Single+Premium+Endowment+plan_Sales+Brochure_4+inch+x+9+inch_Eng+..pdf/ec715d24-d6e7-7c8f-a08c-ab1311d8ab38?t=1747389560175
+2025-05-31 18:22:55,651 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+SP+Endowment_V03_website.pdf/5509acb8-c60c-c287-d8d1-592ecf56f6b2?t=1728040243149
+2025-05-31 18:22:56,252 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Single+Premium+Endowment+Plan_717.pdf/0e3e3680-1be6-c355-8f18-9f23d58bdc35?t=1728034054867
+2025-05-31 18:22:56,482 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Single+Premium+Endowment+plan_Sales+Brochure_4+inch+x+9+inch_Eng+..pdf/ec715d24-d6e7-7c8f-a08c-ab1311d8ab38?t=1747389560175
+2025-05-31 18:22:56,670 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+SP+Endowment_V03_website.pdf/5509acb8-c60c-c287-d8d1-592ecf56f6b2?t=1728040243149
+2025-05-31 18:22:57,245 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Single+Premium+Endowment+Plan_717.pdf/0e3e3680-1be6-c355-8f18-9f23d58bdc35?t=1728034054867
+2025-05-31 18:22:57,471 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Single+Premium+Endowment+plan_Sales+Brochure_4+inch+x+9+inch_Eng+..pdf/ec715d24-d6e7-7c8f-a08c-ab1311d8ab38?t=1747389560175
+2025-05-31 18:22:57,697 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+SP+Endowment_V03_website.pdf/5509acb8-c60c-c287-d8d1-592ecf56f6b2?t=1728040243149
+2025-05-31 18:22:58,359 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Single+Premium+Endowment+Plan_717.pdf/0e3e3680-1be6-c355-8f18-9f23d58bdc35?t=1728034054867
+2025-05-31 18:22:58,577 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Single+Premium+Endowment+plan_Sales+Brochure_4+inch+x+9+inch_Eng+..pdf/ec715d24-d6e7-7c8f-a08c-ab1311d8ab38?t=1747389560175
+2025-05-31 18:22:58,630 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+SP+Endowment_V03_website.pdf/5509acb8-c60c-c287-d8d1-592ecf56f6b2?t=1728040243149
+2025-05-31 18:22:58,856 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Single+Premium+Endowment+Plan_717.pdf/0e3e3680-1be6-c355-8f18-9f23d58bdc35?t=1728034054867
+2025-05-31 18:22:59,019 - LIC_Scraper - INFO - Completed scraping LICs Single Premium Endowment Plan - Completeness: 100.00%
+2025-05-31 18:22:59,020 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs New Endowment Plan
+2025-05-31 18:23:04,500 - LIC_Scraper - INFO - Extracting features from PDF: Sales brochure (Content is in English)
+2025-05-31 18:23:04,504 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+ENDOWMENT+PLAN+2024++4x9+inches+wxh+single+pages.pdf+-8th+cut+Final+-+24.10.24.pdf/8bfc1204-31c9-4dbd-95c0-0991a1c7a392?t=1729776062988
+2025-05-31 18:23:05,263 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:23:05,263 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+Endowment_V03_website.pdf/46cf5516-ccb5-70ba-b28d-c7480959af13?t=1728039920686
+2025-05-31 18:23:06,199 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs New Endowment Plan (Content is in English)
+2025-05-31 18:23:06,199 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_New+Endowment+Plan_714.pdf/82c23105-3766-95b5-9097-42cd40bc0692?t=1728033951924
+2025-05-31 18:23:06,480 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+ENDOWMENT+PLAN+2024++4x9+inches+wxh+single+pages.pdf+-8th+cut+Final+-+24.10.24.pdf/8bfc1204-31c9-4dbd-95c0-0991a1c7a392?t=1729776062988
+2025-05-31 18:23:07,223 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+Endowment_V03_website.pdf/46cf5516-ccb5-70ba-b28d-c7480959af13?t=1728039920686
+2025-05-31 18:23:08,154 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_New+Endowment+Plan_714.pdf/82c23105-3766-95b5-9097-42cd40bc0692?t=1728033951924
+2025-05-31 18:23:08,422 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+ENDOWMENT+PLAN+2024++4x9+inches+wxh+single+pages.pdf+-8th+cut+Final+-+24.10.24.pdf/8bfc1204-31c9-4dbd-95c0-0991a1c7a392?t=1729776062988
+2025-05-31 18:23:08,879 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+Endowment_V03_website.pdf/46cf5516-ccb5-70ba-b28d-c7480959af13?t=1728039920686
+2025-05-31 18:23:09,708 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_New+Endowment+Plan_714.pdf/82c23105-3766-95b5-9097-42cd40bc0692?t=1728033951924
+2025-05-31 18:23:09,950 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+ENDOWMENT+PLAN+2024++4x9+inches+wxh+single+pages.pdf+-8th+cut+Final+-+24.10.24.pdf/8bfc1204-31c9-4dbd-95c0-0991a1c7a392?t=1729776062988
+2025-05-31 18:23:10,370 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+Endowment_V03_website.pdf/46cf5516-ccb5-70ba-b28d-c7480959af13?t=1728039920686
+2025-05-31 18:23:11,335 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_New+Endowment+Plan_714.pdf/82c23105-3766-95b5-9097-42cd40bc0692?t=1728033951924
+2025-05-31 18:23:11,570 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+ENDOWMENT+PLAN+2024++4x9+inches+wxh+single+pages.pdf+-8th+cut+Final+-+24.10.24.pdf/8bfc1204-31c9-4dbd-95c0-0991a1c7a392?t=1729776062988
+2025-05-31 18:23:12,082 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+Endowment_V03_website.pdf/46cf5516-ccb5-70ba-b28d-c7480959af13?t=1728039920686
+2025-05-31 18:23:13,005 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_New+Endowment+Plan_714.pdf/82c23105-3766-95b5-9097-42cd40bc0692?t=1728033951924
+2025-05-31 18:23:13,333 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+ENDOWMENT+PLAN+2024++4x9+inches+wxh+single+pages.pdf+-8th+cut+Final+-+24.10.24.pdf/8bfc1204-31c9-4dbd-95c0-0991a1c7a392?t=1729776062988
+2025-05-31 18:23:13,506 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+doc_LIC%27s+New+Endowment_V03_website.pdf/46cf5516-ccb5-70ba-b28d-c7480959af13?t=1728039920686
+2025-05-31 18:23:13,964 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_New+Endowment+Plan_714.pdf/82c23105-3766-95b5-9097-42cd40bc0692?t=1728033951924
+2025-05-31 18:23:14,108 - LIC_Scraper - INFO - Completed scraping LICs New Endowment Plan - Completeness: 100.00%
+2025-05-31 18:23:14,108 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs New Jeevan Anand
+2025-05-31 18:23:19,522 - LIC_Scraper - INFO - Extracting features from PDF: Sales brochure (Content is in English)
+2025-05-31 18:23:19,523 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+Jeevan+Anand+2024++4x9+inches+wxh+single+page+-+FINAL+-+24.10.24.pdf/d054b8f4-9cc5-2878-e794-801952ba36a9?t=1729775710554
+2025-05-31 18:23:20,001 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:23:20,001 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Doc_LIC%27s+New+Jeevan+Anand_V03_website.pdf/c89a7a9a-a4f7-c353-a6e8-a7946e311468?t=1728040140682
+2025-05-31 18:23:20,946 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs New Jeevan Anand (Content is in English)
+2025-05-31 18:23:20,946 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Anand_715.pdf/d81944d8-e1a6-20f9-fa50-96ee23a2a2c3?t=1728033756364
+2025-05-31 18:23:21,245 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+Jeevan+Anand+2024++4x9+inches+wxh+single+page+-+FINAL+-+24.10.24.pdf/d054b8f4-9cc5-2878-e794-801952ba36a9?t=1729775710554
+2025-05-31 18:23:21,693 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Doc_LIC%27s+New+Jeevan+Anand_V03_website.pdf/c89a7a9a-a4f7-c353-a6e8-a7946e311468?t=1728040140682
+2025-05-31 18:23:22,677 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Anand_715.pdf/d81944d8-e1a6-20f9-fa50-96ee23a2a2c3?t=1728033756364
+2025-05-31 18:23:22,946 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+Jeevan+Anand+2024++4x9+inches+wxh+single+page+-+FINAL+-+24.10.24.pdf/d054b8f4-9cc5-2878-e794-801952ba36a9?t=1729775710554
+2025-05-31 18:23:23,379 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Doc_LIC%27s+New+Jeevan+Anand_V03_website.pdf/c89a7a9a-a4f7-c353-a6e8-a7946e311468?t=1728040140682
+2025-05-31 18:23:24,367 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Anand_715.pdf/d81944d8-e1a6-20f9-fa50-96ee23a2a2c3?t=1728033756364
+2025-05-31 18:23:24,583 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+Jeevan+Anand+2024++4x9+inches+wxh+single+page+-+FINAL+-+24.10.24.pdf/d054b8f4-9cc5-2878-e794-801952ba36a9?t=1729775710554
+2025-05-31 18:23:25,029 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Doc_LIC%27s+New+Jeevan+Anand_V03_website.pdf/c89a7a9a-a4f7-c353-a6e8-a7946e311468?t=1728040140682
+2025-05-31 18:23:26,192 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Anand_715.pdf/d81944d8-e1a6-20f9-fa50-96ee23a2a2c3?t=1728033756364
+2025-05-31 18:23:26,417 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+Jeevan+Anand+2024++4x9+inches+wxh+single+page+-+FINAL+-+24.10.24.pdf/d054b8f4-9cc5-2878-e794-801952ba36a9?t=1729775710554
+2025-05-31 18:23:26,840 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Doc_LIC%27s+New+Jeevan+Anand_V03_website.pdf/c89a7a9a-a4f7-c353-a6e8-a7946e311468?t=1728040140682
+2025-05-31 18:23:27,828 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Anand_715.pdf/d81944d8-e1a6-20f9-fa50-96ee23a2a2c3?t=1728033756364
+2025-05-31 18:23:28,212 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/Lic+NEW+Jeevan+Anand+2024++4x9+inches+wxh+single+page+-+FINAL+-+24.10.24.pdf/d054b8f4-9cc5-2878-e794-801952ba36a9?t=1729775710554
+2025-05-31 18:23:28,512 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Doc_LIC%27s+New+Jeevan+Anand_V03_website.pdf/c89a7a9a-a4f7-c353-a6e8-a7946e311468?t=1728040140682
+2025-05-31 18:23:29,180 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Anand_715.pdf/d81944d8-e1a6-20f9-fa50-96ee23a2a2c3?t=1728033756364
+2025-05-31 18:23:29,328 - LIC_Scraper - INFO - Completed scraping LICs New Jeevan Anand - Completeness: 100.00%
+2025-05-31 18:23:29,328 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Jeevan Lakshya
+2025-05-31 18:23:34,800 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:23:34,801 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/102283+LIC+Jeevan+Lakshya+Sales+Brochure_OCT+2024-ENG+%281%29.pdf/7c2d9e6f-1717-79b2-aa33-07dfcc1794c7?t=1728557091579
+2025-05-31 18:23:35,172 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:23:35,172 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Policy+Document_LIC%27s+Jeevan+Lakshya_CC.pdf/3ffb63fb-10df-e2b1-7719-6283c1d06d41?t=1728050064693
+2025-05-31 18:23:35,930 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Jeevan Lakshya (Content is in English)
+2025-05-31 18:23:35,930 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS_Jeevan+Lakshya.pdf/693a4221-d890-c1c6-d946-0a5f40afcbcb?t=1728126311995
+2025-05-31 18:23:36,317 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/102283+LIC+Jeevan+Lakshya+Sales+Brochure_OCT+2024-ENG+%281%29.pdf/7c2d9e6f-1717-79b2-aa33-07dfcc1794c7?t=1728557091579
+2025-05-31 18:23:36,765 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Policy+Document_LIC%27s+Jeevan+Lakshya_CC.pdf/3ffb63fb-10df-e2b1-7719-6283c1d06d41?t=1728050064693
+2025-05-31 18:23:37,593 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS_Jeevan+Lakshya.pdf/693a4221-d890-c1c6-d946-0a5f40afcbcb?t=1728126311995
+2025-05-31 18:23:37,879 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/102283+LIC+Jeevan+Lakshya+Sales+Brochure_OCT+2024-ENG+%281%29.pdf/7c2d9e6f-1717-79b2-aa33-07dfcc1794c7?t=1728557091579
+2025-05-31 18:23:38,364 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Policy+Document_LIC%27s+Jeevan+Lakshya_CC.pdf/3ffb63fb-10df-e2b1-7719-6283c1d06d41?t=1728050064693
+2025-05-31 18:23:39,136 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS_Jeevan+Lakshya.pdf/693a4221-d890-c1c6-d946-0a5f40afcbcb?t=1728126311995
+2025-05-31 18:23:39,408 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/102283+LIC+Jeevan+Lakshya+Sales+Brochure_OCT+2024-ENG+%281%29.pdf/7c2d9e6f-1717-79b2-aa33-07dfcc1794c7?t=1728557091579
+2025-05-31 18:23:39,750 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Policy+Document_LIC%27s+Jeevan+Lakshya_CC.pdf/3ffb63fb-10df-e2b1-7719-6283c1d06d41?t=1728050064693
+2025-05-31 18:23:40,514 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS_Jeevan+Lakshya.pdf/693a4221-d890-c1c6-d946-0a5f40afcbcb?t=1728126311995
+2025-05-31 18:23:40,812 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/102283+LIC+Jeevan+Lakshya+Sales+Brochure_OCT+2024-ENG+%281%29.pdf/7c2d9e6f-1717-79b2-aa33-07dfcc1794c7?t=1728557091579
+2025-05-31 18:23:41,171 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Policy+Document_LIC%27s+Jeevan+Lakshya_CC.pdf/3ffb63fb-10df-e2b1-7719-6283c1d06d41?t=1728050064693
+2025-05-31 18:23:42,091 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS_Jeevan+Lakshya.pdf/693a4221-d890-c1c6-d946-0a5f40afcbcb?t=1728126311995
+2025-05-31 18:23:42,377 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/102283+LIC+Jeevan+Lakshya+Sales+Brochure_OCT+2024-ENG+%281%29.pdf/7c2d9e6f-1717-79b2-aa33-07dfcc1794c7?t=1728557091579
+2025-05-31 18:23:42,775 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Policy+Document_LIC%27s+Jeevan+Lakshya_CC.pdf/3ffb63fb-10df-e2b1-7719-6283c1d06d41?t=1728050064693
+2025-05-31 18:23:44,353 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS_Jeevan+Lakshya.pdf/693a4221-d890-c1c6-d946-0a5f40afcbcb?t=1728126311995
+2025-05-31 18:23:44,689 - LIC_Scraper - INFO - Completed scraping LICs Jeevan Lakshya - Completeness: 100.00%
+2025-05-31 18:23:44,689 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Jeevan Labh Plan
+2025-05-31 18:23:50,033 - LIC_Scraper - INFO - Extracting features from PDF: Sales brochure (Content is in English)
+2025-05-31 18:23:50,033 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/LIC_Jeevan+labh_Sales+Brochure_4+inch+x+9+inch_Eng+%283%29.pdf/946f96e2-a568-a059-ca72-2c79256a64a9?t=1729142806925
+2025-05-31 18:23:50,589 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:23:50,589 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final_Policy+Docs_LIC%27s+Jeevan+Labh_V03_website.pdf/042e4ba3-075c-b59b-b08d-ff49b406831a?t=1728040449287
+2025-05-31 18:23:51,319 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Jeevan Labh Plan (Content is in English)
+2025-05-31 18:23:51,319 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Labh_736.pdf/091b2448-e4f4-d216-d834-8bff02d5ec72?t=1728034239209
+2025-05-31 18:23:51,613 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/LIC_Jeevan+labh_Sales+Brochure_4+inch+x+9+inch_Eng+%283%29.pdf/946f96e2-a568-a059-ca72-2c79256a64a9?t=1729142806925
+2025-05-31 18:23:52,147 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final_Policy+Docs_LIC%27s+Jeevan+Labh_V03_website.pdf/042e4ba3-075c-b59b-b08d-ff49b406831a?t=1728040449287
+2025-05-31 18:23:52,821 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Labh_736.pdf/091b2448-e4f4-d216-d834-8bff02d5ec72?t=1728034239209
+2025-05-31 18:23:53,065 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/LIC_Jeevan+labh_Sales+Brochure_4+inch+x+9+inch_Eng+%283%29.pdf/946f96e2-a568-a059-ca72-2c79256a64a9?t=1729142806925
+2025-05-31 18:23:53,610 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final_Policy+Docs_LIC%27s+Jeevan+Labh_V03_website.pdf/042e4ba3-075c-b59b-b08d-ff49b406831a?t=1728040449287
+2025-05-31 18:23:54,328 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Labh_736.pdf/091b2448-e4f4-d216-d834-8bff02d5ec72?t=1728034239209
+2025-05-31 18:23:54,551 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/LIC_Jeevan+labh_Sales+Brochure_4+inch+x+9+inch_Eng+%283%29.pdf/946f96e2-a568-a059-ca72-2c79256a64a9?t=1729142806925
+2025-05-31 18:23:55,074 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final_Policy+Docs_LIC%27s+Jeevan+Labh_V03_website.pdf/042e4ba3-075c-b59b-b08d-ff49b406831a?t=1728040449287
+2025-05-31 18:23:55,775 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Labh_736.pdf/091b2448-e4f4-d216-d834-8bff02d5ec72?t=1728034239209
+2025-05-31 18:23:56,053 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/LIC_Jeevan+labh_Sales+Brochure_4+inch+x+9+inch_Eng+%283%29.pdf/946f96e2-a568-a059-ca72-2c79256a64a9?t=1729142806925
+2025-05-31 18:23:57,102 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final_Policy+Docs_LIC%27s+Jeevan+Labh_V03_website.pdf/042e4ba3-075c-b59b-b08d-ff49b406831a?t=1728040449287
+2025-05-31 18:23:58,943 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Labh_736.pdf/091b2448-e4f4-d216-d834-8bff02d5ec72?t=1728034239209
+2025-05-31 18:23:59,213 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/LIC_Jeevan+labh_Sales+Brochure_4+inch+x+9+inch_Eng+%283%29.pdf/946f96e2-a568-a059-ca72-2c79256a64a9?t=1729142806925
+2025-05-31 18:23:59,465 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final_Policy+Docs_LIC%27s+Jeevan+Labh_V03_website.pdf/042e4ba3-075c-b59b-b08d-ff49b406831a?t=1728040449287
+2025-05-31 18:23:59,721 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS+_Jeevan+Labh_736.pdf/091b2448-e4f4-d216-d834-8bff02d5ec72?t=1728034239209
+2025-05-31 18:23:59,856 - LIC_Scraper - INFO - Completed scraping LICs Jeevan Labh Plan - Completeness: 100.00%
+2025-05-31 18:23:59,856 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Amritbaal
+2025-05-31 18:24:05,323 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:24:05,323 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/102294-+Amritbaal+Sales+Brochure_MAR+25.pdf/5fc87c00-7951-18f2-268a-4e62f7c4e7c7?t=1744028931306
+2025-05-31 18:24:07,686 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:24:07,686 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final_+Policy+Document+LIC%27s+Amritbaal+300924_cc_with_logo.pdf/e53e4a8b-26b0-ee4d-ed76-4659b9b49074?t=1728035625898
+2025-05-31 18:24:08,684 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Amritbaal (Content is in English)
+2025-05-31 18:24:08,684 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS_Amritbaal01102024.pdf/6d5965d9-cc22-11f9-8e18-8af7673323dd?t=1728034848467
+2025-05-31 18:24:08,939 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/102294-+Amritbaal+Sales+Brochure_MAR+25.pdf/5fc87c00-7951-18f2-268a-4e62f7c4e7c7?t=1744028931306
+2025-05-31 18:24:11,604 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final_+Policy+Document+LIC%27s+Amritbaal+300924_cc_with_logo.pdf/e53e4a8b-26b0-ee4d-ed76-4659b9b49074?t=1728035625898
+2025-05-31 18:24:12,357 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS_Amritbaal01102024.pdf/6d5965d9-cc22-11f9-8e18-8af7673323dd?t=1728034848467
+2025-05-31 18:24:12,600 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/102294-+Amritbaal+Sales+Brochure_MAR+25.pdf/5fc87c00-7951-18f2-268a-4e62f7c4e7c7?t=1744028931306
+2025-05-31 18:24:15,774 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final_+Policy+Document+LIC%27s+Amritbaal+300924_cc_with_logo.pdf/e53e4a8b-26b0-ee4d-ed76-4659b9b49074?t=1728035625898
+2025-05-31 18:24:16,612 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS_Amritbaal01102024.pdf/6d5965d9-cc22-11f9-8e18-8af7673323dd?t=1728034848467
+2025-05-31 18:24:16,855 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/102294-+Amritbaal+Sales+Brochure_MAR+25.pdf/5fc87c00-7951-18f2-268a-4e62f7c4e7c7?t=1744028931306
+2025-05-31 18:24:19,322 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final_+Policy+Document+LIC%27s+Amritbaal+300924_cc_with_logo.pdf/e53e4a8b-26b0-ee4d-ed76-4659b9b49074?t=1728035625898
+2025-05-31 18:24:20,108 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS_Amritbaal01102024.pdf/6d5965d9-cc22-11f9-8e18-8af7673323dd?t=1728034848467
+2025-05-31 18:24:20,346 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/102294-+Amritbaal+Sales+Brochure_MAR+25.pdf/5fc87c00-7951-18f2-268a-4e62f7c4e7c7?t=1744028931306
+2025-05-31 18:24:22,716 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final_+Policy+Document+LIC%27s+Amritbaal+300924_cc_with_logo.pdf/e53e4a8b-26b0-ee4d-ed76-4659b9b49074?t=1728035625898
+2025-05-31 18:24:23,466 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS_Amritbaal01102024.pdf/6d5965d9-cc22-11f9-8e18-8af7673323dd?t=1728034848467
+2025-05-31 18:24:23,699 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/102294-+Amritbaal+Sales+Brochure_MAR+25.pdf/5fc87c00-7951-18f2-268a-4e62f7c4e7c7?t=1744028931306
+2025-05-31 18:24:24,507 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final_+Policy+Document+LIC%27s+Amritbaal+300924_cc_with_logo.pdf/e53e4a8b-26b0-ee4d-ed76-4659b9b49074?t=1728035625898
+2025-05-31 18:24:24,766 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/CIS_Amritbaal01102024.pdf/6d5965d9-cc22-11f9-8e18-8af7673323dd?t=1728034848467
+2025-05-31 18:24:24,914 - LIC_Scraper - INFO - Completed scraping LICs Amritbaal - Completeness: 100.00%
+2025-05-31 18:24:24,914 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Bima Jyoti
+2025-05-31 18:24:30,262 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochures (Content is in English)
+2025-05-31 18:24:30,262 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC%27s+Modified+BIMA+JYOTI+Plan_Sales+Brochure+_Eng+..pdf/75f2912a-ec09-aa7b-70c0-3d5df86c1f41?t=1747389915582
+2025-05-31 18:24:31,102 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:24:31,102 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Document+LIC%27s+Bima+Jyoti+V03_website.pdf/71f29bd6-2a74-b999-5e83-9dceda49c8a6?t=1728995228661
+2025-05-31 18:24:32,025 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Bima Jyoti (Content is in English)
+2025-05-31 18:24:32,026 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+_Bima+Jyoti_with+UIN.pdf/78a6bd9a-f750-6eb9-ee35-da0c5f4f1e50?t=1738739915082
+2025-05-31 18:24:32,348 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC%27s+Modified+BIMA+JYOTI+Plan_Sales+Brochure+_Eng+..pdf/75f2912a-ec09-aa7b-70c0-3d5df86c1f41?t=1747389915582
+2025-05-31 18:24:33,114 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Document+LIC%27s+Bima+Jyoti+V03_website.pdf/71f29bd6-2a74-b999-5e83-9dceda49c8a6?t=1728995228661
+2025-05-31 18:24:34,052 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+_Bima+Jyoti_with+UIN.pdf/78a6bd9a-f750-6eb9-ee35-da0c5f4f1e50?t=1738739915082
+2025-05-31 18:24:34,303 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC%27s+Modified+BIMA+JYOTI+Plan_Sales+Brochure+_Eng+..pdf/75f2912a-ec09-aa7b-70c0-3d5df86c1f41?t=1747389915582
+2025-05-31 18:24:35,071 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Document+LIC%27s+Bima+Jyoti+V03_website.pdf/71f29bd6-2a74-b999-5e83-9dceda49c8a6?t=1728995228661
+2025-05-31 18:24:36,213 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+_Bima+Jyoti_with+UIN.pdf/78a6bd9a-f750-6eb9-ee35-da0c5f4f1e50?t=1738739915082
+2025-05-31 18:24:36,634 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC%27s+Modified+BIMA+JYOTI+Plan_Sales+Brochure+_Eng+..pdf/75f2912a-ec09-aa7b-70c0-3d5df86c1f41?t=1747389915582
+2025-05-31 18:24:37,762 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Document+LIC%27s+Bima+Jyoti+V03_website.pdf/71f29bd6-2a74-b999-5e83-9dceda49c8a6?t=1728995228661
+2025-05-31 18:24:38,780 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+_Bima+Jyoti_with+UIN.pdf/78a6bd9a-f750-6eb9-ee35-da0c5f4f1e50?t=1738739915082
+2025-05-31 18:24:39,074 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC%27s+Modified+BIMA+JYOTI+Plan_Sales+Brochure+_Eng+..pdf/75f2912a-ec09-aa7b-70c0-3d5df86c1f41?t=1747389915582
+2025-05-31 18:24:39,975 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Document+LIC%27s+Bima+Jyoti+V03_website.pdf/71f29bd6-2a74-b999-5e83-9dceda49c8a6?t=1728995228661
+2025-05-31 18:24:41,579 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+_Bima+Jyoti_with+UIN.pdf/78a6bd9a-f750-6eb9-ee35-da0c5f4f1e50?t=1738739915082
+2025-05-31 18:24:42,025 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC%27s+Modified+BIMA+JYOTI+Plan_Sales+Brochure+_Eng+..pdf/75f2912a-ec09-aa7b-70c0-3d5df86c1f41?t=1747389915582
+2025-05-31 18:24:42,925 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243952/Final+Policy+Document+LIC%27s+Bima+Jyoti+V03_website.pdf/71f29bd6-2a74-b999-5e83-9dceda49c8a6?t=1728995228661
+2025-05-31 18:24:46,016 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+_Bima+Jyoti_with+UIN.pdf/78a6bd9a-f750-6eb9-ee35-da0c5f4f1e50?t=1738739915082
+2025-05-31 18:24:46,400 - LIC_Scraper - INFO - Completed scraping LICs Bima Jyoti - Completeness: 100.00%
+2025-05-31 18:24:46,400 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Jeevan Azad
+2025-05-31 18:24:52,094 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:24:52,095 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/291387/Lic+NEW+Jeevan+Azad_Final_S+Broucher_English_+4x9+inches++new+single+pages.pdf/f71d7c2a-31b7-4343-a70f-3afbc1f0e91b?t=1744116404603
+2025-05-31 18:24:53,730 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:24:53,730 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Jeevan+Azad.pdf/75ae6c4f-f034-acc4-23b1-684a02aac2bc?t=1735734236484
+2025-05-31 18:24:55,653 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Jeevan Azad (Content is in English)
+2025-05-31 18:24:55,653 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+Modified+LIC%27s+Jeevan+Azad.pdf/f5e1c533-a3e8-a749-9e76-0340aab37257?t=1737017716290
+2025-05-31 18:24:56,950 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/291387/Lic+NEW+Jeevan+Azad_Final_S+Broucher_English_+4x9+inches++new+single+pages.pdf/f71d7c2a-31b7-4343-a70f-3afbc1f0e91b?t=1744116404603
+2025-05-31 18:24:58,542 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Jeevan+Azad.pdf/75ae6c4f-f034-acc4-23b1-684a02aac2bc?t=1735734236484
+2025-05-31 18:24:59,298 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+Modified+LIC%27s+Jeevan+Azad.pdf/f5e1c533-a3e8-a749-9e76-0340aab37257?t=1737017716290
+2025-05-31 18:24:59,968 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/291387/Lic+NEW+Jeevan+Azad_Final_S+Broucher_English_+4x9+inches++new+single+pages.pdf/f71d7c2a-31b7-4343-a70f-3afbc1f0e91b?t=1744116404603
+2025-05-31 18:25:00,984 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Jeevan+Azad.pdf/75ae6c4f-f034-acc4-23b1-684a02aac2bc?t=1735734236484
+2025-05-31 18:25:01,543 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+Modified+LIC%27s+Jeevan+Azad.pdf/f5e1c533-a3e8-a749-9e76-0340aab37257?t=1737017716290
+2025-05-31 18:25:01,904 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/291387/Lic+NEW+Jeevan+Azad_Final_S+Broucher_English_+4x9+inches++new+single+pages.pdf/f71d7c2a-31b7-4343-a70f-3afbc1f0e91b?t=1744116404603
+2025-05-31 18:25:02,899 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Jeevan+Azad.pdf/75ae6c4f-f034-acc4-23b1-684a02aac2bc?t=1735734236484
+2025-05-31 18:25:03,466 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+Modified+LIC%27s+Jeevan+Azad.pdf/f5e1c533-a3e8-a749-9e76-0340aab37257?t=1737017716290
+2025-05-31 18:25:03,721 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/291387/Lic+NEW+Jeevan+Azad_Final_S+Broucher_English_+4x9+inches++new+single+pages.pdf/f71d7c2a-31b7-4343-a70f-3afbc1f0e91b?t=1744116404603
+2025-05-31 18:25:04,817 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Jeevan+Azad.pdf/75ae6c4f-f034-acc4-23b1-684a02aac2bc?t=1735734236484
+2025-05-31 18:25:05,368 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+Modified+LIC%27s+Jeevan+Azad.pdf/f5e1c533-a3e8-a749-9e76-0340aab37257?t=1737017716290
+2025-05-31 18:25:05,849 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/291387/Lic+NEW+Jeevan+Azad_Final_S+Broucher_English_+4x9+inches++new+single+pages.pdf/f71d7c2a-31b7-4343-a70f-3afbc1f0e91b?t=1744116404603
+2025-05-31 18:25:06,672 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Jeevan+Azad.pdf/75ae6c4f-f034-acc4-23b1-684a02aac2bc?t=1735734236484
+2025-05-31 18:25:06,871 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+Modified+LIC%27s+Jeevan+Azad.pdf/f5e1c533-a3e8-a749-9e76-0340aab37257?t=1737017716290
+2025-05-31 18:25:07,021 - LIC_Scraper - INFO - Completed scraping LICs Jeevan Azad - Completeness: 100.00%
+2025-05-31 18:25:07,021 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Jeevan Umang
+2025-05-31 18:25:12,479 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochures (Content is in English)
+2025-05-31 18:25:12,480 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/LIC_Jeevan+Umang_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/1dcbc0ba-c05e-8cd7-b34c-7bcae1347271?t=1729776530358
+2025-05-31 18:25:14,033 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:25:14,033 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Policy_doc_Jeevan_Umang_290924-withlogo.pdf/5f44c0f9-821e-0a98-afb6-51b343ae71e9?t=1727867404715
+2025-05-31 18:25:18,537 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Jeevan Umang (Content is in English)
+2025-05-31 18:25:18,537 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1245605/CIS+_Jeevan+Umang-website.pdf/2e66291d-b3f9-4773-193c-2e3a0784f325?t=1728055285641
+2025-05-31 18:25:18,787 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/LIC_Jeevan+Umang_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/1dcbc0ba-c05e-8cd7-b34c-7bcae1347271?t=1729776530358
+2025-05-31 18:25:20,089 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Policy_doc_Jeevan_Umang_290924-withlogo.pdf/5f44c0f9-821e-0a98-afb6-51b343ae71e9?t=1727867404715
+2025-05-31 18:25:23,712 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1245605/CIS+_Jeevan+Umang-website.pdf/2e66291d-b3f9-4773-193c-2e3a0784f325?t=1728055285641
+2025-05-31 18:25:23,941 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/LIC_Jeevan+Umang_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/1dcbc0ba-c05e-8cd7-b34c-7bcae1347271?t=1729776530358
+2025-05-31 18:25:25,163 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Policy_doc_Jeevan_Umang_290924-withlogo.pdf/5f44c0f9-821e-0a98-afb6-51b343ae71e9?t=1727867404715
+2025-05-31 18:25:28,418 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1245605/CIS+_Jeevan+Umang-website.pdf/2e66291d-b3f9-4773-193c-2e3a0784f325?t=1728055285641
+2025-05-31 18:25:28,678 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/LIC_Jeevan+Umang_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/1dcbc0ba-c05e-8cd7-b34c-7bcae1347271?t=1729776530358
+2025-05-31 18:25:29,888 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Policy_doc_Jeevan_Umang_290924-withlogo.pdf/5f44c0f9-821e-0a98-afb6-51b343ae71e9?t=1727867404715
+2025-05-31 18:25:33,104 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1245605/CIS+_Jeevan+Umang-website.pdf/2e66291d-b3f9-4773-193c-2e3a0784f325?t=1728055285641
+2025-05-31 18:25:33,653 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/LIC_Jeevan+Umang_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/1dcbc0ba-c05e-8cd7-b34c-7bcae1347271?t=1729776530358
+2025-05-31 18:25:35,040 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Policy_doc_Jeevan_Umang_290924-withlogo.pdf/5f44c0f9-821e-0a98-afb6-51b343ae71e9?t=1727867404715
+2025-05-31 18:25:38,264 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1245605/CIS+_Jeevan+Umang-website.pdf/2e66291d-b3f9-4773-193c-2e3a0784f325?t=1728055285641
+2025-05-31 18:25:38,517 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1248951/LIC_Jeevan+Umang_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/1dcbc0ba-c05e-8cd7-b34c-7bcae1347271?t=1729776530358
+2025-05-31 18:25:38,877 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Policy_doc_Jeevan_Umang_290924-withlogo.pdf/5f44c0f9-821e-0a98-afb6-51b343ae71e9?t=1727867404715
+2025-05-31 18:25:42,173 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1245605/CIS+_Jeevan+Umang-website.pdf/2e66291d-b3f9-4773-193c-2e3a0784f325?t=1728055285641
+2025-05-31 18:25:42,348 - LIC_Scraper - INFO - Completed scraping LICs Jeevan Umang - Completeness: 100.00%
+2025-05-31 18:25:42,349 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Jeevan Utsav
+2025-05-31 18:25:47,795 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:25:47,796 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/911303/102268-+Jeevan+Utsav+Sales+Brochure.pdf/e7146853-9429-8df1-5796-fb079ae68df1?t=1743068855706
+2025-05-31 18:25:48,741 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:25:48,742 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/PolicyDocument-Jeevan+Utsav-V02-withlogo.pdf/7dfd2d09-a2d2-247b-0aed-698c89ea56af?t=1727867403829
+2025-05-31 18:25:49,595 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Jeevan Utsav (Content is in English)
+2025-05-31 18:25:49,595 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1245605/CIS+_jeevan+utsav+-Website_+R.pdf/11fdd328-5dbb-cac2-8ced-342a7565456a?t=1731428824989
+2025-05-31 18:25:50,051 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/911303/102268-+Jeevan+Utsav+Sales+Brochure.pdf/e7146853-9429-8df1-5796-fb079ae68df1?t=1743068855706
+2025-05-31 18:25:50,821 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/PolicyDocument-Jeevan+Utsav-V02-withlogo.pdf/7dfd2d09-a2d2-247b-0aed-698c89ea56af?t=1727867403829
+2025-05-31 18:25:52,103 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1245605/CIS+_jeevan+utsav+-Website_+R.pdf/11fdd328-5dbb-cac2-8ced-342a7565456a?t=1731428824989
+2025-05-31 18:25:52,613 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/911303/102268-+Jeevan+Utsav+Sales+Brochure.pdf/e7146853-9429-8df1-5796-fb079ae68df1?t=1743068855706
+2025-05-31 18:25:54,509 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/PolicyDocument-Jeevan+Utsav-V02-withlogo.pdf/7dfd2d09-a2d2-247b-0aed-698c89ea56af?t=1727867403829
+2025-05-31 18:25:56,009 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1245605/CIS+_jeevan+utsav+-Website_+R.pdf/11fdd328-5dbb-cac2-8ced-342a7565456a?t=1731428824989
+2025-05-31 18:26:02,617 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/911303/102268-+Jeevan+Utsav+Sales+Brochure.pdf/e7146853-9429-8df1-5796-fb079ae68df1?t=1743068855706
+2025-05-31 18:26:03,412 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/PolicyDocument-Jeevan+Utsav-V02-withlogo.pdf/7dfd2d09-a2d2-247b-0aed-698c89ea56af?t=1727867403829
+2025-05-31 18:26:06,681 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1245605/CIS+_jeevan+utsav+-Website_+R.pdf/11fdd328-5dbb-cac2-8ced-342a7565456a?t=1731428824989
+2025-05-31 18:26:07,241 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/911303/102268-+Jeevan+Utsav+Sales+Brochure.pdf/e7146853-9429-8df1-5796-fb079ae68df1?t=1743068855706
+2025-05-31 18:26:08,167 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/PolicyDocument-Jeevan+Utsav-V02-withlogo.pdf/7dfd2d09-a2d2-247b-0aed-698c89ea56af?t=1727867403829
+2025-05-31 18:26:09,279 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1245605/CIS+_jeevan+utsav+-Website_+R.pdf/11fdd328-5dbb-cac2-8ced-342a7565456a?t=1731428824989
+2025-05-31 18:26:09,532 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/911303/102268-+Jeevan+Utsav+Sales+Brochure.pdf/e7146853-9429-8df1-5796-fb079ae68df1?t=1743068855706
+2025-05-31 18:26:09,770 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/PolicyDocument-Jeevan+Utsav-V02-withlogo.pdf/7dfd2d09-a2d2-247b-0aed-698c89ea56af?t=1727867403829
+2025-05-31 18:26:10,091 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1245605/CIS+_jeevan+utsav+-Website_+R.pdf/11fdd328-5dbb-cac2-8ced-342a7565456a?t=1731428824989
+2025-05-31 18:26:10,257 - LIC_Scraper - INFO - Completed scraping LICs Jeevan Utsav - Completeness: 100.00%
+2025-05-31 18:26:10,257 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Bima Shree
+2025-05-31 18:26:15,982 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:26:15,982 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Bima+Shree+_Sales+Brochure_4+inch+x+9+inch_Eng+%283%29+%281%29.pdf/236fd855-7468-f538-7249-b8c7197d826a?t=1741012531201
+2025-05-31 18:26:16,512 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:26:16,512 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/Modified_Policy_doc_Bima_Shree_V03_website.pdf/447cc2fe-1354-dd80-3a6b-69b1f6260fec?t=1734080156859
+2025-05-31 18:26:17,259 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Bima Shree (Content is in English)
+2025-05-31 18:26:17,260 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/CIS+_Modified+LIC%27s+Bima+Shree_V03_website+%281%29.pdf/52e97b1f-e6f0-5fa2-3698-fe1a4d43ffbd?t=1734080157611
+2025-05-31 18:26:17,592 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Bima+Shree+_Sales+Brochure_4+inch+x+9+inch_Eng+%283%29+%281%29.pdf/236fd855-7468-f538-7249-b8c7197d826a?t=1741012531201
+2025-05-31 18:26:17,820 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/Modified_Policy_doc_Bima_Shree_V03_website.pdf/447cc2fe-1354-dd80-3a6b-69b1f6260fec?t=1734080156859
+2025-05-31 18:26:18,506 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/CIS+_Modified+LIC%27s+Bima+Shree_V03_website+%281%29.pdf/52e97b1f-e6f0-5fa2-3698-fe1a4d43ffbd?t=1734080157611
+2025-05-31 18:26:18,802 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Bima+Shree+_Sales+Brochure_4+inch+x+9+inch_Eng+%283%29+%281%29.pdf/236fd855-7468-f538-7249-b8c7197d826a?t=1741012531201
+2025-05-31 18:26:19,041 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/Modified_Policy_doc_Bima_Shree_V03_website.pdf/447cc2fe-1354-dd80-3a6b-69b1f6260fec?t=1734080156859
+2025-05-31 18:26:19,789 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/CIS+_Modified+LIC%27s+Bima+Shree_V03_website+%281%29.pdf/52e97b1f-e6f0-5fa2-3698-fe1a4d43ffbd?t=1734080157611
+2025-05-31 18:26:21,301 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Bima+Shree+_Sales+Brochure_4+inch+x+9+inch_Eng+%283%29+%281%29.pdf/236fd855-7468-f538-7249-b8c7197d826a?t=1741012531201
+2025-05-31 18:26:21,689 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/Modified_Policy_doc_Bima_Shree_V03_website.pdf/447cc2fe-1354-dd80-3a6b-69b1f6260fec?t=1734080156859
+2025-05-31 18:26:23,959 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/CIS+_Modified+LIC%27s+Bima+Shree_V03_website+%281%29.pdf/52e97b1f-e6f0-5fa2-3698-fe1a4d43ffbd?t=1734080157611
+2025-05-31 18:26:24,726 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Bima+Shree+_Sales+Brochure_4+inch+x+9+inch_Eng+%283%29+%281%29.pdf/236fd855-7468-f538-7249-b8c7197d826a?t=1741012531201
+2025-05-31 18:26:24,990 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/Modified_Policy_doc_Bima_Shree_V03_website.pdf/447cc2fe-1354-dd80-3a6b-69b1f6260fec?t=1734080156859
+2025-05-31 18:26:26,095 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/CIS+_Modified+LIC%27s+Bima+Shree_V03_website+%281%29.pdf/52e97b1f-e6f0-5fa2-3698-fe1a4d43ffbd?t=1734080157611
+2025-05-31 18:26:26,532 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Bima+Shree+_Sales+Brochure_4+inch+x+9+inch_Eng+%283%29+%281%29.pdf/236fd855-7468-f538-7249-b8c7197d826a?t=1741012531201
+2025-05-31 18:26:27,188 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/Modified_Policy_doc_Bima_Shree_V03_website.pdf/447cc2fe-1354-dd80-3a6b-69b1f6260fec?t=1734080156859
+2025-05-31 18:26:28,058 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/CIS+_Modified+LIC%27s+Bima+Shree_V03_website+%281%29.pdf/52e97b1f-e6f0-5fa2-3698-fe1a4d43ffbd?t=1734080157611
+2025-05-31 18:26:28,386 - LIC_Scraper - INFO - Completed scraping LICs Bima Shree - Completeness: 100.00%
+2025-05-31 18:26:28,388 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs New Money Back Plan- 20 Years
+2025-05-31 18:26:33,715 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:26:33,715 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/LIC_Money+Back+20+yrs+Sales+Brochure.pdf/c4dad9e3-7a10-1f1e-87b7-33a48f89680c?t=1740723336541
+2025-05-31 18:26:34,621 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:26:34,621 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/Final+document+with+logo_MB20.pdf/08e8be76-1884-beb6-0a9e-bb3cec88599f?t=1734079665186
+2025-05-31 18:26:35,317 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs New Money Back Plan-20 years (Content is in English)
+2025-05-31 18:26:35,317 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_MB20.pdf/6f8eb98d-90a3-db1a-fec1-9824af1c19f3?t=1738739913774
+2025-05-31 18:26:36,760 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/LIC_Money+Back+20+yrs+Sales+Brochure.pdf/c4dad9e3-7a10-1f1e-87b7-33a48f89680c?t=1740723336541
+2025-05-31 18:26:36,983 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/Final+document+with+logo_MB20.pdf/08e8be76-1884-beb6-0a9e-bb3cec88599f?t=1734079665186
+2025-05-31 18:26:37,706 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_MB20.pdf/6f8eb98d-90a3-db1a-fec1-9824af1c19f3?t=1738739913774
+2025-05-31 18:26:40,119 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/LIC_Money+Back+20+yrs+Sales+Brochure.pdf/c4dad9e3-7a10-1f1e-87b7-33a48f89680c?t=1740723336541
+2025-05-31 18:26:41,274 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/Final+document+with+logo_MB20.pdf/08e8be76-1884-beb6-0a9e-bb3cec88599f?t=1734079665186
+2025-05-31 18:26:44,220 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_MB20.pdf/6f8eb98d-90a3-db1a-fec1-9824af1c19f3?t=1738739913774
+2025-05-31 18:26:48,598 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/LIC_Money+Back+20+yrs+Sales+Brochure.pdf/c4dad9e3-7a10-1f1e-87b7-33a48f89680c?t=1740723336541
+2025-05-31 18:27:04,955 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/Final+document+with+logo_MB20.pdf/08e8be76-1884-beb6-0a9e-bb3cec88599f?t=1734079665186
+2025-05-31 18:27:05,829 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_MB20.pdf/6f8eb98d-90a3-db1a-fec1-9824af1c19f3?t=1738739913774
+2025-05-31 18:27:06,138 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/LIC_Money+Back+20+yrs+Sales+Brochure.pdf/c4dad9e3-7a10-1f1e-87b7-33a48f89680c?t=1740723336541
+2025-05-31 18:27:06,400 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/Final+document+with+logo_MB20.pdf/08e8be76-1884-beb6-0a9e-bb3cec88599f?t=1734079665186
+2025-05-31 18:27:07,101 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_MB20.pdf/6f8eb98d-90a3-db1a-fec1-9824af1c19f3?t=1738739913774
+2025-05-31 18:27:07,333 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/LIC_Money+Back+20+yrs+Sales+Brochure.pdf/c4dad9e3-7a10-1f1e-87b7-33a48f89680c?t=1740723336541
+2025-05-31 18:27:07,412 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1297144/Final+document+with+logo_MB20.pdf/08e8be76-1884-beb6-0a9e-bb3cec88599f?t=1734079665186
+2025-05-31 18:27:07,650 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_MB20.pdf/6f8eb98d-90a3-db1a-fec1-9824af1c19f3?t=1738739913774
+2025-05-31 18:27:07,819 - LIC_Scraper - INFO - Completed scraping LICs New Money Back Plan- 20 Years - Completeness: 100.00%
+2025-05-31 18:27:07,820 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs New Money Back Plan-25 years
+2025-05-31 18:27:13,256 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:27:13,257 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Money+Back+25+yrs+Sales+Brochure.pdf/ec6cca7b-4942-4002-54f6-31de56288fdc?t=1742283827222
+2025-05-31 18:27:13,490 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:27:13,490 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final+Policy+document+with+logo_LIC%27s+New+Money+Back+Plan_25+years.pdf/b69e041b-bb10-c7ac-024a-67ed81534de4?t=1735734233355
+2025-05-31 18:27:14,204 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs New Money Back Plan-25 years (Content is in English)
+2025-05-31 18:27:14,204 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_MB25.pdf/e2a0c28c-8c8d-4a1f-6815-9a8aa1543d54?t=1738739914450
+2025-05-31 18:27:14,442 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Money+Back+25+yrs+Sales+Brochure.pdf/ec6cca7b-4942-4002-54f6-31de56288fdc?t=1742283827222
+2025-05-31 18:27:14,661 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final+Policy+document+with+logo_LIC%27s+New+Money+Back+Plan_25+years.pdf/b69e041b-bb10-c7ac-024a-67ed81534de4?t=1735734233355
+2025-05-31 18:27:15,362 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_MB25.pdf/e2a0c28c-8c8d-4a1f-6815-9a8aa1543d54?t=1738739914450
+2025-05-31 18:27:15,604 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Money+Back+25+yrs+Sales+Brochure.pdf/ec6cca7b-4942-4002-54f6-31de56288fdc?t=1742283827222
+2025-05-31 18:27:15,827 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final+Policy+document+with+logo_LIC%27s+New+Money+Back+Plan_25+years.pdf/b69e041b-bb10-c7ac-024a-67ed81534de4?t=1735734233355
+2025-05-31 18:27:16,540 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_MB25.pdf/e2a0c28c-8c8d-4a1f-6815-9a8aa1543d54?t=1738739914450
+2025-05-31 18:27:16,778 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Money+Back+25+yrs+Sales+Brochure.pdf/ec6cca7b-4942-4002-54f6-31de56288fdc?t=1742283827222
+2025-05-31 18:27:17,184 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final+Policy+document+with+logo_LIC%27s+New+Money+Back+Plan_25+years.pdf/b69e041b-bb10-c7ac-024a-67ed81534de4?t=1735734233355
+2025-05-31 18:27:19,001 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_MB25.pdf/e2a0c28c-8c8d-4a1f-6815-9a8aa1543d54?t=1738739914450
+2025-05-31 18:27:20,673 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Money+Back+25+yrs+Sales+Brochure.pdf/ec6cca7b-4942-4002-54f6-31de56288fdc?t=1742283827222
+2025-05-31 18:27:20,918 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final+Policy+document+with+logo_LIC%27s+New+Money+Back+Plan_25+years.pdf/b69e041b-bb10-c7ac-024a-67ed81534de4?t=1735734233355
+2025-05-31 18:27:21,646 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_MB25.pdf/e2a0c28c-8c8d-4a1f-6815-9a8aa1543d54?t=1738739914450
+2025-05-31 18:27:21,868 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Money+Back+25+yrs+Sales+Brochure.pdf/ec6cca7b-4942-4002-54f6-31de56288fdc?t=1742283827222
+2025-05-31 18:27:21,946 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final+Policy+document+with+logo_LIC%27s+New+Money+Back+Plan_25+years.pdf/b69e041b-bb10-c7ac-024a-67ed81534de4?t=1735734233355
+2025-05-31 18:27:22,189 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_MB25.pdf/e2a0c28c-8c8d-4a1f-6815-9a8aa1543d54?t=1738739914450
+2025-05-31 18:27:22,348 - LIC_Scraper - INFO - Completed scraping LICs New Money Back Plan-25 years - Completeness: 100.00%
+2025-05-31 18:27:22,349 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs New Childrens Money Back Plan
+2025-05-31 18:27:28,106 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:27:28,108 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/105993/LIC_Children+money+back_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/02393d3d-480e-c113-71b8-5a5ced18a723?t=1744019692720
+2025-05-31 18:27:29,418 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:27:29,418 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final+Policy+Doc_LIC%27s+New+ChidrensMoney+BackPlan_website.pdf/18c026c9-064e-550f-0e62-a3d7a78fc131?t=1735734234128
+2025-05-31 18:27:30,235 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs New Childrens Money Back Plan (Content is in English)
+2025-05-31 18:27:30,235 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final_CIS+_LIC%27s+New+ChildrensMoney_BackPlanV03.pdf/fdad64fa-1dd6-89a1-8d23-d72a12e9d62b?t=1737017714986
+2025-05-31 18:27:30,466 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/105993/LIC_Children+money+back_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/02393d3d-480e-c113-71b8-5a5ced18a723?t=1744019692720
+2025-05-31 18:27:31,701 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final+Policy+Doc_LIC%27s+New+ChidrensMoney+BackPlan_website.pdf/18c026c9-064e-550f-0e62-a3d7a78fc131?t=1735734234128
+2025-05-31 18:27:32,473 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final_CIS+_LIC%27s+New+ChildrensMoney_BackPlanV03.pdf/fdad64fa-1dd6-89a1-8d23-d72a12e9d62b?t=1737017714986
+2025-05-31 18:27:32,699 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/105993/LIC_Children+money+back_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/02393d3d-480e-c113-71b8-5a5ced18a723?t=1744019692720
+2025-05-31 18:27:33,944 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final+Policy+Doc_LIC%27s+New+ChidrensMoney+BackPlan_website.pdf/18c026c9-064e-550f-0e62-a3d7a78fc131?t=1735734234128
+2025-05-31 18:27:34,791 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final_CIS+_LIC%27s+New+ChildrensMoney_BackPlanV03.pdf/fdad64fa-1dd6-89a1-8d23-d72a12e9d62b?t=1737017714986
+2025-05-31 18:27:35,017 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/105993/LIC_Children+money+back_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/02393d3d-480e-c113-71b8-5a5ced18a723?t=1744019692720
+2025-05-31 18:27:36,263 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final+Policy+Doc_LIC%27s+New+ChidrensMoney+BackPlan_website.pdf/18c026c9-064e-550f-0e62-a3d7a78fc131?t=1735734234128
+2025-05-31 18:27:37,056 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final_CIS+_LIC%27s+New+ChildrensMoney_BackPlanV03.pdf/fdad64fa-1dd6-89a1-8d23-d72a12e9d62b?t=1737017714986
+2025-05-31 18:27:37,282 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/105993/LIC_Children+money+back_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/02393d3d-480e-c113-71b8-5a5ced18a723?t=1744019692720
+2025-05-31 18:27:38,547 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final+Policy+Doc_LIC%27s+New+ChidrensMoney+BackPlan_website.pdf/18c026c9-064e-550f-0e62-a3d7a78fc131?t=1735734234128
+2025-05-31 18:27:39,327 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final_CIS+_LIC%27s+New+ChildrensMoney_BackPlanV03.pdf/fdad64fa-1dd6-89a1-8d23-d72a12e9d62b?t=1737017714986
+2025-05-31 18:27:39,598 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/105993/LIC_Children+money+back_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/02393d3d-480e-c113-71b8-5a5ced18a723?t=1744019692720
+2025-05-31 18:27:39,943 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final+Policy+Doc_LIC%27s+New+ChidrensMoney+BackPlan_website.pdf/18c026c9-064e-550f-0e62-a3d7a78fc131?t=1735734234128
+2025-05-31 18:27:40,255 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final_CIS+_LIC%27s+New+ChildrensMoney_BackPlanV03.pdf/fdad64fa-1dd6-89a1-8d23-d72a12e9d62b?t=1737017714986
+2025-05-31 18:27:40,406 - LIC_Scraper - INFO - Completed scraping LICs New Childrens Money Back Plan - Completeness: 100.00%
+2025-05-31 18:27:40,407 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Bima Ratna
+2025-05-31 18:27:45,785 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:27:45,787 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1453427/Lic+NEW+Bima+Ratna++Broucher+sales+Brochure.pdf/d83ed6c2-e2d9-d979-e67a-56552be1ca1a?t=1745299340107
+2025-05-31 18:27:46,161 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:27:46,161 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Bima+Ratna.pdf/f226fbd1-f32f-1407-6fc1-f38c83974f2b?t=1735734237188
+2025-05-31 18:27:47,053 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Bima Ratna (Content is in English)
+2025-05-31 18:27:47,054 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+Modified+LIC%27s+Bima+Ratna.pdf/49525640-7aff-f1a1-ee40-332fbfeb70ae?t=1737017716910
+2025-05-31 18:27:47,355 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1453427/Lic+NEW+Bima+Ratna++Broucher+sales+Brochure.pdf/d83ed6c2-e2d9-d979-e67a-56552be1ca1a?t=1745299340107
+2025-05-31 18:27:47,730 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Bima+Ratna.pdf/f226fbd1-f32f-1407-6fc1-f38c83974f2b?t=1735734237188
+2025-05-31 18:27:48,500 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+Modified+LIC%27s+Bima+Ratna.pdf/49525640-7aff-f1a1-ee40-332fbfeb70ae?t=1737017716910
+2025-05-31 18:27:48,802 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1453427/Lic+NEW+Bima+Ratna++Broucher+sales+Brochure.pdf/d83ed6c2-e2d9-d979-e67a-56552be1ca1a?t=1745299340107
+2025-05-31 18:27:49,179 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Bima+Ratna.pdf/f226fbd1-f32f-1407-6fc1-f38c83974f2b?t=1735734237188
+2025-05-31 18:27:49,954 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+Modified+LIC%27s+Bima+Ratna.pdf/49525640-7aff-f1a1-ee40-332fbfeb70ae?t=1737017716910
+2025-05-31 18:27:50,448 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1453427/Lic+NEW+Bima+Ratna++Broucher+sales+Brochure.pdf/d83ed6c2-e2d9-d979-e67a-56552be1ca1a?t=1745299340107
+2025-05-31 18:27:50,828 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Bima+Ratna.pdf/f226fbd1-f32f-1407-6fc1-f38c83974f2b?t=1735734237188
+2025-05-31 18:27:51,587 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+Modified+LIC%27s+Bima+Ratna.pdf/49525640-7aff-f1a1-ee40-332fbfeb70ae?t=1737017716910
+2025-05-31 18:27:51,884 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1453427/Lic+NEW+Bima+Ratna++Broucher+sales+Brochure.pdf/d83ed6c2-e2d9-d979-e67a-56552be1ca1a?t=1745299340107
+2025-05-31 18:27:52,262 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Bima+Ratna.pdf/f226fbd1-f32f-1407-6fc1-f38c83974f2b?t=1735734237188
+2025-05-31 18:27:53,042 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+Modified+LIC%27s+Bima+Ratna.pdf/49525640-7aff-f1a1-ee40-332fbfeb70ae?t=1737017716910
+2025-05-31 18:27:53,355 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1453427/Lic+NEW+Bima+Ratna++Broucher+sales+Brochure.pdf/d83ed6c2-e2d9-d979-e67a-56552be1ca1a?t=1745299340107
+2025-05-31 18:27:53,528 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Bima+Ratna.pdf/f226fbd1-f32f-1407-6fc1-f38c83974f2b?t=1735734237188
+2025-05-31 18:27:53,807 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/CIS+Modified+LIC%27s+Bima+Ratna.pdf/49525640-7aff-f1a1-ee40-332fbfeb70ae?t=1737017716910
+2025-05-31 18:27:54,013 - LIC_Scraper - INFO - Completed scraping LICs Bima Ratna - Completeness: 100.00%
+2025-05-31 18:27:54,013 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Digi Term
+2025-05-31 18:27:59,330 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:27:59,332 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Digi+Term+-+Sales+Brochure_April+25.pdf/31117c26-5e06-2f66-3c21-d92610e51051?t=1744863655602
+2025-05-31 18:27:59,885 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:27:59,886 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_Digi+Term_V02.pdf/0797393b-4ddf-ac11-6cf2-a0fdea86d82c?t=1732264538490
+2025-05-31 18:28:00,426 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Digi Term (Content is in English)
+2025-05-31 18:28:00,426 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_LIC%27s+Digi+Term_V02.pdf/79767c5c-ef43-8235-3342-7198e872fb3c?t=1732265278643
+2025-05-31 18:28:00,644 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Digi+Term+-+Sales+Brochure_April+25.pdf/31117c26-5e06-2f66-3c21-d92610e51051?t=1744863655602
+2025-05-31 18:28:01,137 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_Digi+Term_V02.pdf/0797393b-4ddf-ac11-6cf2-a0fdea86d82c?t=1732264538490
+2025-05-31 18:28:01,871 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_LIC%27s+Digi+Term_V02.pdf/79767c5c-ef43-8235-3342-7198e872fb3c?t=1732265278643
+2025-05-31 18:28:02,100 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Digi+Term+-+Sales+Brochure_April+25.pdf/31117c26-5e06-2f66-3c21-d92610e51051?t=1744863655602
+2025-05-31 18:28:02,500 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_Digi+Term_V02.pdf/0797393b-4ddf-ac11-6cf2-a0fdea86d82c?t=1732264538490
+2025-05-31 18:28:03,011 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_LIC%27s+Digi+Term_V02.pdf/79767c5c-ef43-8235-3342-7198e872fb3c?t=1732265278643
+2025-05-31 18:28:03,238 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Digi+Term+-+Sales+Brochure_April+25.pdf/31117c26-5e06-2f66-3c21-d92610e51051?t=1744863655602
+2025-05-31 18:28:03,617 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_Digi+Term_V02.pdf/0797393b-4ddf-ac11-6cf2-a0fdea86d82c?t=1732264538490
+2025-05-31 18:28:04,108 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_LIC%27s+Digi+Term_V02.pdf/79767c5c-ef43-8235-3342-7198e872fb3c?t=1732265278643
+2025-05-31 18:28:04,339 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Digi+Term+-+Sales+Brochure_April+25.pdf/31117c26-5e06-2f66-3c21-d92610e51051?t=1744863655602
+2025-05-31 18:28:04,719 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_Digi+Term_V02.pdf/0797393b-4ddf-ac11-6cf2-a0fdea86d82c?t=1732264538490
+2025-05-31 18:28:05,223 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_LIC%27s+Digi+Term_V02.pdf/79767c5c-ef43-8235-3342-7198e872fb3c?t=1732265278643
+2025-05-31 18:28:05,451 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Digi+Term+-+Sales+Brochure_April+25.pdf/31117c26-5e06-2f66-3c21-d92610e51051?t=1744863655602
+2025-05-31 18:28:05,581 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_Digi+Term_V02.pdf/0797393b-4ddf-ac11-6cf2-a0fdea86d82c?t=1732264538490
+2025-05-31 18:28:05,752 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_LIC%27s+Digi+Term_V02.pdf/79767c5c-ef43-8235-3342-7198e872fb3c?t=1732265278643
+2025-05-31 18:28:05,910 - LIC_Scraper - INFO - Completed scraping LICs Digi Term - Completeness: 100.00%
+2025-05-31 18:28:05,910 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Digi Credit Life
+2025-05-31 18:28:11,406 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochures (Content is in English)
+2025-05-31 18:28:11,407 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/LIC_Digi+Credit_Sales+Brochure_4+inch+x+9+inch_Eng.pdf/57715740-ba0f-8e2d-6188-0b5bfee6d873?t=1729742472911
+2025-05-31 18:28:12,441 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:28:12,441 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_Digi+Credit+Life_CC.pdf/e41289c6-019a-c17f-081e-469d0f93394e?t=1728050234197
+2025-05-31 18:28:12,948 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Digi Credit Life (Content is in English)
+2025-05-31 18:28:12,948 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_Digi+Credit+Life.pdf/59316e1b-bd7a-1324-b8d8-41c85766c9fc?t=1728124364508
+2025-05-31 18:28:13,180 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/LIC_Digi+Credit_Sales+Brochure_4+inch+x+9+inch_Eng.pdf/57715740-ba0f-8e2d-6188-0b5bfee6d873?t=1729742472911
+2025-05-31 18:28:14,200 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_Digi+Credit+Life_CC.pdf/e41289c6-019a-c17f-081e-469d0f93394e?t=1728050234197
+2025-05-31 18:28:14,681 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_Digi+Credit+Life.pdf/59316e1b-bd7a-1324-b8d8-41c85766c9fc?t=1728124364508
+2025-05-31 18:28:14,926 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/LIC_Digi+Credit_Sales+Brochure_4+inch+x+9+inch_Eng.pdf/57715740-ba0f-8e2d-6188-0b5bfee6d873?t=1729742472911
+2025-05-31 18:28:15,959 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_Digi+Credit+Life_CC.pdf/e41289c6-019a-c17f-081e-469d0f93394e?t=1728050234197
+2025-05-31 18:28:16,446 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_Digi+Credit+Life.pdf/59316e1b-bd7a-1324-b8d8-41c85766c9fc?t=1728124364508
+2025-05-31 18:28:16,683 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/LIC_Digi+Credit_Sales+Brochure_4+inch+x+9+inch_Eng.pdf/57715740-ba0f-8e2d-6188-0b5bfee6d873?t=1729742472911
+2025-05-31 18:28:17,690 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_Digi+Credit+Life_CC.pdf/e41289c6-019a-c17f-081e-469d0f93394e?t=1728050234197
+2025-05-31 18:28:18,175 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_Digi+Credit+Life.pdf/59316e1b-bd7a-1324-b8d8-41c85766c9fc?t=1728124364508
+2025-05-31 18:28:18,403 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/LIC_Digi+Credit_Sales+Brochure_4+inch+x+9+inch_Eng.pdf/57715740-ba0f-8e2d-6188-0b5bfee6d873?t=1729742472911
+2025-05-31 18:28:19,458 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_Digi+Credit+Life_CC.pdf/e41289c6-019a-c17f-081e-469d0f93394e?t=1728050234197
+2025-05-31 18:28:20,038 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_Digi+Credit+Life.pdf/59316e1b-bd7a-1324-b8d8-41c85766c9fc?t=1728124364508
+2025-05-31 18:28:20,292 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/LIC_Digi+Credit_Sales+Brochure_4+inch+x+9+inch_Eng.pdf/57715740-ba0f-8e2d-6188-0b5bfee6d873?t=1729742472911
+2025-05-31 18:28:21,231 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_Digi+Credit+Life_CC.pdf/e41289c6-019a-c17f-081e-469d0f93394e?t=1728050234197
+2025-05-31 18:28:21,374 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_Digi+Credit+Life.pdf/59316e1b-bd7a-1324-b8d8-41c85766c9fc?t=1728124364508
+2025-05-31 18:28:21,521 - LIC_Scraper - INFO - Completed scraping LICs Digi Credit Life - Completeness: 100.00%
+2025-05-31 18:28:21,523 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Yuva Credit Life
+2025-05-31 18:28:26,869 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:28:26,870 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Lic+leaflet+Yuva+Credit+4x9+inches+wxh.pdf/45e68d86-f84d-6eba-9b17-07f07b44f7fc?t=1729488505828
+2025-05-31 18:28:27,814 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:28:27,815 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_Yuva+Credit+Life_CC.pdf/733fc9e6-b967-a6f7-d34f-22a75547b300?t=1728050321091
+2025-05-31 18:28:28,419 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Yuva Credit Life (Content is in English)
+2025-05-31 18:28:28,419 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_Yuva+Credit+Life.pdf/40ef3f11-028d-54bf-dfaa-7093e7844be1?t=1728124402559
+2025-05-31 18:28:28,666 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Lic+leaflet+Yuva+Credit+4x9+inches+wxh.pdf/45e68d86-f84d-6eba-9b17-07f07b44f7fc?t=1729488505828
+2025-05-31 18:28:29,365 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_Yuva+Credit+Life_CC.pdf/733fc9e6-b967-a6f7-d34f-22a75547b300?t=1728050321091
+2025-05-31 18:28:29,931 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_Yuva+Credit+Life.pdf/40ef3f11-028d-54bf-dfaa-7093e7844be1?t=1728124402559
+2025-05-31 18:28:30,162 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Lic+leaflet+Yuva+Credit+4x9+inches+wxh.pdf/45e68d86-f84d-6eba-9b17-07f07b44f7fc?t=1729488505828
+2025-05-31 18:28:30,847 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_Yuva+Credit+Life_CC.pdf/733fc9e6-b967-a6f7-d34f-22a75547b300?t=1728050321091
+2025-05-31 18:28:31,390 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_Yuva+Credit+Life.pdf/40ef3f11-028d-54bf-dfaa-7093e7844be1?t=1728124402559
+2025-05-31 18:28:31,620 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Lic+leaflet+Yuva+Credit+4x9+inches+wxh.pdf/45e68d86-f84d-6eba-9b17-07f07b44f7fc?t=1729488505828
+2025-05-31 18:28:32,320 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_Yuva+Credit+Life_CC.pdf/733fc9e6-b967-a6f7-d34f-22a75547b300?t=1728050321091
+2025-05-31 18:28:32,876 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_Yuva+Credit+Life.pdf/40ef3f11-028d-54bf-dfaa-7093e7844be1?t=1728124402559
+2025-05-31 18:28:33,108 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Lic+leaflet+Yuva+Credit+4x9+inches+wxh.pdf/45e68d86-f84d-6eba-9b17-07f07b44f7fc?t=1729488505828
+2025-05-31 18:28:34,061 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_Yuva+Credit+Life_CC.pdf/733fc9e6-b967-a6f7-d34f-22a75547b300?t=1728050321091
+2025-05-31 18:28:34,624 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_Yuva+Credit+Life.pdf/40ef3f11-028d-54bf-dfaa-7093e7844be1?t=1728124402559
+2025-05-31 18:28:34,852 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Lic+leaflet+Yuva+Credit+4x9+inches+wxh.pdf/45e68d86-f84d-6eba-9b17-07f07b44f7fc?t=1729488505828
+2025-05-31 18:28:35,300 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_Yuva+Credit+Life_CC.pdf/733fc9e6-b967-a6f7-d34f-22a75547b300?t=1728050321091
+2025-05-31 18:28:35,507 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_Yuva+Credit+Life.pdf/40ef3f11-028d-54bf-dfaa-7093e7844be1?t=1728124402559
+2025-05-31 18:28:35,656 - LIC_Scraper - INFO - Completed scraping LICs Yuva Credit Life - Completeness: 100.00%
+2025-05-31 18:28:35,656 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Yuva Term
+2025-05-31 18:28:41,190 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochures (Content is in English)
+2025-05-31 18:28:41,191 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Lic+leaflet+Yuva+Term+4x9+inches+wxh+single+pages.pdf/3e537a91-d30b-8e99-0725-a74394037652?t=1744865534516
+2025-05-31 18:28:41,952 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:28:41,952 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_Yuva+Term_V02.pdf/7c96542e-ad37-156d-7aaf-d1a03e8feaf4?t=1732264539340
+2025-05-31 18:28:42,510 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Yuva Term (Content is in English)
+2025-05-31 18:28:42,510 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_LIC%27s+Yuva+Term_V02.pdf/4bbdc34c-2d70-8161-4524-62957ecd59eb?t=1732265278001
+2025-05-31 18:28:42,914 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Lic+leaflet+Yuva+Term+4x9+inches+wxh+single+pages.pdf/3e537a91-d30b-8e99-0725-a74394037652?t=1744865534516
+2025-05-31 18:28:43,523 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_Yuva+Term_V02.pdf/7c96542e-ad37-156d-7aaf-d1a03e8feaf4?t=1732264539340
+2025-05-31 18:28:44,082 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_LIC%27s+Yuva+Term_V02.pdf/4bbdc34c-2d70-8161-4524-62957ecd59eb?t=1732265278001
+2025-05-31 18:28:44,462 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Lic+leaflet+Yuva+Term+4x9+inches+wxh+single+pages.pdf/3e537a91-d30b-8e99-0725-a74394037652?t=1744865534516
+2025-05-31 18:28:45,078 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_Yuva+Term_V02.pdf/7c96542e-ad37-156d-7aaf-d1a03e8feaf4?t=1732264539340
+2025-05-31 18:28:45,657 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_LIC%27s+Yuva+Term_V02.pdf/4bbdc34c-2d70-8161-4524-62957ecd59eb?t=1732265278001
+2025-05-31 18:28:45,889 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Lic+leaflet+Yuva+Term+4x9+inches+wxh+single+pages.pdf/3e537a91-d30b-8e99-0725-a74394037652?t=1744865534516
+2025-05-31 18:28:46,492 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_Yuva+Term_V02.pdf/7c96542e-ad37-156d-7aaf-d1a03e8feaf4?t=1732264539340
+2025-05-31 18:28:46,990 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_LIC%27s+Yuva+Term_V02.pdf/4bbdc34c-2d70-8161-4524-62957ecd59eb?t=1732265278001
+2025-05-31 18:28:47,219 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Lic+leaflet+Yuva+Term+4x9+inches+wxh+single+pages.pdf/3e537a91-d30b-8e99-0725-a74394037652?t=1744865534516
+2025-05-31 18:28:47,867 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_Yuva+Term_V02.pdf/7c96542e-ad37-156d-7aaf-d1a03e8feaf4?t=1732264539340
+2025-05-31 18:28:48,375 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_LIC%27s+Yuva+Term_V02.pdf/4bbdc34c-2d70-8161-4524-62957ecd59eb?t=1732265278001
+2025-05-31 18:28:48,600 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Lic+leaflet+Yuva+Term+4x9+inches+wxh+single+pages.pdf/3e537a91-d30b-8e99-0725-a74394037652?t=1744865534516
+2025-05-31 18:28:48,940 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_Yuva+Term_V02.pdf/7c96542e-ad37-156d-7aaf-d1a03e8feaf4?t=1732264539340
+2025-05-31 18:28:49,120 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_LIC%27s+Yuva+Term_V02.pdf/4bbdc34c-2d70-8161-4524-62957ecd59eb?t=1732265278001
+2025-05-31 18:28:49,414 - LIC_Scraper - INFO - Completed scraping LICs Yuva Term - Completeness: 100.00%
+2025-05-31 18:28:49,416 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs New Tech-Term
+2025-05-31 18:28:54,857 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:28:54,857 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/290753/LIC_New+Tech+Term_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/d75b9948-b9e3-2ba1-9886-066a1bee6909?t=1741085687365
+2025-05-31 18:28:54,991 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:28:54,991 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+document_LIC%27s_New+Tech-Term_V02.pdf/0880e486-f66a-4d65-6c4b-9bc45253de0e?t=1732264536744
+2025-05-31 18:28:55,569 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs New Tech-Term (Content is in English)
+2025-05-31 18:28:55,569 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_New+Tech+Term_V02.pdf/d9dca1e6-c360-8a1d-2aa3-284126e855ae?t=1732265279868
+2025-05-31 18:28:55,811 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/290753/LIC_New+Tech+Term_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/d75b9948-b9e3-2ba1-9886-066a1bee6909?t=1741085687365
+2025-05-31 18:28:55,934 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+document_LIC%27s_New+Tech-Term_V02.pdf/0880e486-f66a-4d65-6c4b-9bc45253de0e?t=1732264536744
+2025-05-31 18:28:56,495 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_New+Tech+Term_V02.pdf/d9dca1e6-c360-8a1d-2aa3-284126e855ae?t=1732265279868
+2025-05-31 18:28:56,710 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/290753/LIC_New+Tech+Term_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/d75b9948-b9e3-2ba1-9886-066a1bee6909?t=1741085687365
+2025-05-31 18:28:56,837 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+document_LIC%27s_New+Tech-Term_V02.pdf/0880e486-f66a-4d65-6c4b-9bc45253de0e?t=1732264536744
+2025-05-31 18:28:57,399 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_New+Tech+Term_V02.pdf/d9dca1e6-c360-8a1d-2aa3-284126e855ae?t=1732265279868
+2025-05-31 18:28:57,614 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/290753/LIC_New+Tech+Term_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/d75b9948-b9e3-2ba1-9886-066a1bee6909?t=1741085687365
+2025-05-31 18:28:57,746 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+document_LIC%27s_New+Tech-Term_V02.pdf/0880e486-f66a-4d65-6c4b-9bc45253de0e?t=1732264536744
+2025-05-31 18:28:58,284 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_New+Tech+Term_V02.pdf/d9dca1e6-c360-8a1d-2aa3-284126e855ae?t=1732265279868
+2025-05-31 18:28:58,579 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/290753/LIC_New+Tech+Term_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/d75b9948-b9e3-2ba1-9886-066a1bee6909?t=1741085687365
+2025-05-31 18:28:58,718 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+document_LIC%27s_New+Tech-Term_V02.pdf/0880e486-f66a-4d65-6c4b-9bc45253de0e?t=1732264536744
+2025-05-31 18:28:59,279 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_New+Tech+Term_V02.pdf/d9dca1e6-c360-8a1d-2aa3-284126e855ae?t=1732265279868
+2025-05-31 18:28:59,493 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/290753/LIC_New+Tech+Term_Sales+Brochure_4+inch+x+9+inch_Eng+%282%29.pdf/d75b9948-b9e3-2ba1-9886-066a1bee6909?t=1741085687365
+2025-05-31 18:28:59,560 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+document_LIC%27s_New+Tech-Term_V02.pdf/0880e486-f66a-4d65-6c4b-9bc45253de0e?t=1732264536744
+2025-05-31 18:28:59,791 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS+_New+Tech+Term_V02.pdf/d9dca1e6-c360-8a1d-2aa3-284126e855ae?t=1732265279868
+2025-05-31 18:28:59,939 - LIC_Scraper - INFO - Completed scraping LICs New Tech-Term - Completeness: 100.00%
+2025-05-31 18:28:59,939 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs New Jeevan Amar
+2025-05-31 18:29:05,317 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:29:05,318 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/955-512N350V02NewJeevanAmar.pdf/5a2e1a97-66f7-7f29-119e-da18eaf81af4?t=1737104876609
+2025-05-31 18:29:05,645 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:29:05,645 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_New+Jeevan_Amar_V02.pdf/b72baa47-06ec-6d0b-d095-1364b9cac84e?t=1732264537689
+2025-05-31 18:29:06,154 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs New Jeevan Amar (Content is in English)
+2025-05-31 18:29:06,154 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_New+Jeevan+Amar_V02.pdf/f2b88488-0e2e-4ef0-9aee-822a3ed58701?t=1732265279263
+2025-05-31 18:29:06,381 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/955-512N350V02NewJeevanAmar.pdf/5a2e1a97-66f7-7f29-119e-da18eaf81af4?t=1737104876609
+2025-05-31 18:29:06,713 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_New+Jeevan_Amar_V02.pdf/b72baa47-06ec-6d0b-d095-1364b9cac84e?t=1732264537689
+2025-05-31 18:29:07,218 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_New+Jeevan+Amar_V02.pdf/f2b88488-0e2e-4ef0-9aee-822a3ed58701?t=1732265279263
+2025-05-31 18:29:07,446 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/955-512N350V02NewJeevanAmar.pdf/5a2e1a97-66f7-7f29-119e-da18eaf81af4?t=1737104876609
+2025-05-31 18:29:07,778 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_New+Jeevan_Amar_V02.pdf/b72baa47-06ec-6d0b-d095-1364b9cac84e?t=1732264537689
+2025-05-31 18:29:08,278 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_New+Jeevan+Amar_V02.pdf/f2b88488-0e2e-4ef0-9aee-822a3ed58701?t=1732265279263
+2025-05-31 18:29:08,504 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/955-512N350V02NewJeevanAmar.pdf/5a2e1a97-66f7-7f29-119e-da18eaf81af4?t=1737104876609
+2025-05-31 18:29:08,897 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_New+Jeevan_Amar_V02.pdf/b72baa47-06ec-6d0b-d095-1364b9cac84e?t=1732264537689
+2025-05-31 18:29:09,386 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_New+Jeevan+Amar_V02.pdf/f2b88488-0e2e-4ef0-9aee-822a3ed58701?t=1732265279263
+2025-05-31 18:29:09,613 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/955-512N350V02NewJeevanAmar.pdf/5a2e1a97-66f7-7f29-119e-da18eaf81af4?t=1737104876609
+2025-05-31 18:29:09,949 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_New+Jeevan_Amar_V02.pdf/b72baa47-06ec-6d0b-d095-1364b9cac84e?t=1732264537689
+2025-05-31 18:29:10,444 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_New+Jeevan+Amar_V02.pdf/f2b88488-0e2e-4ef0-9aee-822a3ed58701?t=1732265279263
+2025-05-31 18:29:10,669 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/955-512N350V02NewJeevanAmar.pdf/5a2e1a97-66f7-7f29-119e-da18eaf81af4?t=1737104876609
+2025-05-31 18:29:10,825 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/Policy+Document_LIC%27s_New+Jeevan_Amar_V02.pdf/b72baa47-06ec-6d0b-d095-1364b9cac84e?t=1732264537689
+2025-05-31 18:29:10,984 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1243736/CIS_New+Jeevan+Amar_V02.pdf/f2b88488-0e2e-4ef0-9aee-822a3ed58701?t=1732265279263
+2025-05-31 18:29:11,128 - LIC_Scraper - INFO - Completed scraping LICs New Jeevan Amar - Completeness: 100.00%
+2025-05-31 18:29:11,129 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Saral Jeevan Bima
+2025-05-31 18:29:16,441 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:29:16,441 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/109201/LIC+Saral+Jeevan+Bima_Sales+Brochure_JAN+2025-ENG+%281%29.pdf/6bf4adf9-cce3-cf1b-c073-5d9b10b46b4f?t=1744018530535
+2025-05-31 18:29:16,715 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:29:16,716 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Saral+Jeevan+Bima.pdf/3662a2c9-3ee1-9997-b83a-a7c08592b860?t=1735734237927
+2025-05-31 18:29:17,298 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Saral Jeevan Bima (Content is in English)
+2025-05-31 18:29:17,299 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Modified_Sales+Brochure+LIC%27s+Saral+Jeevan+Bima+%281%29.pdf/57990dd4-501b-4c99-529e-0535785a3dde?t=1741863748516
+2025-05-31 18:29:17,711 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/109201/LIC+Saral+Jeevan+Bima_Sales+Brochure_JAN+2025-ENG+%281%29.pdf/6bf4adf9-cce3-cf1b-c073-5d9b10b46b4f?t=1744018530535
+2025-05-31 18:29:17,965 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Saral+Jeevan+Bima.pdf/3662a2c9-3ee1-9997-b83a-a7c08592b860?t=1735734237927
+2025-05-31 18:29:18,544 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Modified_Sales+Brochure+LIC%27s+Saral+Jeevan+Bima+%281%29.pdf/57990dd4-501b-4c99-529e-0535785a3dde?t=1741863748516
+2025-05-31 18:29:19,040 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/109201/LIC+Saral+Jeevan+Bima_Sales+Brochure_JAN+2025-ENG+%281%29.pdf/6bf4adf9-cce3-cf1b-c073-5d9b10b46b4f?t=1744018530535
+2025-05-31 18:29:19,293 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Saral+Jeevan+Bima.pdf/3662a2c9-3ee1-9997-b83a-a7c08592b860?t=1735734237927
+2025-05-31 18:29:19,857 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Modified_Sales+Brochure+LIC%27s+Saral+Jeevan+Bima+%281%29.pdf/57990dd4-501b-4c99-529e-0535785a3dde?t=1741863748516
+2025-05-31 18:29:20,255 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/109201/LIC+Saral+Jeevan+Bima_Sales+Brochure_JAN+2025-ENG+%281%29.pdf/6bf4adf9-cce3-cf1b-c073-5d9b10b46b4f?t=1744018530535
+2025-05-31 18:29:20,550 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Saral+Jeevan+Bima.pdf/3662a2c9-3ee1-9997-b83a-a7c08592b860?t=1735734237927
+2025-05-31 18:29:21,108 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Modified_Sales+Brochure+LIC%27s+Saral+Jeevan+Bima+%281%29.pdf/57990dd4-501b-4c99-529e-0535785a3dde?t=1741863748516
+2025-05-31 18:29:21,500 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/109201/LIC+Saral+Jeevan+Bima_Sales+Brochure_JAN+2025-ENG+%281%29.pdf/6bf4adf9-cce3-cf1b-c073-5d9b10b46b4f?t=1744018530535
+2025-05-31 18:29:21,754 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Saral+Jeevan+Bima.pdf/3662a2c9-3ee1-9997-b83a-a7c08592b860?t=1735734237927
+2025-05-31 18:29:22,328 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Modified_Sales+Brochure+LIC%27s+Saral+Jeevan+Bima+%281%29.pdf/57990dd4-501b-4c99-529e-0535785a3dde?t=1741863748516
+2025-05-31 18:29:22,741 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/109201/LIC+Saral+Jeevan+Bima_Sales+Brochure_JAN+2025-ENG+%281%29.pdf/6bf4adf9-cce3-cf1b-c073-5d9b10b46b4f?t=1744018530535
+2025-05-31 18:29:22,858 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document+Modified+LIC%27s+Saral+Jeevan+Bima.pdf/3662a2c9-3ee1-9997-b83a-a7c08592b860?t=1735734237927
+2025-05-31 18:29:23,121 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Modified_Sales+Brochure+LIC%27s+Saral+Jeevan+Bima+%281%29.pdf/57990dd4-501b-4c99-529e-0535785a3dde?t=1741863748516
+2025-05-31 18:29:23,370 - LIC_Scraper - INFO - Completed scraping LICs Saral Jeevan Bima - Completeness: 100.00%
+2025-05-31 18:29:23,370 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Accident Benefit Rider
+2025-05-31 18:29:28,740 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:29:28,741 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_AB+Rider-V03-01102024-withlogo.pdf/6e08f9ea-cdef-167b-2660-de8bc21a95ed?t=1729677682733
+2025-05-31 18:29:29,002 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:29:29,003 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Sales+Brochure_AB+Rider_cc.pdf/bc81836e-fa48-8c62-4abf-cf6a85aa7d3f?t=1737971251495
+2025-05-31 18:29:29,244 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_AB+Rider-V03-01102024-withlogo.pdf/6e08f9ea-cdef-167b-2660-de8bc21a95ed?t=1729677682733
+2025-05-31 18:29:29,505 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Sales+Brochure_AB+Rider_cc.pdf/bc81836e-fa48-8c62-4abf-cf6a85aa7d3f?t=1737971251495
+2025-05-31 18:29:29,732 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_AB+Rider-V03-01102024-withlogo.pdf/6e08f9ea-cdef-167b-2660-de8bc21a95ed?t=1729677682733
+2025-05-31 18:29:30,011 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Sales+Brochure_AB+Rider_cc.pdf/bc81836e-fa48-8c62-4abf-cf6a85aa7d3f?t=1737971251495
+2025-05-31 18:29:30,245 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_AB+Rider-V03-01102024-withlogo.pdf/6e08f9ea-cdef-167b-2660-de8bc21a95ed?t=1729677682733
+2025-05-31 18:29:30,490 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Sales+Brochure_AB+Rider_cc.pdf/bc81836e-fa48-8c62-4abf-cf6a85aa7d3f?t=1737971251495
+2025-05-31 18:29:30,716 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_AB+Rider-V03-01102024-withlogo.pdf/6e08f9ea-cdef-167b-2660-de8bc21a95ed?t=1729677682733
+2025-05-31 18:29:30,958 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Sales+Brochure_AB+Rider_cc.pdf/bc81836e-fa48-8c62-4abf-cf6a85aa7d3f?t=1737971251495
+2025-05-31 18:29:31,185 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_AB+Rider-V03-01102024-withlogo.pdf/6e08f9ea-cdef-167b-2660-de8bc21a95ed?t=1729677682733
+2025-05-31 18:29:31,332 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Sales+Brochure_AB+Rider_cc.pdf/bc81836e-fa48-8c62-4abf-cf6a85aa7d3f?t=1737971251495
+2025-05-31 18:29:31,464 - LIC_Scraper - INFO - Completed scraping LICs Accident Benefit Rider - Completeness: 100.00%
+2025-05-31 18:29:31,464 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Premium Waiver Benefit Rider
+2025-05-31 18:29:37,171 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochures (Content is in English)
+2025-05-31 18:29:37,173 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/Sales+Brouchure+PremiumWaiverBenefit+Rider-Single.pdf/10e6b25f-3bfb-4cc8-786f-2b73cbc035f8?t=1734507808114
+2025-05-31 18:29:37,391 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:29:37,391 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_PWB+Rider-V04-withlogo.pdf/23833609-66a6-4204-cafe-567826cb1f08?t=1729681502430
+2025-05-31 18:29:37,698 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/Sales+Brouchure+PremiumWaiverBenefit+Rider-Single.pdf/10e6b25f-3bfb-4cc8-786f-2b73cbc035f8?t=1734507808114
+2025-05-31 18:29:37,776 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_PWB+Rider-V04-withlogo.pdf/23833609-66a6-4204-cafe-567826cb1f08?t=1729681502430
+2025-05-31 18:29:38,087 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/Sales+Brouchure+PremiumWaiverBenefit+Rider-Single.pdf/10e6b25f-3bfb-4cc8-786f-2b73cbc035f8?t=1734507808114
+2025-05-31 18:29:38,167 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_PWB+Rider-V04-withlogo.pdf/23833609-66a6-4204-cafe-567826cb1f08?t=1729681502430
+2025-05-31 18:29:38,462 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/Sales+Brouchure+PremiumWaiverBenefit+Rider-Single.pdf/10e6b25f-3bfb-4cc8-786f-2b73cbc035f8?t=1734507808114
+2025-05-31 18:29:38,557 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_PWB+Rider-V04-withlogo.pdf/23833609-66a6-4204-cafe-567826cb1f08?t=1729681502430
+2025-05-31 18:29:38,853 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/Sales+Brouchure+PremiumWaiverBenefit+Rider-Single.pdf/10e6b25f-3bfb-4cc8-786f-2b73cbc035f8?t=1734507808114
+2025-05-31 18:29:38,933 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_PWB+Rider-V04-withlogo.pdf/23833609-66a6-4204-cafe-567826cb1f08?t=1729681502430
+2025-05-31 18:29:39,240 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/Sales+Brouchure+PremiumWaiverBenefit+Rider-Single.pdf/10e6b25f-3bfb-4cc8-786f-2b73cbc035f8?t=1734507808114
+2025-05-31 18:29:39,271 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_PWB+Rider-V04-withlogo.pdf/23833609-66a6-4204-cafe-567826cb1f08?t=1729681502430
+2025-05-31 18:29:39,490 - LIC_Scraper - INFO - Completed scraping LICs Premium Waiver Benefit Rider - Completeness: 100.00%
+2025-05-31 18:29:39,490 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Accidental Death & Disability Benefit Rider
+2025-05-31 18:29:45,030 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochures (Content is in English)
+2025-05-31 18:29:45,030 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/102260_Accidental+Death+and+Disability+Benefit+Rider+Sales+Brochure.pdf/82f5f72b-735c-e43f-9377-46f194db4a50?t=1729168109648
+2025-05-31 18:29:45,253 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:29:45,253 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_ADDB+Rider-V02-01102024-withlogo.pdf/eba1e07c-d686-0a8c-b07c-42b7ab2e3570?t=1729680996492
+2025-05-31 18:29:45,799 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/102260_Accidental+Death+and+Disability+Benefit+Rider+Sales+Brochure.pdf/82f5f72b-735c-e43f-9377-46f194db4a50?t=1729168109648
+2025-05-31 18:29:46,008 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_ADDB+Rider-V02-01102024-withlogo.pdf/eba1e07c-d686-0a8c-b07c-42b7ab2e3570?t=1729680996492
+2025-05-31 18:29:46,377 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/102260_Accidental+Death+and+Disability+Benefit+Rider+Sales+Brochure.pdf/82f5f72b-735c-e43f-9377-46f194db4a50?t=1729168109648
+2025-05-31 18:29:46,605 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_ADDB+Rider-V02-01102024-withlogo.pdf/eba1e07c-d686-0a8c-b07c-42b7ab2e3570?t=1729680996492
+2025-05-31 18:29:46,980 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/102260_Accidental+Death+and+Disability+Benefit+Rider+Sales+Brochure.pdf/82f5f72b-735c-e43f-9377-46f194db4a50?t=1729168109648
+2025-05-31 18:29:47,217 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_ADDB+Rider-V02-01102024-withlogo.pdf/eba1e07c-d686-0a8c-b07c-42b7ab2e3570?t=1729680996492
+2025-05-31 18:29:47,587 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/102260_Accidental+Death+and+Disability+Benefit+Rider+Sales+Brochure.pdf/82f5f72b-735c-e43f-9377-46f194db4a50?t=1729168109648
+2025-05-31 18:29:47,796 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_ADDB+Rider-V02-01102024-withlogo.pdf/eba1e07c-d686-0a8c-b07c-42b7ab2e3570?t=1729680996492
+2025-05-31 18:29:48,182 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/102260_Accidental+Death+and+Disability+Benefit+Rider+Sales+Brochure.pdf/82f5f72b-735c-e43f-9377-46f194db4a50?t=1729168109648
+2025-05-31 18:29:48,320 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_ADDB+Rider-V02-01102024-withlogo.pdf/eba1e07c-d686-0a8c-b07c-42b7ab2e3570?t=1729680996492
+2025-05-31 18:29:48,557 - LIC_Scraper - INFO - Completed scraping LICs Accidental Death & Disability Benefit Rider - Completeness: 100.00%
+2025-05-31 18:29:48,557 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs New Term Assurance Rider
+2025-05-31 18:29:53,898 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochures (Content is in English)
+2025-05-31 18:29:53,899 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/109351/LIC_New+Term+Assurance+Rider_Sales+Brochure_4+inch+x+9+inch_Eng+Single.pdf/1277b12e-5629-ea25-8be1-fcb8be848c9e?t=1738141294083
+2025-05-31 18:29:54,143 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:29:54,143 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Final+Pol_Endorsement+Modified+TAR_V02_12112024.pdf/492138bb-8a57-fc64-7857-2f2b0d3a4008?t=1731407841417
+2025-05-31 18:29:54,363 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/109351/LIC_New+Term+Assurance+Rider_Sales+Brochure_4+inch+x+9+inch_Eng+Single.pdf/1277b12e-5629-ea25-8be1-fcb8be848c9e?t=1738141294083
+2025-05-31 18:29:54,491 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Final+Pol_Endorsement+Modified+TAR_V02_12112024.pdf/492138bb-8a57-fc64-7857-2f2b0d3a4008?t=1731407841417
+2025-05-31 18:29:54,718 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/109351/LIC_New+Term+Assurance+Rider_Sales+Brochure_4+inch+x+9+inch_Eng+Single.pdf/1277b12e-5629-ea25-8be1-fcb8be848c9e?t=1738141294083
+2025-05-31 18:29:54,839 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Final+Pol_Endorsement+Modified+TAR_V02_12112024.pdf/492138bb-8a57-fc64-7857-2f2b0d3a4008?t=1731407841417
+2025-05-31 18:29:55,070 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/109351/LIC_New+Term+Assurance+Rider_Sales+Brochure_4+inch+x+9+inch_Eng+Single.pdf/1277b12e-5629-ea25-8be1-fcb8be848c9e?t=1738141294083
+2025-05-31 18:29:55,187 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Final+Pol_Endorsement+Modified+TAR_V02_12112024.pdf/492138bb-8a57-fc64-7857-2f2b0d3a4008?t=1731407841417
+2025-05-31 18:29:55,416 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/109351/LIC_New+Term+Assurance+Rider_Sales+Brochure_4+inch+x+9+inch_Eng+Single.pdf/1277b12e-5629-ea25-8be1-fcb8be848c9e?t=1738141294083
+2025-05-31 18:29:55,533 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Final+Pol_Endorsement+Modified+TAR_V02_12112024.pdf/492138bb-8a57-fc64-7857-2f2b0d3a4008?t=1731407841417
+2025-05-31 18:29:55,750 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/109351/LIC_New+Term+Assurance+Rider_Sales+Brochure_4+inch+x+9+inch_Eng+Single.pdf/1277b12e-5629-ea25-8be1-fcb8be848c9e?t=1738141294083
+2025-05-31 18:29:55,795 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Final+Pol_Endorsement+Modified+TAR_V02_12112024.pdf/492138bb-8a57-fc64-7857-2f2b0d3a4008?t=1731407841417
+2025-05-31 18:29:55,917 - LIC_Scraper - INFO - Completed scraping LICs New Term Assurance Rider - Completeness: 100.00%
+2025-05-31 18:29:55,917 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Linked Accidental Death Benefit Rider
+2025-05-31 18:30:01,410 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochures (Content is in English)
+2025-05-31 18:30:01,411 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/102259+LIC_Linked+Accident+Benefit+Rider+Sales+Brochure_OCT+24.pdf/30b31c1c-fc8d-5f78-45a7-9b6b07e9c7f6?t=1729168072699
+2025-05-31 18:30:01,557 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:30:01,557 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_LinkedAB+Rider-V02-01102024-withlogo.pdf/7e67a54d-9bdb-baa2-27e5-c1496be0ec59?t=1729681484008
+2025-05-31 18:30:01,813 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/102259+LIC_Linked+Accident+Benefit+Rider+Sales+Brochure_OCT+24.pdf/30b31c1c-fc8d-5f78-45a7-9b6b07e9c7f6?t=1729168072699
+2025-05-31 18:30:01,911 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_LinkedAB+Rider-V02-01102024-withlogo.pdf/7e67a54d-9bdb-baa2-27e5-c1496be0ec59?t=1729681484008
+2025-05-31 18:30:02,177 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/102259+LIC_Linked+Accident+Benefit+Rider+Sales+Brochure_OCT+24.pdf/30b31c1c-fc8d-5f78-45a7-9b6b07e9c7f6?t=1729168072699
+2025-05-31 18:30:02,270 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_LinkedAB+Rider-V02-01102024-withlogo.pdf/7e67a54d-9bdb-baa2-27e5-c1496be0ec59?t=1729681484008
+2025-05-31 18:30:02,534 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/102259+LIC_Linked+Accident+Benefit+Rider+Sales+Brochure_OCT+24.pdf/30b31c1c-fc8d-5f78-45a7-9b6b07e9c7f6?t=1729168072699
+2025-05-31 18:30:02,635 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_LinkedAB+Rider-V02-01102024-withlogo.pdf/7e67a54d-9bdb-baa2-27e5-c1496be0ec59?t=1729681484008
+2025-05-31 18:30:02,881 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/102259+LIC_Linked+Accident+Benefit+Rider+Sales+Brochure_OCT+24.pdf/30b31c1c-fc8d-5f78-45a7-9b6b07e9c7f6?t=1729168072699
+2025-05-31 18:30:02,973 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_LinkedAB+Rider-V02-01102024-withlogo.pdf/7e67a54d-9bdb-baa2-27e5-c1496be0ec59?t=1729681484008
+2025-05-31 18:30:03,230 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1256234/102259+LIC_Linked+Accident+Benefit+Rider+Sales+Brochure_OCT+24.pdf/30b31c1c-fc8d-5f78-45a7-9b6b07e9c7f6?t=1729168072699
+2025-05-31 18:30:03,267 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244453/RiderEndorsement_LinkedAB+Rider-V02-01102024-withlogo.pdf/7e67a54d-9bdb-baa2-27e5-c1496be0ec59?t=1729681484008
+2025-05-31 18:30:03,428 - LIC_Scraper - INFO - Completed scraping LICs Linked Accidental Death Benefit Rider - Completeness: 100.00%
+2025-05-31 18:30:06,726 - LIC_Scraper - INFO - Found 5 policies in category
+2025-05-31 18:30:06,726 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs New Pension Plus
+2025-05-31 18:30:12,065 - LIC_Scraper - INFO - Extracting features from PDF: Sales brochure (Content is in English)
+2025-05-31 18:30:12,067 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1455928/Lic+LIC%E2%80%99s+New+Pension+Plus++2024++4x9+inches+wxh+single+pages%5B75%5D+%281%29.pdf/d2ca3682-b2a0-ba76-6ffc-eb6762a35e96?t=1745392557635
+2025-05-31 18:30:12,705 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:30:12,705 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/Final+Pol+Doc+New+Pension+Plus_CC_01102024.pdf/f57e6272-c32e-50c0-6627-51bee9c38fe2?t=1728035859891
+2025-05-31 18:30:13,908 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs New Pension Plus (Content is in English)
+2025-05-31 18:30:13,909 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS_New+Pension+Plus_867.pdf/a5827c98-b9a5-caba-772a-cb7f89d1c574?t=1728037367755
+2025-05-31 18:30:14,287 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1455928/Lic+LIC%E2%80%99s+New+Pension+Plus++2024++4x9+inches+wxh+single+pages%5B75%5D+%281%29.pdf/d2ca3682-b2a0-ba76-6ffc-eb6762a35e96?t=1745392557635
+2025-05-31 18:30:14,895 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/Final+Pol+Doc+New+Pension+Plus_CC_01102024.pdf/f57e6272-c32e-50c0-6627-51bee9c38fe2?t=1728035859891
+2025-05-31 18:30:15,730 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS_New+Pension+Plus_867.pdf/a5827c98-b9a5-caba-772a-cb7f89d1c574?t=1728037367755
+2025-05-31 18:30:15,990 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1455928/Lic+LIC%E2%80%99s+New+Pension+Plus++2024++4x9+inches+wxh+single+pages%5B75%5D+%281%29.pdf/d2ca3682-b2a0-ba76-6ffc-eb6762a35e96?t=1745392557635
+2025-05-31 18:30:16,597 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/Final+Pol+Doc+New+Pension+Plus_CC_01102024.pdf/f57e6272-c32e-50c0-6627-51bee9c38fe2?t=1728035859891
+2025-05-31 18:30:17,523 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS_New+Pension+Plus_867.pdf/a5827c98-b9a5-caba-772a-cb7f89d1c574?t=1728037367755
+2025-05-31 18:30:17,794 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1455928/Lic+LIC%E2%80%99s+New+Pension+Plus++2024++4x9+inches+wxh+single+pages%5B75%5D+%281%29.pdf/d2ca3682-b2a0-ba76-6ffc-eb6762a35e96?t=1745392557635
+2025-05-31 18:30:18,460 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/Final+Pol+Doc+New+Pension+Plus_CC_01102024.pdf/f57e6272-c32e-50c0-6627-51bee9c38fe2?t=1728035859891
+2025-05-31 18:30:19,381 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS_New+Pension+Plus_867.pdf/a5827c98-b9a5-caba-772a-cb7f89d1c574?t=1728037367755
+2025-05-31 18:30:19,683 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1455928/Lic+LIC%E2%80%99s+New+Pension+Plus++2024++4x9+inches+wxh+single+pages%5B75%5D+%281%29.pdf/d2ca3682-b2a0-ba76-6ffc-eb6762a35e96?t=1745392557635
+2025-05-31 18:30:20,284 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/Final+Pol+Doc+New+Pension+Plus_CC_01102024.pdf/f57e6272-c32e-50c0-6627-51bee9c38fe2?t=1728035859891
+2025-05-31 18:30:21,161 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS_New+Pension+Plus_867.pdf/a5827c98-b9a5-caba-772a-cb7f89d1c574?t=1728037367755
+2025-05-31 18:30:21,426 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1455928/Lic+LIC%E2%80%99s+New+Pension+Plus++2024++4x9+inches+wxh+single+pages%5B75%5D+%281%29.pdf/d2ca3682-b2a0-ba76-6ffc-eb6762a35e96?t=1745392557635
+2025-05-31 18:30:21,724 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/Final+Pol+Doc+New+Pension+Plus_CC_01102024.pdf/f57e6272-c32e-50c0-6627-51bee9c38fe2?t=1728035859891
+2025-05-31 18:30:21,927 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS_New+Pension+Plus_867.pdf/a5827c98-b9a5-caba-772a-cb7f89d1c574?t=1728037367755
+2025-05-31 18:30:22,106 - LIC_Scraper - INFO - Completed scraping LICs New Pension Plus - Completeness: 100.00%
+2025-05-31 18:30:22,107 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Jeevan Akshay-VII
+2025-05-31 18:30:27,414 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:30:27,414 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Jeevan+Akshay+VII_Sales+Brochure_4+inch+x+9+inch_English+%281%29.pdf/1d72b7b2-96f3-0e5c-8a6c-26530c173bb0?t=1747388081298
+2025-05-31 18:30:28,173 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:30:28,173 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/PolicyDocument-LIC%27s+Jeevan+Akshay-VII-V06-01102024-withlogo.pdf/03c2ec8b-27f4-1dff-7847-1b2a0ee2cbb2?t=1729677222687
+2025-05-31 18:30:28,673 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Jeevan Akshay (Content is in English)
+2025-05-31 18:30:28,673 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS+_Jeevan+Akshay-VII-website.pdf/98f9bbf2-0cca-c561-5dcc-947e55cd3ae5?t=1728055078153
+2025-05-31 18:30:28,884 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Jeevan+Akshay+VII_Sales+Brochure_4+inch+x+9+inch_English+%281%29.pdf/1d72b7b2-96f3-0e5c-8a6c-26530c173bb0?t=1747388081298
+2025-05-31 18:30:29,560 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/PolicyDocument-LIC%27s+Jeevan+Akshay-VII-V06-01102024-withlogo.pdf/03c2ec8b-27f4-1dff-7847-1b2a0ee2cbb2?t=1729677222687
+2025-05-31 18:30:30,131 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS+_Jeevan+Akshay-VII-website.pdf/98f9bbf2-0cca-c561-5dcc-947e55cd3ae5?t=1728055078153
+2025-05-31 18:30:30,330 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Jeevan+Akshay+VII_Sales+Brochure_4+inch+x+9+inch_English+%281%29.pdf/1d72b7b2-96f3-0e5c-8a6c-26530c173bb0?t=1747388081298
+2025-05-31 18:30:30,999 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/PolicyDocument-LIC%27s+Jeevan+Akshay-VII-V06-01102024-withlogo.pdf/03c2ec8b-27f4-1dff-7847-1b2a0ee2cbb2?t=1729677222687
+2025-05-31 18:30:31,498 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS+_Jeevan+Akshay-VII-website.pdf/98f9bbf2-0cca-c561-5dcc-947e55cd3ae5?t=1728055078153
+2025-05-31 18:30:31,699 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Jeevan+Akshay+VII_Sales+Brochure_4+inch+x+9+inch_English+%281%29.pdf/1d72b7b2-96f3-0e5c-8a6c-26530c173bb0?t=1747388081298
+2025-05-31 18:30:32,372 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/PolicyDocument-LIC%27s+Jeevan+Akshay-VII-V06-01102024-withlogo.pdf/03c2ec8b-27f4-1dff-7847-1b2a0ee2cbb2?t=1729677222687
+2025-05-31 18:30:32,922 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS+_Jeevan+Akshay-VII-website.pdf/98f9bbf2-0cca-c561-5dcc-947e55cd3ae5?t=1728055078153
+2025-05-31 18:30:33,111 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Jeevan+Akshay+VII_Sales+Brochure_4+inch+x+9+inch_English+%281%29.pdf/1d72b7b2-96f3-0e5c-8a6c-26530c173bb0?t=1747388081298
+2025-05-31 18:30:33,769 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/PolicyDocument-LIC%27s+Jeevan+Akshay-VII-V06-01102024-withlogo.pdf/03c2ec8b-27f4-1dff-7847-1b2a0ee2cbb2?t=1729677222687
+2025-05-31 18:30:34,274 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS+_Jeevan+Akshay-VII-website.pdf/98f9bbf2-0cca-c561-5dcc-947e55cd3ae5?t=1728055078153
+2025-05-31 18:30:34,487 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/LIC_Jeevan+Akshay+VII_Sales+Brochure_4+inch+x+9+inch_English+%281%29.pdf/1d72b7b2-96f3-0e5c-8a6c-26530c173bb0?t=1747388081298
+2025-05-31 18:30:34,887 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/PolicyDocument-LIC%27s+Jeevan+Akshay-VII-V06-01102024-withlogo.pdf/03c2ec8b-27f4-1dff-7847-1b2a0ee2cbb2?t=1729677222687
+2025-05-31 18:30:35,033 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS+_Jeevan+Akshay-VII-website.pdf/98f9bbf2-0cca-c561-5dcc-947e55cd3ae5?t=1728055078153
+2025-05-31 18:30:35,183 - LIC_Scraper - INFO - Completed scraping LICs Jeevan Akshay-VII - Completeness: 100.00%
+2025-05-31 18:30:35,183 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs New Jeevan Shanti
+2025-05-31 18:30:40,498 - LIC_Scraper - INFO - Extracting features from PDF: Sales brochure (Content is in English)
+2025-05-31 18:30:40,499 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1129042/Lic+NEW+Jeevan+Shanti++2024++4x9+inches+wxh+single+page.pdf+-+3rd+cut+%281%29.pdf/1bb81894-4af8-6c70-9962-4bedef0ee842?t=1747657697617
+2025-05-31 18:30:41,006 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:30:41,007 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Policy+Document_LICs+New+Jeevan+Shanti_V07-withlogo.pdf/0f84ce1d-0598-9526-4404-9f6fe2b94060?t=1727867405661
+2025-05-31 18:30:41,560 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs New Jeevan Shanti (Content is in English)
+2025-05-31 18:30:41,560 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS+_New+Jeevan+Shanti-website.pdf/19d5e894-ecf6-c640-1343-59cd16533754?t=1728054968585
+2025-05-31 18:30:41,805 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1129042/Lic+NEW+Jeevan+Shanti++2024++4x9+inches+wxh+single+page.pdf+-+3rd+cut+%281%29.pdf/1bb81894-4af8-6c70-9962-4bedef0ee842?t=1747657697617
+2025-05-31 18:30:42,304 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Policy+Document_LICs+New+Jeevan+Shanti_V07-withlogo.pdf/0f84ce1d-0598-9526-4404-9f6fe2b94060?t=1727867405661
+2025-05-31 18:30:42,887 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS+_New+Jeevan+Shanti-website.pdf/19d5e894-ecf6-c640-1343-59cd16533754?t=1728054968585
+2025-05-31 18:30:43,182 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1129042/Lic+NEW+Jeevan+Shanti++2024++4x9+inches+wxh+single+page.pdf+-+3rd+cut+%281%29.pdf/1bb81894-4af8-6c70-9962-4bedef0ee842?t=1747657697617
+2025-05-31 18:30:43,679 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Policy+Document_LICs+New+Jeevan+Shanti_V07-withlogo.pdf/0f84ce1d-0598-9526-4404-9f6fe2b94060?t=1727867405661
+2025-05-31 18:30:44,200 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS+_New+Jeevan+Shanti-website.pdf/19d5e894-ecf6-c640-1343-59cd16533754?t=1728054968585
+2025-05-31 18:30:44,561 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1129042/Lic+NEW+Jeevan+Shanti++2024++4x9+inches+wxh+single+page.pdf+-+3rd+cut+%281%29.pdf/1bb81894-4af8-6c70-9962-4bedef0ee842?t=1747657697617
+2025-05-31 18:30:45,062 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Policy+Document_LICs+New+Jeevan+Shanti_V07-withlogo.pdf/0f84ce1d-0598-9526-4404-9f6fe2b94060?t=1727867405661
+2025-05-31 18:30:45,710 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS+_New+Jeevan+Shanti-website.pdf/19d5e894-ecf6-c640-1343-59cd16533754?t=1728054968585
+2025-05-31 18:30:45,970 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1129042/Lic+NEW+Jeevan+Shanti++2024++4x9+inches+wxh+single+page.pdf+-+3rd+cut+%281%29.pdf/1bb81894-4af8-6c70-9962-4bedef0ee842?t=1747657697617
+2025-05-31 18:30:46,444 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Policy+Document_LICs+New+Jeevan+Shanti_V07-withlogo.pdf/0f84ce1d-0598-9526-4404-9f6fe2b94060?t=1727867405661
+2025-05-31 18:30:46,938 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS+_New+Jeevan+Shanti-website.pdf/19d5e894-ecf6-c640-1343-59cd16533754?t=1728054968585
+2025-05-31 18:30:47,218 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1129042/Lic+NEW+Jeevan+Shanti++2024++4x9+inches+wxh+single+page.pdf+-+3rd+cut+%281%29.pdf/1bb81894-4af8-6c70-9962-4bedef0ee842?t=1747657697617
+2025-05-31 18:30:47,513 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1240315/Policy+Document_LICs+New+Jeevan+Shanti_V07-withlogo.pdf/0f84ce1d-0598-9526-4404-9f6fe2b94060?t=1727867405661
+2025-05-31 18:30:47,682 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244139/CIS+_New+Jeevan+Shanti-website.pdf/19d5e894-ecf6-c640-1343-59cd16533754?t=1728054968585
+2025-05-31 18:30:48,057 - LIC_Scraper - INFO - Completed scraping LICs New Jeevan Shanti - Completeness: 100.00%
+2025-05-31 18:30:48,058 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Saral Pension
+2025-05-31 18:30:53,868 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:30:53,869 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/102491/LIC_Saral+Pension_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29+%281%29.pdf/ee859a6f-d36c-0558-2f8c-87578912c650?t=1742370446353
+2025-05-31 18:30:54,922 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:30:54,922 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document_+LIC%27s++Saral+Pension_CC+%281%29.pdf/c706f844-fdc3-6536-4a27-9788d2c29609?t=1737972151843
+2025-05-31 18:30:55,781 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Saral Pension (Content is in English)
+2025-05-31 18:30:55,781 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/102491/Revised+CIS+_Saral+Pension-10032025+%281%29.pdf/47b48daf-fffd-e32b-0eb2-f0d1b2059c55?t=1741664753897
+2025-05-31 18:30:55,999 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/102491/LIC_Saral+Pension_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29+%281%29.pdf/ee859a6f-d36c-0558-2f8c-87578912c650?t=1742370446353
+2025-05-31 18:30:56,461 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document_+LIC%27s++Saral+Pension_CC+%281%29.pdf/c706f844-fdc3-6536-4a27-9788d2c29609?t=1737972151843
+2025-05-31 18:30:56,969 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/102491/Revised+CIS+_Saral+Pension-10032025+%281%29.pdf/47b48daf-fffd-e32b-0eb2-f0d1b2059c55?t=1741664753897
+2025-05-31 18:30:57,146 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/102491/LIC_Saral+Pension_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29+%281%29.pdf/ee859a6f-d36c-0558-2f8c-87578912c650?t=1742370446353
+2025-05-31 18:30:57,609 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document_+LIC%27s++Saral+Pension_CC+%281%29.pdf/c706f844-fdc3-6536-4a27-9788d2c29609?t=1737972151843
+2025-05-31 18:30:58,136 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/102491/Revised+CIS+_Saral+Pension-10032025+%281%29.pdf/47b48daf-fffd-e32b-0eb2-f0d1b2059c55?t=1741664753897
+2025-05-31 18:30:58,319 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/102491/LIC_Saral+Pension_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29+%281%29.pdf/ee859a6f-d36c-0558-2f8c-87578912c650?t=1742370446353
+2025-05-31 18:30:58,779 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document_+LIC%27s++Saral+Pension_CC+%281%29.pdf/c706f844-fdc3-6536-4a27-9788d2c29609?t=1737972151843
+2025-05-31 18:30:59,323 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/102491/Revised+CIS+_Saral+Pension-10032025+%281%29.pdf/47b48daf-fffd-e32b-0eb2-f0d1b2059c55?t=1741664753897
+2025-05-31 18:30:59,493 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/102491/LIC_Saral+Pension_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29+%281%29.pdf/ee859a6f-d36c-0558-2f8c-87578912c650?t=1742370446353
+2025-05-31 18:30:59,956 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document_+LIC%27s++Saral+Pension_CC+%281%29.pdf/c706f844-fdc3-6536-4a27-9788d2c29609?t=1737972151843
+2025-05-31 18:31:00,478 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/102491/Revised+CIS+_Saral+Pension-10032025+%281%29.pdf/47b48daf-fffd-e32b-0eb2-f0d1b2059c55?t=1741664753897
+2025-05-31 18:31:00,663 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/102491/LIC_Saral+Pension_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29+%281%29.pdf/ee859a6f-d36c-0558-2f8c-87578912c650?t=1742370446353
+2025-05-31 18:31:00,885 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Policy+Document_+LIC%27s++Saral+Pension_CC+%281%29.pdf/c706f844-fdc3-6536-4a27-9788d2c29609?t=1737972151843
+2025-05-31 18:31:01,072 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/102491/Revised+CIS+_Saral+Pension-10032025+%281%29.pdf/47b48daf-fffd-e32b-0eb2-f0d1b2059c55?t=1741664753897
+2025-05-31 18:31:01,203 - LIC_Scraper - INFO - Completed scraping LICs Saral Pension - Completeness: 100.00%
+2025-05-31 18:31:01,204 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Smart Pension
+2025-05-31 18:31:06,533 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:31:06,533 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/Smart+Pension+Individual_Sales+Brochure+Eng+.pdf/c4a8df82-70f2-ada0-ed09-6c2a0e803b3c?t=1739879169312
+2025-05-31 18:31:07,192 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:31:07,192 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/Policy+Doc-Smart+Pension_with+logo.pdf/a2326484-e9e5-8ff9-e2cb-66eea01e7fff?t=1739879170750
+2025-05-31 18:31:07,941 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Smart Pension (Content is in English)
+2025-05-31 18:31:07,941 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/CIS_Smart+Pension_10012025+-withlogo.pdf/61999606-1bd6-0fcd-c18c-6f2ef47611fb?t=1739879171577
+2025-05-31 18:31:08,167 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/Smart+Pension+Individual_Sales+Brochure+Eng+.pdf/c4a8df82-70f2-ada0-ed09-6c2a0e803b3c?t=1739879169312
+2025-05-31 18:31:08,810 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/Policy+Doc-Smart+Pension_with+logo.pdf/a2326484-e9e5-8ff9-e2cb-66eea01e7fff?t=1739879170750
+2025-05-31 18:31:09,554 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/CIS_Smart+Pension_10012025+-withlogo.pdf/61999606-1bd6-0fcd-c18c-6f2ef47611fb?t=1739879171577
+2025-05-31 18:31:09,760 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/Smart+Pension+Individual_Sales+Brochure+Eng+.pdf/c4a8df82-70f2-ada0-ed09-6c2a0e803b3c?t=1739879169312
+2025-05-31 18:31:10,401 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/Policy+Doc-Smart+Pension_with+logo.pdf/a2326484-e9e5-8ff9-e2cb-66eea01e7fff?t=1739879170750
+2025-05-31 18:31:11,182 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/CIS_Smart+Pension_10012025+-withlogo.pdf/61999606-1bd6-0fcd-c18c-6f2ef47611fb?t=1739879171577
+2025-05-31 18:31:11,390 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/Smart+Pension+Individual_Sales+Brochure+Eng+.pdf/c4a8df82-70f2-ada0-ed09-6c2a0e803b3c?t=1739879169312
+2025-05-31 18:31:12,045 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/Policy+Doc-Smart+Pension_with+logo.pdf/a2326484-e9e5-8ff9-e2cb-66eea01e7fff?t=1739879170750
+2025-05-31 18:31:12,770 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/CIS_Smart+Pension_10012025+-withlogo.pdf/61999606-1bd6-0fcd-c18c-6f2ef47611fb?t=1739879171577
+2025-05-31 18:31:12,994 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/Smart+Pension+Individual_Sales+Brochure+Eng+.pdf/c4a8df82-70f2-ada0-ed09-6c2a0e803b3c?t=1739879169312
+2025-05-31 18:31:16,634 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/Policy+Doc-Smart+Pension_with+logo.pdf/a2326484-e9e5-8ff9-e2cb-66eea01e7fff?t=1739879170750
+2025-05-31 18:31:17,371 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/CIS_Smart+Pension_10012025+-withlogo.pdf/61999606-1bd6-0fcd-c18c-6f2ef47611fb?t=1739879171577
+2025-05-31 18:31:17,603 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/Smart+Pension+Individual_Sales+Brochure+Eng+.pdf/c4a8df82-70f2-ada0-ed09-6c2a0e803b3c?t=1739879169312
+2025-05-31 18:31:17,787 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/Policy+Doc-Smart+Pension_with+logo.pdf/a2326484-e9e5-8ff9-e2cb-66eea01e7fff?t=1739879170750
+2025-05-31 18:31:17,996 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1350069/CIS_Smart+Pension_10012025+-withlogo.pdf/61999606-1bd6-0fcd-c18c-6f2ef47611fb?t=1739879171577
+2025-05-31 18:31:18,162 - LIC_Scraper - INFO - Completed scraping LICs Smart Pension - Completeness: 100.00%
+2025-05-31 18:31:21,512 - LIC_Scraper - INFO - Found 4 policies in category
+2025-05-31 18:31:21,512 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Index Plus
+2025-05-31 18:31:26,866 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochures (Content is in English)
+2025-05-31 18:31:26,867 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/987437/101941+LIC_Index+Plus+Sales+Brochure.pdf/c2b46aa5-e6c5-7cb0-09e9-d1e2b8b4f824?t=1743578254204
+2025-05-31 18:31:27,695 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:31:27,695 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/Final+Policy+document_LICs+Index+Plus_CC01102024.pdf/8ba7ff08-df02-6cc7-b063-8429e64eeb57?t=1728036002181
+2025-05-31 18:31:28,710 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Index Plus (Content is in English)
+2025-05-31 18:31:28,710 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/CIS_Index+Plus_PDF+File.pdf/0d819c1c-a846-db4a-3d8d-205c8e46b53d?t=1728037262334
+2025-05-31 18:31:29,028 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/987437/101941+LIC_Index+Plus+Sales+Brochure.pdf/c2b46aa5-e6c5-7cb0-09e9-d1e2b8b4f824?t=1743578254204
+2025-05-31 18:31:29,829 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/Final+Policy+document_LICs+Index+Plus_CC01102024.pdf/8ba7ff08-df02-6cc7-b063-8429e64eeb57?t=1728036002181
+2025-05-31 18:31:30,677 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/CIS_Index+Plus_PDF+File.pdf/0d819c1c-a846-db4a-3d8d-205c8e46b53d?t=1728037262334
+2025-05-31 18:31:30,986 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/987437/101941+LIC_Index+Plus+Sales+Brochure.pdf/c2b46aa5-e6c5-7cb0-09e9-d1e2b8b4f824?t=1743578254204
+2025-05-31 18:31:31,817 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/Final+Policy+document_LICs+Index+Plus_CC01102024.pdf/8ba7ff08-df02-6cc7-b063-8429e64eeb57?t=1728036002181
+2025-05-31 18:31:32,692 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/CIS_Index+Plus_PDF+File.pdf/0d819c1c-a846-db4a-3d8d-205c8e46b53d?t=1728037262334
+2025-05-31 18:31:33,002 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/987437/101941+LIC_Index+Plus+Sales+Brochure.pdf/c2b46aa5-e6c5-7cb0-09e9-d1e2b8b4f824?t=1743578254204
+2025-05-31 18:31:33,796 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/Final+Policy+document_LICs+Index+Plus_CC01102024.pdf/8ba7ff08-df02-6cc7-b063-8429e64eeb57?t=1728036002181
+2025-05-31 18:31:34,722 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/CIS_Index+Plus_PDF+File.pdf/0d819c1c-a846-db4a-3d8d-205c8e46b53d?t=1728037262334
+2025-05-31 18:31:35,043 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/987437/101941+LIC_Index+Plus+Sales+Brochure.pdf/c2b46aa5-e6c5-7cb0-09e9-d1e2b8b4f824?t=1743578254204
+2025-05-31 18:31:35,836 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/Final+Policy+document_LICs+Index+Plus_CC01102024.pdf/8ba7ff08-df02-6cc7-b063-8429e64eeb57?t=1728036002181
+2025-05-31 18:31:36,681 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/CIS_Index+Plus_PDF+File.pdf/0d819c1c-a846-db4a-3d8d-205c8e46b53d?t=1728037262334
+2025-05-31 18:31:36,981 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/987437/101941+LIC_Index+Plus+Sales+Brochure.pdf/c2b46aa5-e6c5-7cb0-09e9-d1e2b8b4f824?t=1743578254204
+2025-05-31 18:31:37,205 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/Final+Policy+document_LICs+Index+Plus_CC01102024.pdf/8ba7ff08-df02-6cc7-b063-8429e64eeb57?t=1728036002181
+2025-05-31 18:31:37,433 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/CIS_Index+Plus_PDF+File.pdf/0d819c1c-a846-db4a-3d8d-205c8e46b53d?t=1728037262334
+2025-05-31 18:31:37,645 - LIC_Scraper - INFO - Completed scraping LICs Index Plus - Completeness: 100.00%
+2025-05-31 18:31:37,646 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Nivesh Plus
+2025-05-31 18:31:42,994 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochures (Content is in English)
+2025-05-31 18:31:42,995 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/LIC_Nivesh+Plus+_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/11085f15-78f0-f165-331d-018548815702?t=1729593577918
+2025-05-31 18:31:43,185 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:31:43,186 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/Policy+Document+LICs+Nivesh+Plus+CC+Uploading.pdf/2c592f4d-e064-bb69-0e14-937d52d376fc?t=1728995927439
+2025-05-31 18:31:43,862 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Nivesh Plus (Content is in English)
+2025-05-31 18:31:43,862 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/CIS_LICs+Nivesh+Plus_CC_14102024.pdf/4b2a17a7-861f-8605-5f30-700f179486e9?t=1728995928207
+2025-05-31 18:31:44,136 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/LIC_Nivesh+Plus+_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/11085f15-78f0-f165-331d-018548815702?t=1729593577918
+2025-05-31 18:31:44,325 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/Policy+Document+LICs+Nivesh+Plus+CC+Uploading.pdf/2c592f4d-e064-bb69-0e14-937d52d376fc?t=1728995927439
+2025-05-31 18:31:44,987 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/CIS_LICs+Nivesh+Plus_CC_14102024.pdf/4b2a17a7-861f-8605-5f30-700f179486e9?t=1728995928207
+2025-05-31 18:31:45,278 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/LIC_Nivesh+Plus+_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/11085f15-78f0-f165-331d-018548815702?t=1729593577918
+2025-05-31 18:31:45,452 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/Policy+Document+LICs+Nivesh+Plus+CC+Uploading.pdf/2c592f4d-e064-bb69-0e14-937d52d376fc?t=1728995927439
+2025-05-31 18:31:46,134 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/CIS_LICs+Nivesh+Plus_CC_14102024.pdf/4b2a17a7-861f-8605-5f30-700f179486e9?t=1728995928207
+2025-05-31 18:31:46,408 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/LIC_Nivesh+Plus+_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/11085f15-78f0-f165-331d-018548815702?t=1729593577918
+2025-05-31 18:31:46,590 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/Policy+Document+LICs+Nivesh+Plus+CC+Uploading.pdf/2c592f4d-e064-bb69-0e14-937d52d376fc?t=1728995927439
+2025-05-31 18:31:47,251 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/CIS_LICs+Nivesh+Plus_CC_14102024.pdf/4b2a17a7-861f-8605-5f30-700f179486e9?t=1728995928207
+2025-05-31 18:31:47,548 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/LIC_Nivesh+Plus+_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/11085f15-78f0-f165-331d-018548815702?t=1729593577918
+2025-05-31 18:31:47,722 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/Policy+Document+LICs+Nivesh+Plus+CC+Uploading.pdf/2c592f4d-e064-bb69-0e14-937d52d376fc?t=1728995927439
+2025-05-31 18:31:48,392 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/CIS_LICs+Nivesh+Plus_CC_14102024.pdf/4b2a17a7-861f-8605-5f30-700f179486e9?t=1728995928207
+2025-05-31 18:31:48,668 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/LIC_Nivesh+Plus+_Sales+Brochure_4+inch+x+9+inch_Eng+%281%29.pdf/11085f15-78f0-f165-331d-018548815702?t=1729593577918
+2025-05-31 18:31:48,730 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/Policy+Document+LICs+Nivesh+Plus+CC+Uploading.pdf/2c592f4d-e064-bb69-0e14-937d52d376fc?t=1728995927439
+2025-05-31 18:31:48,903 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244160/CIS_LICs+Nivesh+Plus_CC_14102024.pdf/4b2a17a7-861f-8605-5f30-700f179486e9?t=1728995928207
+2025-05-31 18:31:49,103 - LIC_Scraper - INFO - Completed scraping LICs Nivesh Plus - Completeness: 100.00%
+2025-05-31 18:31:49,105 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs SIIP
+2025-05-31 18:31:54,572 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:31:54,573 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/SIIP+Sales+Brochure.pdf/818c5227-3ffa-2f44-5b0f-821dd56dbc3f?t=1742296410684
+2025-05-31 18:31:54,882 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:31:54,882 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final_Policydocument_LICs+SIIP_website.pdf/d4314ff4-8be0-631a-3f66-1d777502a449?t=1735734234853
+2025-05-31 18:31:55,742 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs SIIP (Content is in English)
+2025-05-31 18:31:55,743 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_LICs+SIIP_website.pdf/012e5b1a-5d6f-7edf-fa7f-5ee73bd5a4cb?t=1737017715607
+2025-05-31 18:31:56,062 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/SIIP+Sales+Brochure.pdf/818c5227-3ffa-2f44-5b0f-821dd56dbc3f?t=1742296410684
+2025-05-31 18:31:56,336 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final_Policydocument_LICs+SIIP_website.pdf/d4314ff4-8be0-631a-3f66-1d777502a449?t=1735734234853
+2025-05-31 18:31:57,189 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_LICs+SIIP_website.pdf/012e5b1a-5d6f-7edf-fa7f-5ee73bd5a4cb?t=1737017715607
+2025-05-31 18:31:57,612 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/SIIP+Sales+Brochure.pdf/818c5227-3ffa-2f44-5b0f-821dd56dbc3f?t=1742296410684
+2025-05-31 18:31:57,893 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final_Policydocument_LICs+SIIP_website.pdf/d4314ff4-8be0-631a-3f66-1d777502a449?t=1735734234853
+2025-05-31 18:31:58,740 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_LICs+SIIP_website.pdf/012e5b1a-5d6f-7edf-fa7f-5ee73bd5a4cb?t=1737017715607
+2025-05-31 18:31:59,051 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/SIIP+Sales+Brochure.pdf/818c5227-3ffa-2f44-5b0f-821dd56dbc3f?t=1742296410684
+2025-05-31 18:31:59,330 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final_Policydocument_LICs+SIIP_website.pdf/d4314ff4-8be0-631a-3f66-1d777502a449?t=1735734234853
+2025-05-31 18:32:00,181 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_LICs+SIIP_website.pdf/012e5b1a-5d6f-7edf-fa7f-5ee73bd5a4cb?t=1737017715607
+2025-05-31 18:32:00,512 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/SIIP+Sales+Brochure.pdf/818c5227-3ffa-2f44-5b0f-821dd56dbc3f?t=1742296410684
+2025-05-31 18:32:00,795 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final_Policydocument_LICs+SIIP_website.pdf/d4314ff4-8be0-631a-3f66-1d777502a449?t=1735734234853
+2025-05-31 18:32:01,658 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_LICs+SIIP_website.pdf/012e5b1a-5d6f-7edf-fa7f-5ee73bd5a4cb?t=1737017715607
+2025-05-31 18:32:01,994 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/SIIP+Sales+Brochure.pdf/818c5227-3ffa-2f44-5b0f-821dd56dbc3f?t=1742296410684
+2025-05-31 18:32:02,077 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/Final_Policydocument_LICs+SIIP_website.pdf/d4314ff4-8be0-631a-3f66-1d777502a449?t=1735734234853
+2025-05-31 18:32:02,307 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/Final+CIS_LICs+SIIP_website.pdf/012e5b1a-5d6f-7edf-fa7f-5ee73bd5a4cb?t=1737017715607
+2025-05-31 18:32:02,522 - LIC_Scraper - INFO - Completed scraping LICs SIIP - Completeness: 100.00%
+2025-05-31 18:32:02,524 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs New Endowment Plus
+2025-05-31 18:32:07,853 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:32:07,853 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Lic+NEW+ENDOWMENT+Plus++2024++4x9+inches+wxh+new+single+pages.pdf/1698fc3b-1ba4-7186-8d47-fc5b5ba7c36e?t=1744865946394
+2025-05-31 18:32:08,271 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:32:08,272 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/FinalPolicydocument_LICs+New+EndowmentPlus_website.pdf/2c6a4b8a-fb53-d1c3-c285-faa269f37a1c?t=1735734235685
+2025-05-31 18:32:09,036 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs New Endowment Plus (Content is in English)
+2025-05-31 18:32:09,036 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/FinalCIS_New_EndowmentPlus_website.pdf/5eb81d2d-9cd4-4125-faa6-d2e9504e1a53?t=1737017714337
+2025-05-31 18:32:09,359 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Lic+NEW+ENDOWMENT+Plus++2024++4x9+inches+wxh+new+single+pages.pdf/1698fc3b-1ba4-7186-8d47-fc5b5ba7c36e?t=1744865946394
+2025-05-31 18:32:09,737 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/FinalPolicydocument_LICs+New+EndowmentPlus_website.pdf/2c6a4b8a-fb53-d1c3-c285-faa269f37a1c?t=1735734235685
+2025-05-31 18:32:10,554 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/FinalCIS_New_EndowmentPlus_website.pdf/5eb81d2d-9cd4-4125-faa6-d2e9504e1a53?t=1737017714337
+2025-05-31 18:32:10,863 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Lic+NEW+ENDOWMENT+Plus++2024++4x9+inches+wxh+new+single+pages.pdf/1698fc3b-1ba4-7186-8d47-fc5b5ba7c36e?t=1744865946394
+2025-05-31 18:32:11,240 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/FinalPolicydocument_LICs+New+EndowmentPlus_website.pdf/2c6a4b8a-fb53-d1c3-c285-faa269f37a1c?t=1735734235685
+2025-05-31 18:32:12,023 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/FinalCIS_New_EndowmentPlus_website.pdf/5eb81d2d-9cd4-4125-faa6-d2e9504e1a53?t=1737017714337
+2025-05-31 18:32:12,425 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Lic+NEW+ENDOWMENT+Plus++2024++4x9+inches+wxh+new+single+pages.pdf/1698fc3b-1ba4-7186-8d47-fc5b5ba7c36e?t=1744865946394
+2025-05-31 18:32:12,803 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/FinalPolicydocument_LICs+New+EndowmentPlus_website.pdf/2c6a4b8a-fb53-d1c3-c285-faa269f37a1c?t=1735734235685
+2025-05-31 18:32:13,603 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/FinalCIS_New_EndowmentPlus_website.pdf/5eb81d2d-9cd4-4125-faa6-d2e9504e1a53?t=1737017714337
+2025-05-31 18:32:13,915 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Lic+NEW+ENDOWMENT+Plus++2024++4x9+inches+wxh+new+single+pages.pdf/1698fc3b-1ba4-7186-8d47-fc5b5ba7c36e?t=1744865946394
+2025-05-31 18:32:14,294 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/FinalPolicydocument_LICs+New+EndowmentPlus_website.pdf/2c6a4b8a-fb53-d1c3-c285-faa269f37a1c?t=1735734235685
+2025-05-31 18:32:15,094 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/FinalCIS_New_EndowmentPlus_website.pdf/5eb81d2d-9cd4-4125-faa6-d2e9504e1a53?t=1737017714337
+2025-05-31 18:32:15,403 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Lic+NEW+ENDOWMENT+Plus++2024++4x9+inches+wxh+new+single+pages.pdf/1698fc3b-1ba4-7186-8d47-fc5b5ba7c36e?t=1744865946394
+2025-05-31 18:32:15,599 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1307964/FinalPolicydocument_LICs+New+EndowmentPlus_website.pdf/2c6a4b8a-fb53-d1c3-c285-faa269f37a1c?t=1735734235685
+2025-05-31 18:32:15,774 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1325029/FinalCIS_New_EndowmentPlus_website.pdf/5eb81d2d-9cd4-4125-faa6-d2e9504e1a53?t=1737017714337
+2025-05-31 18:32:15,991 - LIC_Scraper - INFO - Completed scraping LICs New Endowment Plus - Completeness: 100.00%
+2025-05-31 18:32:19,476 - LIC_Scraper - INFO - Found 1 policies in category
+2025-05-31 18:32:19,476 - LIC_Scraper - INFO - Starting comprehensive scraping: LICs Micro Bachat
+2025-05-31 18:32:24,780 - LIC_Scraper - INFO - Extracting features from PDF: Sales Brochure (Content is in English)
+2025-05-31 18:32:24,781 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Final_Sales+Brochure_LIC%27s+MicroBachat_27122024_CC.pdf/f53026d6-91f9-649a-96dc-f27c047e95dc?t=1747979238749
+2025-05-31 18:32:25,347 - LIC_Scraper - INFO - Extracting features from PDF: Policy Document (Content is in English)
+2025-05-31 18:32:25,347 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244034/Final_Policy_Doc_Micro_Bachat_30092024_cc_with_logo.pdf/27b4f3d2-b4b9-e893-973b-3a7abc8d895f?t=1728035472457
+2025-05-31 18:32:25,989 - LIC_Scraper - INFO - Extracting features from PDF: CIS LICs Micro Bachat (Content is in English)
+2025-05-31 18:32:25,989 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244034/LICs_Micro_Bachat_CIS_30092024+%281%29.pdf/c48fca2d-a506-7a6b-b795-c243f1a5390e?t=1728034601925
+2025-05-31 18:32:26,313 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Final_Sales+Brochure_LIC%27s+MicroBachat_27122024_CC.pdf/f53026d6-91f9-649a-96dc-f27c047e95dc?t=1747979238749
+2025-05-31 18:32:26,710 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244034/Final_Policy_Doc_Micro_Bachat_30092024_cc_with_logo.pdf/27b4f3d2-b4b9-e893-973b-3a7abc8d895f?t=1728035472457
+2025-05-31 18:32:27,409 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244034/LICs_Micro_Bachat_CIS_30092024+%281%29.pdf/c48fca2d-a506-7a6b-b795-c243f1a5390e?t=1728034601925
+2025-05-31 18:32:27,630 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Final_Sales+Brochure_LIC%27s+MicroBachat_27122024_CC.pdf/f53026d6-91f9-649a-96dc-f27c047e95dc?t=1747979238749
+2025-05-31 18:32:28,025 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244034/Final_Policy_Doc_Micro_Bachat_30092024_cc_with_logo.pdf/27b4f3d2-b4b9-e893-973b-3a7abc8d895f?t=1728035472457
+2025-05-31 18:32:28,603 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244034/LICs_Micro_Bachat_CIS_30092024+%281%29.pdf/c48fca2d-a506-7a6b-b795-c243f1a5390e?t=1728034601925
+2025-05-31 18:32:28,819 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Final_Sales+Brochure_LIC%27s+MicroBachat_27122024_CC.pdf/f53026d6-91f9-649a-96dc-f27c047e95dc?t=1747979238749
+2025-05-31 18:32:29,212 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244034/Final_Policy_Doc_Micro_Bachat_30092024_cc_with_logo.pdf/27b4f3d2-b4b9-e893-973b-3a7abc8d895f?t=1728035472457
+2025-05-31 18:32:29,783 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244034/LICs_Micro_Bachat_CIS_30092024+%281%29.pdf/c48fca2d-a506-7a6b-b795-c243f1a5390e?t=1728034601925
+2025-05-31 18:32:30,036 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Final_Sales+Brochure_LIC%27s+MicroBachat_27122024_CC.pdf/f53026d6-91f9-649a-96dc-f27c047e95dc?t=1747979238749
+2025-05-31 18:32:30,427 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244034/Final_Policy_Doc_Micro_Bachat_30092024_cc_with_logo.pdf/27b4f3d2-b4b9-e893-973b-3a7abc8d895f?t=1728035472457
+2025-05-31 18:32:31,010 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244034/LICs_Micro_Bachat_CIS_30092024+%281%29.pdf/c48fca2d-a506-7a6b-b795-c243f1a5390e?t=1728034601925
+2025-05-31 18:32:31,221 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1319704/Final_Sales+Brochure_LIC%27s+MicroBachat_27122024_CC.pdf/f53026d6-91f9-649a-96dc-f27c047e95dc?t=1747979238749
+2025-05-31 18:32:31,373 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244034/Final_Policy_Doc_Micro_Bachat_30092024_cc_with_logo.pdf/27b4f3d2-b4b9-e893-973b-3a7abc8d895f?t=1728035472457
+2025-05-31 18:32:31,560 - LIC_Scraper - INFO - Downloading PDF: https://licindia.in/documents/20121/1244034/LICs_Micro_Bachat_CIS_30092024+%281%29.pdf/c48fca2d-a506-7a6b-b795-c243f1a5390e?t=1728034601925
+2025-05-31 18:32:31,704 - LIC_Scraper - INFO - Completed scraping LICs Micro Bachat - Completeness: 100.00%
+2025-05-31 18:32:31,724 - LIC_Scraper - INFO - Saved vector database CSV: output/LIC_Policies_Enhanced_Comprehensive_20250531_182240/enhanced_lic_policies_vector_db.csv
+2025-05-31 18:32:31,724 - LIC_Scraper - INFO - Enhanced results saved to: output/LIC_Policies_Enhanced_Comprehensive_20250531_182240
