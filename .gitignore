@@ -107,3 +107,6 @@ coverage.xml
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# Streamlit secrets (contains API keys)
+.streamlit/secrets.toml
