@@ -21,23 +21,33 @@ from src.dashboard import (
     DashboardConfig
 )
 
+# Initialize connection to MongoDB
+@st.cache_resource(show_spinner=False)
+def init_mongodb():
+    try:
+        config = DashboardConfig()
+        # Test MongoDB connection
+        if not hasattr(st.session_state, 'mongodb_connected'):
+            st.session_state.mongodb_connected = True
+        return config
+    except Exception as e:
+        st.error(f"Failed to connect to MongoDB: {str(e)}")
+        if not hasattr(st.session_state, 'mongodb_connected'):
+            st.session_state.mongodb_connected = False
+        return None
+
 # Page configuration
 st.set_page_config(
     page_title="🏛️ LIC Policy Advisor - AI-Powered Recommendations",
     page_icon="🏛️",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': 'https://github.com/mbohra07/Lic_Smart_Advisor',
+        'Report a bug': 'https://github.com/mbohra07/Lic_Smart_Advisor/issues',
+        'About': '### LIC Policy Advisor\nAI-powered insurance recommendation system'
+    }
 )
-
-# Initialize connection to MongoDB
-@st.cache_resource
-def init_mongodb():
-    try:
-        config = DashboardConfig()
-        return True
-    except Exception as e:
-        st.error(f"Failed to connect to MongoDB: {str(e)}")
-        return False
 
 class LICDashboard:
     """Main dashboard application"""
@@ -358,16 +368,20 @@ class LICDashboard:
 def main():
     try:
         # Initialize MongoDB connection
-        if not init_mongodb():
+        config = init_mongodb()
+        if not config:
             st.error("Could not initialize MongoDB connection. Please check your configuration.")
-            return
+            st.stop()
 
         # Create and run dashboard
         dashboard = LICDashboard()
         dashboard.run()
+
     except Exception as e:
         st.error(f"An error occurred: {str(e)}")
         st.error("Please refresh the page or contact support if the issue persists.")
+        import traceback
+        st.error(f"Detailed error: {traceback.format_exc()}")
 
 if __name__ == "__main__":
     main()

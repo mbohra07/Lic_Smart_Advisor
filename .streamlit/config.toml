@@ -46,6 +46,9 @@ fileWatcherType = "auto"
 # Cookie secret (for session management)
 cookieSecret = "lic_dashboard_secret_key_2024"
 
+# Server address
+address = "0.0.0.0"
+
 [browser]
 # Browser configuration
 
@@ -53,7 +56,7 @@ cookieSecret = "lic_dashboard_secret_key_2024"
 gatherUsageStats = false
 
 # Server address
-serverAddress = "localhost"
+serverAddress = "0.0.0.0"
 
 # Server port
 serverPort = 8501
