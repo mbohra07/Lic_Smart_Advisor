@@ -7,19 +7,41 @@ import streamlit as st
 import sys
 import os
 from datetime import datetime
+import time
 
 # Add src to path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
-from src.dashboard import (
-    UserProfileCollector,
-    DashboardRecommendationEngine,
-    LICGeniusSalesAgent,
-    LICChatAgent,
-    ChatDatabaseManager,
-    UIComponents,
-    DashboardConfig
+# Page configuration - Set this first before any other st commands
+st.set_page_config(
+    page_title="🏛️ LIC Policy Advisor - AI-Powered Recommendations",
+    page_icon="🏛️",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': 'https://github.com/mbohra07/Lic_Smart_Advisor',
+        'Report a bug': 'https://github.com/mbohra07/Lic_Smart_Advisor/issues',
+        'About': '### LIC Policy Advisor\nAI-powered insurance recommendation system'
+    }
 )
+
+# Show initial loading state
+with st.spinner("🚀 Initializing LIC Policy Advisor..."):
+    time.sleep(1)  # Give time for the server to fully initialize
+    
+    try:
+        from src.dashboard import (
+            UserProfileCollector,
+            DashboardRecommendationEngine,
+            LICGeniusSalesAgent,
+            LICChatAgent,
+            ChatDatabaseManager,
+            UIComponents,
+            DashboardConfig
+        )
+    except ImportError as e:
+        st.error(f"Failed to import required modules: {str(e)}")
+        st.stop()
 
 # Initialize connection to MongoDB
 @st.cache_resource(show_spinner=False)
@@ -35,19 +57,6 @@ def init_mongodb():
         if not hasattr(st.session_state, 'mongodb_connected'):
             st.session_state.mongodb_connected = False
         return None
-
-# Page configuration
-st.set_page_config(
-    page_title="🏛️ LIC Policy Advisor - AI-Powered Recommendations",
-    page_icon="🏛️",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    menu_items={
-        'Get Help': 'https://github.com/mbohra07/Lic_Smart_Advisor',
-        'Report a bug': 'https://github.com/mbohra07/Lic_Smart_Advisor/issues',
-        'About': '### LIC Policy Advisor\nAI-powered insurance recommendation system'
-    }
-)
 
 class LICDashboard:
     """Main dashboard application"""
