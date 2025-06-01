@@ -10,6 +10,7 @@ from typing import Dict, List, Any, Optional
 from groq import Groq
 import streamlit as st
 from .config import DashboardConfig
+from .web_search import WebSearchManager
 
 class LICGeniusSalesAgent:
     """
@@ -21,6 +22,7 @@ class LICGeniusSalesAgent:
         self.config = DashboardConfig()
         self.groq_client = self._initialize_groq_client()
         self.agent_persona = self._create_agent_persona()
+        self.web_search = WebSearchManager()
         
     def _initialize_groq_client(self) -> Optional[Groq]:
         """Initialize Groq client"""
@@ -36,81 +38,33 @@ class LICGeniusSalesAgent:
             return None
     
     def _create_agent_persona(self) -> str:
-        """Create a knowledgeable LIC sales agent persona"""
-        return f"""
-You are {self.config.AGENT_NAME}, a knowledgeable and dedicated LIC policy advisor who specializes in helping families find the right insurance solutions. You are recognized as a {self.config.AGENT_CREDENTIALS} who genuinely cares about helping families secure their financial future.
+        """Create a knowledgeable and versatile agent persona"""
+        return """You are Suresh Kumar, a highly knowledgeable LIC policy advisor with expertise in both insurance and general knowledge.
 
-UNMATCHED EXPERTISE:
-- Complete mastery of all 37+ LIC policies, their features, benefits, and optimal use cases
-- Deep understanding of Indian financial markets, tax laws, and insurance regulations  
-- Real-time knowledge of current policy updates, market trends, and competitive landscape
-- Ability to calculate precise premiums, returns, and tax benefits instantly
-- Expert in matching policies to specific customer profiles and life situations
+KEY TRAITS:
+1. Direct & Informative: Always provide clear, accurate answers to ANY question asked, using real-time web search data when needed.
+2. Naturally Transitional: After answering the primary question, smoothly connect it to relevant insurance concepts when appropriate.
+3. Authentically Helpful: Focus on being genuinely helpful first, sales-oriented second.
+4. Data-Driven: Use both real-time web search data and structured policy knowledge to provide comprehensive answers.
 
-EMOTIONAL INTELLIGENCE:
-- Genuine empathy for customer's financial concerns and family responsibilities
-- Cultural sensitivity with appropriate use of Hindi phrases and Indian context
-- Ability to connect emotionally while maintaining professional credibility
-- Understanding of Indian family dynamics and financial decision-making patterns
-- Respect for customer's financial constraints and goals
+RESPONSE STRUCTURE:
+1. Direct Answer: Begin with a clear, direct answer to the user's question, regardless of topic
+2. Supporting Details: Provide relevant context or data from web searches
+3. Natural Bridge: IF APPROPRIATE, create a natural connection to insurance/financial planning
+4. Insurance Insight: Share relevant policy information only if the connection feels natural
 
-MASTER PERSUASION SKILLS:
-- Ethical influence techniques that build trust and demonstrate value
-- Storytelling ability with relevant customer success stories
-- Objection handling that addresses concerns before they're raised
-- Creating appropriate urgency without high-pressure tactics
-- Building long-term relationships over quick sales
+EXAMPLES:
+- Weather Question: "It's currently 25°C with clear skies in [location]. Speaking of planning ahead, just as weather forecasts help us prepare for the day, proper insurance planning helps us prepare for life's uncertainties..."
+- Market Question: "The Sensex is currently at 65,000, showing a 2% increase. This market growth actually relates to how LIC's market-linked policies can help capture such positive market movements while providing protection..."
+- General Question: Always answer directly first, then find natural connections to financial planning if relevant.
 
-CONVERSATION STRATEGY:
-1. Immediately acknowledge their specific situation with empathy and validation
-2. Use relevant success stories from similar customer profiles
-3. Create emotional connection to their family's security and future prosperity
-4. Present solutions with specific numbers and calculations
-5. Address potential objections proactively with data and testimonials
-6. Guide toward clear next steps with gentle but confident direction
+TONE:
+- Professional yet conversational
+- Informative without being overwhelming
+- Naturally flowing rather than forced transitions
+- Empathetic and understanding
 
-RESPONSE STYLE REQUIREMENTS:
-- Warm, conversational tone with natural, varied language
-- Use engaging, professional language without repetitive phrases
-- Avoid overusing Hindi words - use sparingly and naturally (max 2-3 per response)
-- Include specific calculations relevant to their exact profile (age, income, goals)
-- Reference current market conditions and recent policy updates
-- Provide actionable advice with clear reasoning
-- End each response with a soft but compelling call-to-action
-- Use emojis strategically for emotional connection and readability
-
-ADVANCED OBJECTION HANDLING:
-- "Too expensive" → Break down to daily cost, compare to coffee/dining, show ROI calculations
-- "Need to think" → Acknowledge wisdom, provide decision framework, create gentle time urgency
-- "Other options available" → Respectfully compare, highlight unique LIC advantages with data
-- "Not the right time" → Understand timing, show cost of waiting, offer flexible solutions
-- "Don't understand" → Simplify with analogies, use visual explanations, ensure clarity
-
-SALES PSYCHOLOGY TECHNIQUES:
-- Use scarcity appropriately (rate increases, policy changes, tax deadlines)
-- Leverage social proof with specific testimonials and success metrics
-- Create anchoring with premium comparisons and benefit calculations
-- Build reciprocity through valuable advice and personalized insights
-- Establish authority with credentials, experience, and industry knowledge
-
-CULTURAL ADAPTATION:
-- Understand Indian family values and financial priorities
-- Reference festivals, life events, and cultural milestones appropriately
-- Use familiar analogies (FD comparisons, gold investment parallels)
-- Respect decision-making hierarchies in Indian families
-- Communicate naturally without repetitive phrases or excessive Hindi words
-
-MATHEMATICAL PRECISION:
-- Always provide exact premium calculations based on age and income
-- Show detailed ROI projections with specific numbers
-- Compare with alternative investments (FD, mutual funds, gold)
-- Calculate tax savings with current rates and slabs
-- Project future values with realistic growth assumptions
-
-Remember: Your ultimate goal is to genuinely help them secure their family's financial future while achieving exceptional sales results through trust, value demonstration, and expert guidance. You are not just selling policies; you are building financial security for Indian families.
-
-IMPORTANT: Always maintain authenticity, never make false claims, and focus on genuine value creation for the customer's specific situation.
-"""
+Remember: Your primary goal is to be genuinely helpful. Sales should be secondary and only introduced when there's a natural connection to the topic at hand."""
     
     def generate_personalized_sales_pitch(
         self, 
@@ -127,8 +81,11 @@ IMPORTANT: Always maintain authenticity, never make false claims, and focus on g
             # Prepare context for the sales agent
             context = self._prepare_sales_context(user_profile, recommended_policies)
             
+            # Get real-time market insights and policy information
+            web_context = self._get_sales_web_context(context['primary_recommendation']['policy_name'])
+            
             # Create the sales pitch prompt
-            prompt = self._create_sales_pitch_prompt(context)
+            prompt = self._create_sales_pitch_prompt(context, web_context)
             
             # Generate sales pitch using Groq
             response = self.groq_client.chat.completions.create(
@@ -157,16 +114,22 @@ IMPORTANT: Always maintain authenticity, never make false claims, and focus on g
         self, 
         user_profile: Dict[str, Any], 
         objection: str, 
-        recommended_policies: List[Dict[str, Any]]
+        recommended_policies: List[Dict[str, Any]],
+        market_context: Dict[str, Any] = None
     ) -> str:
         """
-        Generate intelligent objection handling response
+        Generate intelligent objection handling response with market context
         """
         if not self.groq_client:
             return "❌ Sales agent unavailable. Please check configuration."
         
         try:
             context = self._prepare_sales_context(user_profile, recommended_policies)
+            
+            # Get additional real-time context if not provided
+            if not market_context:
+                policy_name = context['primary_recommendation']['policy_name']
+                market_context = self.web_search.get_market_insights(policy_name)
             
             prompt = f"""
 CUSTOMER OBJECTION HANDLING SCENARIO:
@@ -175,12 +138,15 @@ Customer Profile: {json.dumps(context['customer_summary'], indent=2)}
 Recommended Policy: {context['primary_recommendation']}
 Customer Objection: "{objection}"
 
+Market Context:
+{json.dumps(market_context, indent=2)}
+
 As a knowledgeable LIC policy advisor, provide a thoughtful objection handling response that:
 
 1. ACKNOWLEDGES the concern with empathy and understanding
 2. ADDRESSES the objection with specific data, calculations, and logic
 3. REDIRECTS to the value proposition with compelling benefits
-4. PROVIDES relevant information or examples if helpful
+4. PROVIDES relevant market insights and comparisons
 5. OFFERS alternative solutions or compromises if appropriate
 6. ENDS with a soft but confident next step
 
@@ -344,8 +310,60 @@ The message should feel personal, helpful, and non-pushy while demonstrating you
             'is_appropriate': len(inappropriate_flags) == 0
         }
 
-    def _create_sales_pitch_prompt(self, context: Dict[str, Any]) -> str:
-        """Create comprehensive sales pitch prompt"""
+    def _get_sales_web_context(self, policy_name: str) -> Dict[str, Any]:
+        """Get real-time web context for sales pitch"""
+        # Get market insights
+        market_insights = self.web_search.get_market_insights(policy_name)
+        
+        # Get policy comparisons
+        comparisons = self.web_search.get_policy_comparisons(policy_name)
+        
+        # Get tax benefits
+        tax_info = self.web_search.get_tax_benefits(policy_name)
+        
+        # Get general policy information
+        general_info = self.web_search.search_insurance_info(f"LIC {policy_name} latest updates features")
+        
+        web_context = {
+            'market_insights': market_insights,
+            'policy_comparisons': comparisons,
+            'tax_benefits': tax_info,
+            'latest_updates': general_info
+        }
+        
+        return web_context
+
+    def _create_sales_pitch_prompt(self, context: Dict[str, Any], web_context: Dict[str, Any]) -> str:
+        """Create comprehensive sales pitch prompt with real-time data"""
+        
+        # Extract relevant real-time information
+        market_trends = web_context.get('market_insights', {}).get('market_trends', [])
+        latest_news = web_context.get('market_insights', {}).get('latest_news', [])
+        policy_comparisons = web_context.get('policy_comparisons', [])
+        tax_updates = web_context.get('tax_benefits', {}).get('latest_updates', [])
+        
+        # Format web context for prompt
+        real_time_context = """
+REAL-TIME MARKET CONTEXT:
+
+Market Trends:
+{}
+
+Latest News:
+{}
+
+Policy Comparisons:
+{}
+
+Tax Updates:
+{}
+""".format(
+            "\n".join(f"- {trend.get('title', '')}" for trend in market_trends[:2]),
+            "\n".join(f"- {news.get('title', '')}" for news in latest_news[:2]),
+            "\n".join(f"- {comp.get('title', '')}" for comp in policy_comparisons[:2]),
+            "\n".join(f"- {update.get('title', '')}" for update in tax_updates[:2])
+        )
+
         return f"""
 PERSONALIZED SALES PITCH GENERATION:
 
@@ -360,6 +378,8 @@ Primary Recommendation:
 
 Alternative Options:
 {json.dumps(context['alternative_recommendations'], indent=2)}
+
+{real_time_context}
 
 CRITICAL REQUIREMENTS:
 
@@ -387,14 +407,17 @@ CRITICAL REQUIREMENTS:
    A. Personal acknowledgment of their situation
    B. Policy recommendation with clear rationale
    C. Financial benefits with accurate calculations
-   D. Tax advantages and returns
-   E. Compelling call to action
+   D. Tax advantages and returns (include latest updates)
+   E. Market positioning and competitive advantages
+   F. Compelling call to action
 
 5. CONTENT QUALITY:
    - Present each key point only ONCE
    - Use smooth transitions between topics
    - Make it conversational and engaging
    - Focus on genuine value, not sales pressure
+   - Incorporate relevant market insights naturally
+   - Use real-time data to strengthen recommendations
 
 Generate a compelling 600-800 word sales pitch following this structure exactly.
 """

@@ -19,9 +19,16 @@ class DashboardConfig:
     GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "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")
     GROQ_MODEL: str = "llama-3.1-8b-instant"  # Fast and efficient model for sales agent
     
-    # Google Search API (for market intelligence)
-    GOOGLE_API_KEY: str = os.getenv("GOOGLE_API_KEY", "")
-    GOOGLE_CSE_ID: str = os.getenv("GOOGLE_CSE_ID", "")
+    # Google Search API Configuration
+    GOOGLE_API_KEY: str = os.getenv("GOOGLE_API_KEY", "AIzaSyBuUsd7mkCyCyVnxCxIjBzZRnJbcDRwbVw")
+    GOOGLE_CSE_ID: str = os.getenv("GOOGLE_CSE_ID", "454f612e8566d4fe4")
+    SEARCH_MAX_RESULTS: int = 3
+    SEARCH_TIMEOUT: int = 10
+    
+    # Serper API Configuration (Web Search)
+    SERPER_API_KEY: str = os.getenv("SERPER_API_KEY", "efe4373c768af1a066a4f9ed9812c68f807db978")  # Serper API key
+    SERPER_MAX_RESULTS: int = 3
+    SERPER_TIMEOUT: int = 10
     
     # Dashboard Settings
     PAGE_TITLE: str = "🏛️ LIC Policy Advisor - AI-Powered Recommendations"
@@ -47,6 +54,11 @@ class DashboardConfig:
     MAX_CHAT_HISTORY: int = 50
     TYPING_DELAY: float = 1.5
     RESPONSE_TIMEOUT: int = 30
+    
+    # Web Search Configuration
+    WEB_SEARCH_ENABLED: bool = True
+    WEB_SEARCH_CACHE_TTL: int = 3600  # Cache web search results for 1 hour
+    WEB_SEARCH_MAX_RETRIES: int = 3
     
     # UI Configuration
     PRIMARY_COLOR: str = "#FF6B35"
