@@ -30,8 +30,8 @@ class DashboardConfig:
     INITIAL_SIDEBAR_STATE: str = "expanded"
     
     # User Profile Configuration
-    AGE_RANGE: tuple = (25, 65)
-    INCOME_RANGE: tuple = (20000, 500000)
+    AGE_RANGE: tuple = (18, 80)
+    INCOME_RANGE: tuple = (10000, 1000000)
     MAX_DEPENDENTS: int = 10
     
     # Recommendation Settings
@@ -57,6 +57,13 @@ class DashboardConfig:
     
     # Life Stage Configurations
     LIFE_STAGES: Dict[str, Dict[str, Any]] = {
+        "Student": {
+            "icon": "🎓",
+            "description": "Starting Out - Building financial discipline and securing future opportunities",
+            "typical_goals": ["financial_literacy", "long_term_savings", "insurance_awareness"],
+            "recommended_coverage": "1-2x annual support or stipend (if any)",
+            "priority_features": ["low premiums", "education-linked benefits", "starter savings plans"]
+        },
         "Single Professional": {
             "icon": "🌱",
             "description": "Early Career - Focus on wealth creation and tax savings",
