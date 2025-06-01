@@ -237,16 +237,17 @@ class DashboardRecommendationEngine:
         st.markdown("## 💬 Expert Analysis & Recommendation")
         st.markdown("*Personalized insights from India's #1 LIC Expert*")
         
+        # Replace newlines with <br> before using in f-string
+        formatted_pitch = sales_pitch.replace('\n', '<br>')
+        
         # Display sales pitch in an attractive format
         st.markdown(f"""
         <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; color: white;">
             <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 8px;">
-                {sales_pitch.replace('\n', '<br>')}
+                {formatted_pitch}
             </div>
         </div>
         """, unsafe_allow_html=True)
-    
-
     
     def _display_confidence_gauge(self, score: float):
         """Display confidence gauge"""
