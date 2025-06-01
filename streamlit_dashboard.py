@@ -29,6 +29,16 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Initialize connection to MongoDB
+@st.cache_resource
+def init_mongodb():
+    try:
+        config = DashboardConfig()
+        return True
+    except Exception as e:
+        st.error(f"Failed to connect to MongoDB: {str(e)}")
+        return False
+
 class LICDashboard:
     """Main dashboard application"""
     
@@ -346,16 +356,18 @@ class LICDashboard:
                     st.metric("Lead Score", f"{session_analytics.get('lead_score', 50)}/100")
 
 def main():
-    """Main function"""
-    
-    # Check configuration
-    if not DashboardConfig.validate_config():
-        st.error("❌ Configuration validation failed. Please check environment variables.")
-        st.stop()
-    
-    # Initialize and run dashboard
-    dashboard = LICDashboard()
-    dashboard.run()
+    try:
+        # Initialize MongoDB connection
+        if not init_mongodb():
+            st.error("Could not initialize MongoDB connection. Please check your configuration.")
+            return
+
+        # Create and run dashboard
+        dashboard = LICDashboard()
+        dashboard.run()
+    except Exception as e:
+        st.error(f"An error occurred: {str(e)}")
+        st.error("Please refresh the page or contact support if the issue persists.")
 
 if __name__ == "__main__":
     main()
