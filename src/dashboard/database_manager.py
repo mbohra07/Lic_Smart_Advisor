@@ -62,7 +62,7 @@ class ChatDatabaseManager:
         }
         
         try:
-            if self.chat_collection:
+            if self.chat_collection is not None:
                 self.chat_collection.insert_one(session_document)
             return session_id
         except Exception as e:
@@ -78,7 +78,7 @@ class ChatDatabaseManager:
         """Save chat message exchange to database"""
         
         try:
-            if not self.chat_collection:
+            if self.chat_collection is None:
                 return
             
             # Analyze message for sentiment and objections
@@ -126,7 +126,7 @@ class ChatDatabaseManager:
     def get_chat_session(self, session_id: str) -> Optional[Dict[str, Any]]:
         """Retrieve chat session data"""
         try:
-            if not self.chat_collection:
+            if self.chat_collection is None:
                 return None
             
             return self.chat_collection.find_one({"session_id": session_id})
@@ -137,7 +137,7 @@ class ChatDatabaseManager:
     def update_session_outcome(self, session_id: str, outcome: str, follow_up_date: Optional[datetime] = None):
         """Update session outcome and follow-up"""
         try:
-            if not self.chat_collection:
+            if self.chat_collection is None:
                 return
             
             update_data = {
@@ -200,7 +200,7 @@ class ChatDatabaseManager:
     def get_dashboard_analytics(self, days: int = 30) -> Dict[str, Any]:
         """Get overall dashboard analytics"""
         try:
-            if not self.chat_collection:
+            if self.chat_collection is None:
                 return {}
             
             # Get sessions from last N days
@@ -342,5 +342,5 @@ class ChatDatabaseManager:
     
     def close_connection(self):
         """Close MongoDB connection"""
-        if self.client:
+        if self.client is not None:
             self.client.close()

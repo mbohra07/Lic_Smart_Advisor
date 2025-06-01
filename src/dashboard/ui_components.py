@@ -269,47 +269,7 @@ class UIComponents:
         
         return fig
     
-    def display_comparison_chart(self, policies: List[Dict[str, Any]], metric: str = "score"):
-        """Display policy comparison chart"""
-        
-        policy_names = [p.get('policy_metadata', {}).get('policy_name', f'Policy {i+1}')[:15] + '...' 
-                       for i, p in enumerate(policies)]
-        
-        if metric == "score":
-            values = [p.get('recommendation_score', 0) for p in policies]
-            title = "Recommendation Scores"
-            y_title = "Match Score (%)"
-            color = self.config.PRIMARY_COLOR
-        elif metric == "premium":
-            values = [p.get('enhanced_data', {}).get('estimated_monthly_premium', 0) for p in policies]
-            title = "Monthly Premium Comparison"
-            y_title = "Premium (₹)"
-            color = self.config.SECONDARY_COLOR
-        else:
-            values = [0] * len(policies)
-            title = "Comparison"
-            y_title = "Value"
-            color = self.config.PRIMARY_COLOR
-        
-        fig = go.Figure(data=[
-            go.Bar(
-                x=policy_names,
-                y=values,
-                marker_color=color,
-                text=[f'{v:.0f}' for v in values],
-                textposition='auto'
-            )
-        ])
-        
-        fig.update_layout(
-            title=title,
-            xaxis_title="Policies",
-            yaxis_title=y_title,
-            height=400,
-            showlegend=False
-        )
-        
-        return fig
+
     
     def display_risk_return_chart(self, risk_profiles: Dict[str, Dict[str, Any]], selected_profile: str = ""):
         """Display risk vs return chart"""

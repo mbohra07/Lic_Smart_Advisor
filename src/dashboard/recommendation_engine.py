@@ -116,9 +116,6 @@ class DashboardRecommendationEngine:
             
             # Sales pitch section
             self._display_sales_pitch(recommendation_data['sales_pitch'])
-            
-            # Comparison charts
-            self._display_comparison_charts(recommendations, user_profile)
     
     def _enhance_recommendations(self, recommendations: List[Dict], user_profile: Dict[str, Any]) -> List[Dict]:
         """Enhance recommendations with additional insights"""
@@ -249,44 +246,7 @@ class DashboardRecommendationEngine:
         </div>
         """, unsafe_allow_html=True)
     
-    def _display_comparison_charts(self, recommendations: List[Dict[str, Any]], user_profile: Dict[str, Any]):
-        """Display comparison charts"""
-        st.markdown("## 📊 Policy Comparison Analysis")
-        
-        col1, col2 = st.columns(2)
-        
-        with col1:
-            # Recommendation scores chart
-            policy_names = [rec.get('policy_metadata', {}).get('policy_name', f'Policy {i+1}')[:20] + '...' 
-                          for i, rec in enumerate(recommendations[:5])]
-            scores = [rec.get('recommendation_score', 0) for rec in recommendations[:5]]
-            
-            fig_scores = go.Figure(data=[
-                go.Bar(x=policy_names, y=scores, marker_color='#FF6B35')
-            ])
-            fig_scores.update_layout(
-                title="Recommendation Scores",
-                xaxis_title="Policies",
-                yaxis_title="Match Score (%)",
-                height=400
-            )
-            st.plotly_chart(fig_scores, use_container_width=True)
-        
-        with col2:
-            # Premium comparison chart
-            premiums = [rec.get('enhanced_data', {}).get('estimated_monthly_premium', 0) 
-                       for rec in recommendations[:5]]
-            
-            fig_premiums = go.Figure(data=[
-                go.Bar(x=policy_names, y=premiums, marker_color='#004E89')
-            ])
-            fig_premiums.update_layout(
-                title="Monthly Premium Comparison",
-                xaxis_title="Policies",
-                yaxis_title="Premium (₹)",
-                height=400
-            )
-            st.plotly_chart(fig_premiums, use_container_width=True)
+
     
     def _display_confidence_gauge(self, score: float):
         """Display confidence gauge"""

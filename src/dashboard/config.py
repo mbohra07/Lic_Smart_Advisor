@@ -41,9 +41,7 @@ class DashboardConfig:
     
     # Sales Agent Configuration
     AGENT_NAME: str = "Suresh Kumar"
-    AGENT_EXPERIENCE: str = "25+ years"
-    AGENT_CREDENTIALS: str = "India's #1 LIC Expert"
-    AGENT_SUCCESS_STORIES: int = 10000
+    AGENT_CREDENTIALS: str = "LIC Policy Advisor"
     
     # Chat Configuration
     MAX_CHAT_HISTORY: int = 50

@@ -46,8 +46,8 @@ class LICChatAgent:
     def _display_chat_interface(self, user_profile: Dict[str, Any], recommendations: List[Dict[str, Any]]):
         """Display the main chat interface"""
         
-        st.markdown("## 💬 Chat with India's #1 LIC Expert")
-        st.markdown(f"**{self.config.AGENT_NAME}** - *{self.config.AGENT_EXPERIENCE} Experience | {self.config.AGENT_SUCCESS_STORIES:,}+ Families Helped*")
+        st.markdown("## 💬 Chat with Your LIC Policy Advisor")
+        st.markdown(f"**{self.config.AGENT_NAME}** - *{self.config.AGENT_CREDENTIALS}*")
         
         # Agent avatar and credentials
         col1, col2 = st.columns([1, 4])
@@ -56,12 +56,12 @@ class LICChatAgent:
         
         with col2:
             st.markdown(f"""
-            **Credentials:**
-            - 🏆 India's #1 LIC Policy Expert
-            - 📚 Complete mastery of all 37+ LIC policies
-            - 💼 {self.config.AGENT_EXPERIENCE} of experience
-            - 👨‍👩‍👧‍👦 Helped {self.config.AGENT_SUCCESS_STORIES:,}+ families
+            **About Your Advisor:**
+            - 📚 Comprehensive knowledge of all LIC policies
             - 🎯 Specialized in personalized recommendations
+            - 💡 Clear explanations without confusing jargon
+            - 🤝 Honest advice that puts your family's interests first
+            - 📞 Available to guide you through your policy journey
             """)
         
         st.markdown("---")
@@ -79,38 +79,24 @@ class LICChatAgent:
         self._display_quick_actions(user_profile, recommendations)
     
     def _display_chat_messages(self):
-        """Display chat messages with styling"""
-        
+        """Display chat messages using Streamlit's native chat components"""
+
         for message in st.session_state.chat_messages:
             role = message["role"]
             content = message["content"]
             timestamp = message.get("timestamp", datetime.now())
-            
+
             if role == "user":
-                # User message (right aligned)
-                st.markdown(f"""
-                <div style="display: flex; justify-content: flex-end; margin: 10px 0;">
-                    <div style="background: #007bff; color: white; padding: 10px 15px; border-radius: 18px 18px 5px 18px; max-width: 70%; word-wrap: break-word;">
-                        {content}
-                    </div>
-                </div>
-                <div style="text-align: right; font-size: 12px; color: #666; margin-bottom: 15px;">
-                    {timestamp.strftime("%H:%M")}
-                </div>
-                """, unsafe_allow_html=True)
-                
+                # User message
+                with st.chat_message("user"):
+                    st.write(content)
+                    st.caption(f"You • {timestamp.strftime('%H:%M')}")
+
             else:
-                # Agent message (left aligned)
-                st.markdown(f"""
-                <div style="display: flex; justify-content: flex-start; margin: 10px 0;">
-                    <div style="background: #f1f3f4; color: #333; padding: 10px 15px; border-radius: 18px 18px 18px 5px; max-width: 70%; word-wrap: break-word;">
-                        {content}
-                    </div>
-                </div>
-                <div style="text-align: left; font-size: 12px; color: #666; margin-bottom: 15px;">
-                    {self.config.AGENT_NAME} • {timestamp.strftime("%H:%M")}
-                </div>
-                """, unsafe_allow_html=True)
+                # Agent message
+                with st.chat_message("assistant", avatar="👨‍💼"):
+                    st.write(content)
+                    st.caption(f"{self.config.AGENT_NAME} • {timestamp.strftime('%H:%M')}")
     
     def _handle_chat_input(self, user_profile: Dict[str, Any], recommendations: List[Dict[str, Any]]):
         """Handle user chat input"""
@@ -244,22 +230,18 @@ class LICChatAgent:
         """Display quick action buttons"""
         
         st.markdown("### 🚀 Quick Actions")
-        
-        col1, col2, col3, col4 = st.columns(4)
-        
+
+        col1, col2, col3 = st.columns(3)
+
         with col1:
             if st.button("💰 Calculate Premium", use_container_width=True):
                 self._handle_quick_action("premium_calculation", user_profile, recommendations)
-        
+
         with col2:
-            if st.button("📊 Compare Policies", use_container_width=True):
-                self._handle_quick_action("policy_comparison", user_profile, recommendations)
-        
-        with col3:
             if st.button("💡 Tax Benefits", use_container_width=True):
                 self._handle_quick_action("tax_benefits", user_profile, recommendations)
-        
-        with col4:
+
+        with col3:
             if st.button("📞 Schedule Call", use_container_width=True):
                 self._handle_quick_action("schedule_call", user_profile, recommendations)
     
@@ -273,12 +255,10 @@ class LICChatAgent:
         
         action_responses = {
             "premium_calculation": f"Let me calculate the exact premium for your recommended policy based on your age ({user_profile.get('age')}) and income (₹{user_profile.get('monthly_income', 0):,}). For the recommended policy, you're looking at approximately ₹{user_profile.get('monthly_income', 50000) * 0.15:,.0f} per month, which is just ₹{user_profile.get('monthly_income', 50000) * 0.15 / 30:.0f} per day - less than a cup of coffee! This gives you comprehensive coverage and builds wealth for your family's future.",
-            
-            "policy_comparison": "Great question! Let me compare your top 3 recommended policies. Your primary recommendation scores highest because it perfectly matches your goal of wealth creation while providing family protection. The alternatives offer different benefit structures - would you like me to explain the key differences in returns, flexibility, and coverage?",
-            
+
             "tax_benefits": f"Excellent! Your recommended policy offers significant tax benefits. You can save up to ₹{min(150000, user_profile.get('monthly_income', 50000) * 12 * 0.15):,.0f} under Section 80C, plus the maturity amount is completely tax-free under Section 10(10D). This means substantial tax savings while building wealth - a win-win situation!",
-            
-            "schedule_call": f"I'd be delighted to schedule a personal consultation! As India's #1 LIC expert, I can provide detailed analysis of your recommended policies and answer all your questions. We can discuss premium payment options, policy features, and create a complete financial plan for your family. When would be a convenient time for you?"
+
+            "schedule_call": f"I'd be delighted to schedule a personal consultation! As your dedicated LIC policy advisor, I can provide detailed analysis of your recommended policies and answer all your questions. We can discuss premium payment options, policy features, and create a complete financial plan for your family. When would be a convenient time for you?"
         }
         
         response = action_responses.get(action, "I'm here to help with any questions about your policy recommendations!")

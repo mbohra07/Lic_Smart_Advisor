@@ -128,12 +128,11 @@ streamlit run streamlit_dashboard.py
 2. **Primary Recommendation** (Hero card with confidence gauge)
 3. **Alternative Options** (3-4 secondary recommendations)
 4. **AI Sales Pitch** (Groq-generated personalized presentation)
-5. **Comparison Charts** (Interactive Plotly visualizations)
 
 ### **Page 3: Expert Chat** 💬
 1. **Agent Introduction** with credentials and avatar
 2. **Real-time Chat Interface** with typing indicators
-3. **Quick Action Buttons** (Premium calc, comparisons, tax benefits)
+3. **Quick Action Buttons** (Premium calc, tax benefits, schedule call)
 4. **Objection Handling** with intelligent responses
 5. **Session Analytics** in sidebar
 

@@ -293,18 +293,7 @@ class LICDashboard:
                 confidence = st.session_state.recommendation_data.get('recommendation_confidence', 85)
                 st.metric("Confidence", f"{confidence:.1f}%")
             
-            # Charts
-            col1, col2 = st.columns(2)
-            
-            with col1:
-                # Recommendation scores chart
-                fig_scores = self.ui.display_comparison_chart(recommendations, "score")
-                st.plotly_chart(fig_scores, use_container_width=True)
-            
-            with col2:
-                # Premium comparison chart
-                fig_premiums = self.ui.display_comparison_chart(recommendations, "premium")
-                st.plotly_chart(fig_premiums, use_container_width=True)
+
         
         # User profile insights
         st.markdown("## 👤 Profile Insights")

@@ -13,8 +13,8 @@ from .config import DashboardConfig
 
 class LICGeniusSalesAgent:
     """
-    World's most successful LIC policy sales expert powered by Groq LLM
-    25+ years of experience, helped 10,000+ families
+    Knowledgeable LIC policy advisor powered by Groq LLM
+    Dedicated to helping families find the right insurance solutions
     """
     
     def __init__(self):
@@ -36,9 +36,9 @@ class LICGeniusSalesAgent:
             return None
     
     def _create_agent_persona(self) -> str:
-        """Create the world's best LIC sales agent persona"""
+        """Create a knowledgeable LIC sales agent persona"""
         return f"""
-You are {self.config.AGENT_NAME}, the most successful and knowledgeable LIC policy sales expert in India's history with {self.config.AGENT_EXPERIENCE} of experience. You have personally helped over {self.config.AGENT_SUCCESS_STORIES:,} families secure their financial future and are recognized as the {self.config.AGENT_CREDENTIALS}.
+You are {self.config.AGENT_NAME}, a knowledgeable and dedicated LIC policy advisor who specializes in helping families find the right insurance solutions. You are recognized as a {self.config.AGENT_CREDENTIALS} who genuinely cares about helping families secure their financial future.
 
 UNMATCHED EXPERTISE:
 - Complete mastery of all 37+ LIC policies, their features, benefits, and optimal use cases
@@ -70,8 +70,9 @@ CONVERSATION STRATEGY:
 6. Guide toward clear next steps with gentle but confident direction
 
 RESPONSE STYLE REQUIREMENTS:
-- Warm, conversational tone with natural Hinglish phrases (avoid formal Hindi words)
-- Use simple, relatable terms like "beta", "bhai", "family ke liye", "future secure karna"
+- Warm, conversational tone with natural, varied language
+- Use engaging, professional language without repetitive phrases
+- Avoid overusing Hindi words - use sparingly and naturally (max 2-3 per response)
 - Include specific calculations relevant to their exact profile (age, income, goals)
 - Reference current market conditions and recent policy updates
 - Provide actionable advice with clear reasoning
@@ -97,7 +98,7 @@ CULTURAL ADAPTATION:
 - Reference festivals, life events, and cultural milestones appropriately
 - Use familiar analogies (FD comparisons, gold investment parallels)
 - Respect decision-making hierarchies in Indian families
-- Use natural Hinglish phrases like "beta", "bhai", "family ke liye", "future secure karna"
+- Communicate naturally without repetitive phrases or excessive Hindi words
 
 MATHEMATICAL PRECISION:
 - Always provide exact premium calculations based on age and income
@@ -136,15 +137,15 @@ IMPORTANT: Always maintain authenticity, never make false claims, and focus on g
                     {"role": "system", "content": self.agent_persona},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.7,
-                max_tokens=2000,
-                top_p=0.9
+                temperature=0.5,  # Lower temperature for more consistent, focused output
+                max_tokens=1500,  # Reduced to encourage conciseness
+                top_p=0.8
             )
             
             sales_pitch = response.choices[0].message.content
             
             # Add agent signature
-            sales_pitch += f"\n\n---\n**{self.config.AGENT_NAME}**  \n*{self.config.AGENT_CREDENTIALS}*  \n*{self.config.AGENT_EXPERIENCE} Experience | {self.config.AGENT_SUCCESS_STORIES:,}+ Families Helped*"
+            sales_pitch += f"\n\n---\n**{self.config.AGENT_NAME}**  \n*{self.config.AGENT_CREDENTIALS}*"
             
             return sales_pitch
             
@@ -174,16 +175,16 @@ Customer Profile: {json.dumps(context['customer_summary'], indent=2)}
 Recommended Policy: {context['primary_recommendation']}
 Customer Objection: "{objection}"
 
-As India's #1 LIC expert, provide a masterful objection handling response that:
+As a knowledgeable LIC policy advisor, provide a thoughtful objection handling response that:
 
 1. ACKNOWLEDGES the concern with empathy and understanding
 2. ADDRESSES the objection with specific data, calculations, and logic
 3. REDIRECTS to the value proposition with compelling benefits
-4. PROVIDES social proof or success stories if relevant
+4. PROVIDES relevant information or examples if helpful
 5. OFFERS alternative solutions or compromises if appropriate
 6. ENDS with a soft but confident next step
 
-Use your 25+ years of experience to handle this objection professionally while maintaining trust and moving toward a positive outcome.
+Handle this objection professionally while maintaining trust and moving toward a positive outcome.
 
 Response should be conversational, culturally appropriate, and include specific numbers/calculations where relevant.
 """
@@ -254,26 +255,31 @@ The message should feel personal, helpful, and non-pushy while demonstrating you
             return "Thank you for your time today. I'm here whenever you're ready to discuss your financial security further."
     
     def _prepare_sales_context(
-        self, 
-        user_profile: Dict[str, Any], 
+        self,
+        user_profile: Dict[str, Any],
         recommended_policies: List[Dict[str, Any]]
     ) -> Dict[str, Any]:
         """Prepare comprehensive context for sales pitch generation"""
-        
-        # Get primary recommendation
+
+        # Get primary recommendation and validate appropriateness
         primary_policy = recommended_policies[0] if recommended_policies else {}
-        
-        # Calculate financial projections
+        validated_policy = self._validate_policy_appropriateness(primary_policy, user_profile)
+
+        # Calculate financial projections with mathematical consistency
         monthly_income = user_profile.get('monthly_income', 50000)
         age = user_profile.get('age', 35)
-        
-        # Suggested premium (15% of annual income)
-        suggested_annual_premium = monthly_income * 12 * 0.15
-        suggested_monthly_premium = suggested_annual_premium / 12
-        
-        # Life cover calculation
+
+        # Suggested premium (10-15% of annual income based on age and dependents)
         dependents = user_profile.get('dependents', 0)
-        recommended_cover = monthly_income * 12 * (10 + dependents * 2)
+        premium_percentage = 0.10 + (dependents * 0.02) + (max(0, age - 30) * 0.001)  # 10-15% range
+        premium_percentage = min(premium_percentage, 0.15)  # Cap at 15%
+
+        suggested_annual_premium = monthly_income * 12 * premium_percentage
+        suggested_monthly_premium = suggested_annual_premium / 12
+        suggested_daily_premium = suggested_annual_premium / 365  # Consistent daily calculation
+
+        # Life cover calculation
+        recommended_cover = monthly_income * 12 * (8 + dependents * 2)  # More realistic multiplier
         
         context = {
             'customer_summary': {
@@ -288,10 +294,11 @@ The message should feel personal, helpful, and non-pushy while demonstrating you
                 'timeline': user_profile.get('timeline')
             },
             'financial_projections': {
-                'suggested_monthly_premium': suggested_monthly_premium,
-                'suggested_annual_premium': suggested_annual_premium,
+                'suggested_monthly_premium': round(suggested_monthly_premium, 0),
+                'suggested_annual_premium': round(suggested_annual_premium, 0),
+                'suggested_daily_premium': round(suggested_daily_premium, 0),
                 'recommended_life_cover': recommended_cover,
-                'daily_premium_cost': suggested_monthly_premium / 30
+                'premium_percentage': round(premium_percentage * 100, 1)
             },
             'primary_recommendation': {
                 'policy_name': primary_policy.get('policy_metadata', {}).get('policy_name', 'Premium Policy'),
@@ -310,7 +317,33 @@ The message should feel personal, helpful, and non-pushy while demonstrating you
         }
         
         return context
-    
+
+    def _validate_policy_appropriateness(self, policy: Dict[str, Any], user_profile: Dict[str, Any]) -> Dict[str, Any]:
+        """Validate if the recommended policy is appropriate for the customer profile"""
+        policy_name = policy.get('policy_metadata', {}).get('policy_name', '').lower()
+        life_stage = user_profile.get('life_stage', '').lower()
+        dependents = user_profile.get('dependents', 0)
+
+        # Flag inappropriate recommendations
+        inappropriate_flags = []
+
+        # Check for children's plans for people without children
+        if 'children' in policy_name or 'child' in policy_name:
+            if dependents == 0 or 'single' in life_stage:
+                inappropriate_flags.append("children_plan_without_children")
+
+        # Check for pension plans for very young people
+        if 'pension' in policy_name or 'retirement' in policy_name:
+            age = user_profile.get('age', 35)
+            if age < 25:
+                inappropriate_flags.append("pension_plan_too_young")
+
+        return {
+            'policy': policy,
+            'inappropriate_flags': inappropriate_flags,
+            'is_appropriate': len(inappropriate_flags) == 0
+        }
+
     def _create_sales_pitch_prompt(self, context: Dict[str, Any]) -> str:
         """Create comprehensive sales pitch prompt"""
         return f"""
@@ -319,7 +352,7 @@ PERSONALIZED SALES PITCH GENERATION:
 Customer Profile:
 {json.dumps(context['customer_summary'], indent=2)}
 
-Financial Projections:
+Financial Projections (MATHEMATICALLY CONSISTENT):
 {json.dumps(context['financial_projections'], indent=2)}
 
 Primary Recommendation:
@@ -328,27 +361,42 @@ Primary Recommendation:
 Alternative Options:
 {json.dumps(context['alternative_recommendations'], indent=2)}
 
-Generate a compelling, personalized sales pitch that:
+CRITICAL REQUIREMENTS:
 
-1. OPENS with warm acknowledgment of their specific situation and family context
-2. CONNECTS emotionally to their primary goal and life stage
-3. PRESENTS the recommended policy with specific benefits for their situation
-4. INCLUDES precise financial calculations (premiums, returns, tax savings)
-5. ADDRESSES their risk comfort level and decision-making style
-6. PROVIDES social proof with relevant success stories
-7. CREATES appropriate urgency based on their timeline
-8. HANDLES potential objections proactively
-9. ENDS with a clear, compelling call-to-action
+1. MATHEMATICAL ACCURACY:
+   - Use ONLY the provided financial projections
+   - Daily premium = Annual premium ÷ 365
+   - Monthly premium = Annual premium ÷ 12
+   - Verify all calculations are consistent
+   - Do NOT create conflicting numbers
 
-The pitch should be:
-- Conversational and culturally appropriate for Indian families
-- Include specific numbers and calculations
-- Reference their exact age, income, and family situation
-- Use strategic Hindi phrases for cultural connection
-- Be persuasive but ethical and trustworthy
-- Focus on genuine value creation for their family
+2. POLICY APPROPRIATENESS:
+   - Ensure the recommended policy matches the customer's profile
+   - Single professionals should NOT get children's plans
+   - Young people should NOT get pension plans primarily
+   - Match policy to actual life stage and dependents
 
-Length: 800-1200 words for comprehensive coverage.
+3. LANGUAGE QUALITY:
+   - Use varied, engaging language
+   - AVOID repetitive phrases like "beta", "bhai", "yeh beneficial hoga"
+   - Use Hindi words sparingly (maximum 2-3 in entire pitch)
+   - No robotic or repetitive language patterns
+   - Each sentence should add unique value
+
+4. LOGICAL STRUCTURE (Follow this exact flow):
+   A. Personal acknowledgment of their situation
+   B. Policy recommendation with clear rationale
+   C. Financial benefits with accurate calculations
+   D. Tax advantages and returns
+   E. Compelling call to action
+
+5. CONTENT QUALITY:
+   - Present each key point only ONCE
+   - Use smooth transitions between topics
+   - Make it conversational and engaging
+   - Focus on genuine value, not sales pressure
+
+Generate a compelling 600-800 word sales pitch following this structure exactly.
 """
     
     def _analyze_conversation(self, conversation_history: List[Dict[str, Any]]) -> str:
@@ -369,18 +417,18 @@ Length: 800-1200 words for comprehensive coverage.
     
     def get_agent_introduction(self) -> str:
         """Get agent introduction for chat interface"""
-        return f"""
-🙏 **Namaste! I'm {self.config.AGENT_NAME}**
+        return f"""Hello there! I'm {self.config.AGENT_NAME}, and I'm genuinely excited to help you today! 😊
 
-I'm India's #{1} LIC policy expert with {self.config.AGENT_EXPERIENCE} of experience. I've personally helped over **{self.config.AGENT_SUCCESS_STORIES:,} families** secure their financial future through the right LIC policies.
+You know, choosing the right insurance policy can feel overwhelming, but don't worry - I'm here to make this journey as smooth and comfortable as possible for you. I understand that every family has unique dreams and concerns, and I'm here to help you navigate through the options.
 
-**My Expertise:**
-✅ Complete knowledge of all 37+ LIC policies  
-✅ Personalized recommendations based on your exact needs  
-✅ Instant premium calculations and tax benefit analysis  
-✅ Proven track record with families just like yours  
+What I love most about helping families is seeing that moment when everything clicks - when you realize you've found the perfect policy that truly fits your life and goals.
 
-I'm here to help you find the perfect policy that fits your family's needs and budget. Let's secure your family's financial future together! 
+Here's what I bring to our conversation:
+• Deep understanding of all LIC policies and how they work in real life
+• Personalized guidance based on what matters most to your family
+• Clear explanations without confusing jargon
+• Honest advice that puts your family's interests first
 
-**What would you like to know about your recommended policies?** 🤔
-"""
+I'm here to listen, understand your situation, and help you discover which policy options make the most sense for your family's future. No pressure, no rush - just genuine guidance from someone who truly cares about getting this right for you.
+
+So, what's on your mind about your policy recommendations? I'm all ears! 🤗"""
